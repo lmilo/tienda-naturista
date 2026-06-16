@@ -1,0 +1,15 @@
+{
+  "name": "dulces-raices-mockup",
+  "version": "0.1.0",
+  "description": "Mockup de catálogo para Dulces Raíces — tienda artesanal naturista de Pasto, Nariño.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

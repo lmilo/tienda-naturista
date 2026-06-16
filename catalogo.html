@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo · Dulces Raíces</title>
+  <meta name="description" content="Catálogo de aceites, esencias, belleza natural y artesanías de Dulces Raíces. Hecho en Nariño. Pedidos por WhatsApp." />
+  <link rel="icon" href="/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="/img/logo.svg" alt="" />
+        <span><span class="brand__name">Dulces Raíces</span><span class="brand__tag">Sana tradición</span></span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav__links">
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a class="btn btn--wa" data-wa-general target="_blank" rel="noopener">Escríbenos</a>
+      </nav>
+    </div>
+  </header>
+  <div class="greca greca--top"></div>
+
+  <main>
+    <section class="section--tight" style="background:var(--crema-50);padding-top:clamp(2rem,1.4rem+3vw,3.5rem)">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Nuestra tienda</p>
+          <h2>Catálogo natural</h2>
+          <p>Aceites, esencias, belleza y tradición herbal. Escoge lo que buscas y pídelo por WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:clamp(1.6rem,1rem+2vw,2.6rem)">
+      <div class="container">
+        <div class="filters" id="filters"></div>
+        <div class="grid-products" id="catalog-grid"></div>
+        <p id="catalog-empty" hidden style="color:var(--ink-soft);text-align:center;padding:2rem 0">No hay productos en esta categoría por ahora.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>¿Buscas algo que no está aquí?</h2>
+          <p>Tenemos más de lo que cabe en una pantalla. Escríbenos y te contamos qué tenemos disponible.</p>
+          <a class="btn btn--wa btn--lg" data-wa-general target="_blank" rel="noopener">Preguntar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html"><img class="brand__mark" src="/img/logo.svg" alt="" /><span class="brand__name">Dulces Raíces</span></a>
+        <p>Aceites y esencias sanadoras, artesanías y belleza natural. Hecho en Nariño, con tradición y cariño.</p>
+        <div class="footer__social">
+          <a id="f-ig" href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a>
+          <a id="f-fb" href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v7h3v-7h2.5l.5-3H14V9c0-.6.4-1 1-1z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Tienda</h4>
+        <ul>
+          <li><a href="catalogo.html">Catálogo completo</a></li>
+          <li><a href="catalogo.html?cat=aceites">Aceites</a></li>
+          <li><a href="catalogo.html?cat=esencias">Esencias</a></li>
+          <li><a href="nosotros.html">Quiénes somos</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <ul>
+          <li>WhatsApp: 322 890 4164</li>
+          <li>Carrera 29 #15-34, Bomboná</li>
+          <li>Pasto, Nariño</li>
+          <li><a data-wa-general target="_blank" rel="noopener">Escríbenos →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span data-year></span> Dulces Raíces. Hecho en Nariño.</span>
+      <span>Mockup de diseño · versión preliminar</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-wa-general target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.82 11.82 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 0 0 1.523 5.27l-.999 3.648 3.965-.617z"/></svg>
+  </a>
+
+  <script type="module" src="/src/js/catalog.js"></script>
+  <script type="module">
+    import { SHOP } from '/src/js/store.js'
+    document.getElementById('f-ig')?.setAttribute('href', SHOP.instagram)
+    document.getElementById('f-fb')?.setAttribute('href', SHOP.facebook)
+  </script>
+</body>
+</html>

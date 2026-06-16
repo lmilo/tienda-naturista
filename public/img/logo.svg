@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Dulces Raíces">
+  <defs>
+    <clipPath id="drop">
+      <path d="M60 8 C90 8 108 32 108 60 C108 92 84 112 60 112 C36 112 12 92 12 60 C12 32 30 8 60 8 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M60 8 C90 8 108 32 108 60 C108 92 84 112 60 112 C36 112 12 92 12 60 C12 32 30 8 60 8 Z" fill="#5B3A22"/>
+  <g clip-path="url(#drop)">
+    <!-- trunk -->
+    <rect x="56" y="58" width="8" height="40" rx="4" fill="#E9D9C2"/>
+    <!-- roots / woven base -->
+    <path d="M20 92 q20 -8 40 0 q20 8 40 0" stroke="#C5462E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M20 100 q20 -8 40 0 q20 8 40 0" stroke="#E0A02E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M22 84 q19 -7 38 0 q19 7 38 0" stroke="#5B8C3E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- leaves -->
+    <ellipse cx="60" cy="30" rx="7" ry="12" fill="#E0A02E"/>
+    <ellipse cx="44" cy="40" rx="7" ry="12" fill="#C5462E" transform="rotate(-30 44 40)"/>
+    <ellipse cx="76" cy="40" rx="7" ry="12" fill="#5B8C3E" transform="rotate(30 76 40)"/>
+    <ellipse cx="34" cy="54" rx="6" ry="11" fill="#9B6FB0" transform="rotate(-55 34 54)"/>
+    <ellipse cx="86" cy="54" rx="6" ry="11" fill="#2F8C8C" transform="rotate(55 86 54)"/>
+    <ellipse cx="50" cy="48" rx="6" ry="10" fill="#D77A2B" transform="rotate(-15 50 48)"/>
+    <ellipse cx="70" cy="48" rx="6" ry="10" fill="#6B8E3D" transform="rotate(15 70 48)"/>
+  </g>
+</svg>
