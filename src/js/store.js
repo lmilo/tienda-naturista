@@ -17,6 +17,16 @@ export const { products, categories } = catalog
 export const categoryName = (handle) =>
   categories.find((c) => c.handle === handle)?.name ?? handle
 
+// Color andino por categoría (del árbol de la vida) — identidad de marca.
+const CATEGORY_COLORS = {
+  aceites: '#C5462E',
+  esencias: '#9B6FB0',
+  belleza: '#E0A02E',
+  herbal: '#5B8C3E',
+  artesanias: '#2F8C8C',
+}
+export const categoryColor = (handle) => CATEGORY_COLORS[handle] ?? '#6B4423'
+
 const COP = new Intl.NumberFormat('es-CO', {
   style: 'currency', currency: 'COP', maximumFractionDigits: 0,
 })

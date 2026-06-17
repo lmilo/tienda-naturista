@@ -1,5 +1,5 @@
 import '../styles/main.css'
-import { SHOP, formatPrice, waLink, productMessage, generalMessage, categoryName } from './store.js'
+import { SHOP, formatPrice, waLink, productMessage, generalMessage, categoryName, categoryColor } from './store.js'
 import { categoryIcon } from './icons.js'
 
 /* ---------- Comportamiento global compartido ---------- */
@@ -43,7 +43,7 @@ function initChrome() {
 /* ---------- Tarjeta de producto ---------- */
 export function productCardHTML(p) {
   return `
-    <article class="product-card reveal" style="--swatch:${p.swatch}">
+    <article class="product-card reveal" data-cat="${p.category}" style="--swatch:${p.swatch};--cat:${categoryColor(p.category)}">
       <a class="product-card__media" href="producto.html?p=${p.handle}" aria-label="${p.title}">
         <span class="media-ph">${categoryIcon[p.category] || ''}</span>
         ${p.image ? `<img class="media-img" src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.remove()" />` : ''}
@@ -63,12 +63,20 @@ export function productCardHTML(p) {
 
 export function renderCards(container, list) {
   container.innerHTML = list.map(productCardHTML).join('')
-  // re-observar para reveal
+  // revelado escalonado dentro de la fila visible
   const io = new IntersectionObserver(
-    (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('is-visible')),
+    (entries) =>
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return
+        e.target.classList.add('is-visible')
+        io.unobserve(e.target)
+      }),
     { threshold: 0.12 }
   )
-  container.querySelectorAll('.reveal').forEach((el) => io.observe(el))
+  container.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = `${(i % 4) * 70}ms`
+    io.observe(el)
+  })
 }
 
 export { SHOP, formatPrice, waLink, productMessage, generalMessage, categoryName }
