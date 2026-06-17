@@ -125,7 +125,7 @@ h1, h2, h3, h4 {
   gap: 1rem; min-height: 74px;
 }
 .brand { display: flex; align-items: center; gap: 0.7rem; }
-.brand__mark { width: 46px; height: 46px; flex: none; }
+.brand__mark { width: auto; height: 48px; object-fit: contain; flex: none; }
 .brand__name {
   font-family: var(--font-display);
   font-weight: 700;
@@ -224,7 +224,7 @@ h1, h2, h3, h4 {
   display: grid; place-items: center; padding: 14%;
   animation: floaty 7s ease-in-out infinite;
 }
-.hero__disc svg { width: 100%; height: auto; filter: drop-shadow(0 14px 24px rgba(61,40,23,0.18)); }
+.hero__disc img, .hero__disc svg { width: 86%; height: auto; filter: drop-shadow(0 14px 24px rgba(61,40,23,0.18)); }
 @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
 .hero__chip {
   position: absolute; background: var(--surface); border-radius: 999px;
@@ -386,6 +386,14 @@ h1, h2, h3, h4 {
   box-shadow: var(--shadow-md);
 }
 .story__art svg { width: 55%; }
+.story__art--photo { background: none; padding: 0; overflow: hidden; position: relative; }
+.story__photo { width: 100%; height: 100%; object-fit: cover; }
+.story__badge {
+  position: absolute; left: 1rem; bottom: 1rem; width: 92px; height: 92px; border-radius: 50%;
+  background: var(--crema-100); display: grid; place-items: center; box-shadow: var(--shadow-md);
+  border: 3px solid #fff;
+}
+.story__badge img { width: 74%; }
 .story p { margin-top: 1rem; color: #4f3d2c; }
 .story p + p { margin-top: 0.8rem; }
 @media (max-width: 820px) { .story { grid-template-columns: 1fr; } .story__art { aspect-ratio: 16/10; } }
@@ -426,6 +434,43 @@ h1, h2, h3, h4 {
 .cta-band p { margin: 0.6rem auto 1.6rem; max-width: 48ch; color: rgba(255,255,255,0.92); font-size: var(--step-0); }
 .cta-band .btn--wa { background: #fff; color: var(--wa-green-dark); }
 .cta-band .btn--wa:hover { background: var(--crema-100); }
+
+/* ============================================================
+   Banda con imagen (editorial)
+   ============================================================ */
+.imgband { position: relative; isolation: isolate; min-height: clamp(340px, 50vh, 460px); display: grid; align-items: center; overflow: hidden; }
+.imgband__media { position: absolute; inset: 0; z-index: -2; }
+.imgband__media img { width: 100%; height: 100%; object-fit: cover; }
+.imgband::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(46,29,16,0.92) 0%, rgba(46,29,16,0.74) 45%, rgba(46,29,16,0.3) 100%);
+}
+.imgband__inner { color: var(--crema-50); max-width: 46ch; padding-block: 3rem; }
+.imgband__inner h2 { color: #fff; font-size: var(--step-3); }
+.imgband__inner p { color: #e7d8c2; font-size: var(--step-0); margin: 0.8rem 0 1.6rem; }
+.imgband__stats { display: flex; flex-wrap: wrap; gap: 1.6rem 2.4rem; margin-top: 2rem; }
+.imgband__stat .n { font-family: var(--font-display); font-size: 2.2rem; color: var(--mostaza); line-height: 1; }
+.imgband__stat .l { font-size: var(--step--1); color: #e7d8c2; }
+@media (max-width: 640px) { .imgband::after { background: linear-gradient(0deg, rgba(46,29,16,0.94) 0%, rgba(46,29,16,0.62) 100%); } }
+
+/* ============================================================
+   Testimonios
+   ============================================================ */
+.testi-grid { display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.testi-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 1.8rem 1.6rem; box-shadow: var(--shadow-sm); position: relative;
+}
+.testi-card::before {
+  content: '\201C'; position: absolute; top: -0.2rem; right: 1.2rem;
+  font-family: var(--font-display); font-size: 5rem; color: var(--crema-300); line-height: 1;
+}
+.testi-card .stars { color: var(--mostaza); letter-spacing: 2px; font-size: 1.05rem; }
+.testi-card blockquote { font-size: var(--step-0); color: #4f3d2c; margin: 0.8rem 0 1.4rem; line-height: 1.55; }
+.testi-who { display: flex; align-items: center; gap: 0.8rem; }
+.testi-ava { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 800; font-family: var(--font-display); flex: none; }
+.testi-who b { display: block; color: var(--cacao-800); }
+.testi-who span { font-size: var(--step--1); color: var(--ink-soft); }
 
 /* ============================================================
    Footer
