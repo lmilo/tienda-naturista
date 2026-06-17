@@ -20,7 +20,8 @@
       "use": "Aplica una pequeña cantidad sobre piel o cabello. En cocina, úsalo a fuego medio.",
       "tags": ["orgánico", "prensado en frío", "hecho en Nariño"],
       "featured": true,
-      "swatch": "#C9853F"
+      "swatch": "#C9853F",
+      "image": "https://loremflickr.com/640/480/coconut,oil?lock=11"
     },
     {
       "id": "ac-ricino-60",
@@ -35,7 +36,8 @@
       "use": "Aplica con un cepillo limpio por las noches sobre la zona deseada.",
       "tags": ["puro", "tradicional"],
       "featured": true,
-      "swatch": "#8C6B3F"
+      "swatch": "#8C6B3F",
+      "image": "https://loremflickr.com/640/480/oil,bottle,cosmetic?lock=24"
     },
     {
       "id": "ac-romero-100",
@@ -50,7 +52,8 @@
       "use": "Masajea suavemente sobre el cuero cabelludo. Evita el contacto con los ojos.",
       "tags": ["herbal", "aroma fresco", "hecho en Nariño"],
       "featured": true,
-      "swatch": "#5B8C3E"
+      "swatch": "#5B8C3E",
+      "image": "https://loremflickr.com/640/480/rosemary,oil?lock=5"
     },
     {
       "id": "es-lavanda-30",
@@ -65,7 +68,8 @@
       "use": "Agrega unas gotas a tu difusor o agua de baño. Uso aromático.",
       "tags": ["aroma relajante", "para difusor"],
       "featured": true,
-      "swatch": "#9B6FB0"
+      "swatch": "#9B6FB0",
+      "image": "https://loremflickr.com/640/480/lavender,essential,oil?lock=18"
     },
     {
       "id": "es-eucalipto-30",
@@ -80,7 +84,8 @@
       "use": "Agrega unas gotas a tu difusor. Uso aromático.",
       "tags": ["aroma fresco", "para difusor"],
       "featured": false,
-      "swatch": "#2F8C8C"
+      "swatch": "#2F8C8C",
+      "image": "https://loremflickr.com/640/480/eucalyptus,oil?lock=33"
     },
     {
       "id": "be-jabon-curcuma",
@@ -95,7 +100,8 @@
       "use": "Úsalo en rostro o cuerpo como tu jabón habitual.",
       "tags": ["hecho a mano", "natural", "hecho en Nariño"],
       "featured": true,
-      "swatch": "#E0A02E"
+      "swatch": "#E0A02E",
+      "image": "https://loremflickr.com/640/480/handmade,soap?lock=42"
     },
     {
       "id": "be-crema-caléndula",
@@ -110,7 +116,8 @@
       "use": "Aplica sobre piel limpia con un masaje suave.",
       "tags": ["natural", "hidratante"],
       "featured": false,
-      "swatch": "#D77A2B"
+      "swatch": "#D77A2B",
+      "image": "https://loremflickr.com/640/480/cream,cosmetic,natural?lock=51"
     },
     {
       "id": "he-manzanilla",
@@ -125,7 +132,8 @@
       "use": "Infusiona una cucharada en agua caliente por 5 minutos.",
       "tags": ["herbal", "infusión", "hecho en Nariño"],
       "featured": false,
-      "swatch": "#C7A33A"
+      "swatch": "#C7A33A",
+      "image": "https://loremflickr.com/640/480/chamomile,flower?lock=63"
     },
     {
       "id": "he-mezcla-andina",
@@ -140,7 +148,8 @@
       "use": "Infusiona una cucharada en agua caliente por 5 minutos.",
       "tags": ["herbal", "tradición", "hecho en Nariño"],
       "featured": false,
-      "swatch": "#6B8E3D"
+      "swatch": "#6B8E3D",
+      "image": "https://loremflickr.com/640/480/dried,herbs?lock=70"
     },
     {
       "id": "ar-collar-tejido",
@@ -155,7 +164,8 @@
       "use": "Accesorio decorativo. Manéjalo con cuidado para conservar el tejido.",
       "tags": ["hecho a mano", "pieza única", "hecho en Nariño"],
       "featured": false,
-      "swatch": "#C5462E"
+      "swatch": "#C5462E",
+      "image": "https://loremflickr.com/640/480/handmade,necklace,craft?lock=88"
     }
   ]
 }

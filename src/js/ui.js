@@ -45,7 +45,8 @@ export function productCardHTML(p) {
   return `
     <article class="product-card reveal" style="--swatch:${p.swatch}">
       <a class="product-card__media" href="producto.html?p=${p.handle}" aria-label="${p.title}">
-        ${categoryIcon[p.category] || ''}
+        <span class="media-ph">${categoryIcon[p.category] || ''}</span>
+        ${p.image ? `<img class="media-img" src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.remove()" />` : ''}
         <span class="product-card__cat">${categoryName(p.category)}</span>
       </a>
       <div class="product-card__body">

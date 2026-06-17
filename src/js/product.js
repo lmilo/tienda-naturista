@@ -22,7 +22,8 @@ if (!product) {
     <div class="container">
       <div class="product">
         <div class="product__media" style="--swatch:${product.swatch}">
-          ${categoryIcon[product.category] || ''}
+          <span class="media-ph">${categoryIcon[product.category] || ''}</span>
+          ${product.image ? `<img class="media-img" src="${product.image}" alt="${product.title}" onerror="this.remove()" />` : ''}
         </div>
         <div class="product__info">
           <p class="eyebrow product__cat">${categoryName(product.category)}</p>
