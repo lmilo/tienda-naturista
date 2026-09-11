@@ -1,7 +1,24 @@
 /* Fuentes self-host: evitan el salto a fonts.googleapis.com, quitan dos
-   conexiones del camino crítico y no filtran la IP del visitante. */
-@import '@fontsource-variable/fraunces/index.css';
-@import '@fontsource-variable/mulish/index.css';
+   conexiones del camino crítico y no filtran la IP del visitante.
+   Se declaran a mano en vez de importar el index.css del paquete, que
+   arrastra cirílico y vietnamita —subsets que este sitio no usa— y llevaba
+   las fuentes de 68 KB a 181 KB. */
+@font-face {
+  font-family: 'Fraunces Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Mulish Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url('@fontsource-variable/mulish/files/mulish-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 
 /* ============================================================
    Dulces Raíces — Sistema de diseño
