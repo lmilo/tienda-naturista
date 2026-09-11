@@ -14,9 +14,12 @@ export function applyTheme(mode) {
   const root = document.documentElement
   if (mode === 'auto') root.removeAttribute('data-theme')
   else root.dataset.theme = mode
-  // localStorage puede fallar en modo privado o con cookies bloqueadas;
-  // el tema simplemente no persiste y el sitio sigue funcionando.
-  try { mode === 'auto' ? localStorage.removeItem(THEME_KEY) : localStorage.setItem(THEME_KEY, mode) } catch {}
+  try {
+    mode === 'auto' ? localStorage.removeItem(THEME_KEY) : localStorage.setItem(THEME_KEY, mode)
+  } catch {
+    // Modo privado o cookies bloqueadas: el tema no persiste entre visitas
+    // y el sitio sigue funcionando. No hay nada que reportar al visitante.
+  }
 }
 
 function currentTheme() {
