@@ -1,5 +1,8 @@
 import catalog from '../data/products.json'
 
+/** Cambiar aquí al pasar a dominio propio. */
+export const SITE_URL = 'https://dulcesraices.netlify.app'
+
 export const SHOP = {
   name: 'Dulces Raíces',
   tagline: 'Sana tradición',

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# producto.html sin parámetro no tiene contenido propio
+Disallow: /producto.html$
+
+Sitemap: https://dulcesraices.netlify.app/sitemap.xml
