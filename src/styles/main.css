@@ -1,3 +1,8 @@
+/* Fuentes self-host: evitan el salto a fonts.googleapis.com, quitan dos
+   conexiones del camino crítico y no filtran la IP del visitante. */
+@import '@fontsource-variable/fraunces/index.css';
+@import '@fontsource-variable/mulish/index.css';
+
 /* ============================================================
    Dulces Raíces — Sistema de diseño
    Aesthetic: cálido, ancestral, nariñense. Tierra + crema + acentos andinos.
@@ -22,8 +27,8 @@
   --wa-green: #178043;
   --wa-green-dark: #11663A;
 
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-body: 'Mulish', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces Variable', 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Mulish Variable', 'Mulish', system-ui, -apple-system, sans-serif;
 
   --step--1: clamp(0.875rem, 0.84rem + 0.18vw, 1rem);
   --step-0:  clamp(1.0625rem, 1.02rem + 0.22vw, 1.1875rem);

@@ -5,6 +5,11 @@ const featured = products.filter((p) => p.featured)
 const grid = document.querySelector('#featured-grid')
 if (grid) renderCards(grid, featured)
 
+// El color de las tarjetas de categoría sale de CATEGORY_COLORS, no del HTML
+document.querySelectorAll('[data-cat-accent]').forEach((el) => {
+  el.style.setProperty('--accent', categoryColor(el.dataset.catAccent))
+})
+
 const brandGrid = document.querySelector('#brands-grid')
 if (brandGrid) {
   brandGrid.innerHTML = brands()

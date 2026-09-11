@@ -14,6 +14,8 @@ export function applyTheme(mode) {
   const root = document.documentElement
   if (mode === 'auto') root.removeAttribute('data-theme')
   else root.dataset.theme = mode
+  // localStorage puede fallar en modo privado o con cookies bloqueadas;
+  // el tema simplemente no persiste y el sitio sigue funcionando.
   try { mode === 'auto' ? localStorage.removeItem(THEME_KEY) : localStorage.setItem(THEME_KEY, mode) } catch {}
 }
 
@@ -193,8 +195,11 @@ export function productCardHTML(p) {
 
 export function renderCards(container, list) {
   container.innerHTML = list.map(productCardHTML).join('')
+  // El escalonado debe seguir las columnas reales: en móvil hay una sola y
+  // un módulo fijo de 4 retrasaba tarjetas que ya estaban en pantalla.
+  const columnas = getComputedStyle(container).gridTemplateColumns.split(' ').length || 1
   container.querySelectorAll('.reveal').forEach((el, i) => {
-    el.style.transitionDelay = `${(i % 4) * 70}ms`
+    el.style.transitionDelay = `${(i % columnas) * 70}ms`
   })
   observeReveals(container)
 }

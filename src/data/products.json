@@ -23,7 +23,6 @@
   ],
   "products": [
     {
-      "id": "fnt-sin-estres-25",
       "handle": "esencia-floral-sin-estres",
       "title": "Esencia Floral Sin Estrés",
       "brand": "Funat",
@@ -40,12 +39,14 @@
         "Ayuda a sostener la concentración"
       ],
       "use": "Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
-      "tags": ["esencia floral", "segunda dilución", "25 mL"],
-      "featured": false,
-      "swatch": "#3C9A55"
+      "tags": [
+        "esencia floral",
+        "segunda dilución",
+        "25 mL"
+      ],
+      "featured": false
     },
     {
-      "id": "fnt-rescate-25",
       "handle": "esencia-floral-rescate",
       "title": "Esencia Floral Rescate",
       "brand": "Funat",
@@ -62,12 +63,14 @@
         "Favorece la serenidad en situaciones difíciles"
       ],
       "use": "Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
-      "tags": ["esencia floral", "segunda dilución", "25 mL"],
-      "featured": true,
-      "swatch": "#E8A22B"
+      "tags": [
+        "esencia floral",
+        "segunda dilución",
+        "25 mL"
+      ],
+      "featured": true
     },
     {
-      "id": "fmd-stres-25",
       "handle": "stres-esencia-floral-de-bach",
       "title": "Stres · Esencia Floral de Bach",
       "brand": "Fito Médica",
@@ -84,12 +87,14 @@
         "Favorece un descanso más tranquilo"
       ],
       "use": "Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
-      "tags": ["flores de Bach", "gotero", "25 ml"],
-      "featured": false,
-      "swatch": "#2E7FB8"
+      "tags": [
+        "flores de Bach",
+        "gotero",
+        "25 ml"
+      ],
+      "featured": false
     },
     {
-      "id": "flr-apetit-30",
       "handle": "a-petit-esencia-floral",
       "title": "A-petit · Esencia Floral",
       "brand": "Flora",
@@ -106,12 +111,14 @@
         "Aporta calma y equilibrio emocional"
       ],
       "use": "Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
-      "tags": ["esencia floral", "sin alcohol", "30 ml"],
-      "featured": false,
-      "swatch": "#5B8CC4"
+      "tags": [
+        "esencia floral",
+        "sin alcohol",
+        "30 ml"
+      ],
+      "featured": false
     },
     {
-      "id": "nst-romero-quina-500",
       "handle": "shampoo-romero-y-quina",
       "title": "Shampoo Romero & Quina",
       "brand": "Natural Saint",
@@ -128,12 +135,14 @@
         "Deja el cabello sano y brillante"
       ],
       "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
-      "tags": ["romero", "quina", "sin azufre"],
-      "featured": false,
-      "swatch": "#7FB25A"
+      "tags": [
+        "romero",
+        "quina",
+        "sin azufre"
+      ],
+      "featured": false
     },
     {
-      "id": "nst-tonico-biotina-argan",
       "handle": "tonico-capilar-biotina-y-argan",
       "title": "Tónico Capilar con Biotina y Argán",
       "brand": "Natural Saint",
@@ -150,12 +159,14 @@
         "Ayuda a reducir la caída"
       ],
       "use": "Aplica directamente sobre el cuero cabelludo y masajea. Sigue las indicaciones del empaque.",
-      "tags": ["biotina", "argán", "tónico"],
-      "featured": false,
-      "swatch": "#D4A63C"
+      "tags": [
+        "biotina",
+        "argán",
+        "tónico"
+      ],
+      "featured": false
     },
     {
-      "id": "cpb-cebolla-biotina-470",
       "handle": "capibell-shampoo-cebolla-y-biotina",
       "title": "Capibell Shampoo Cebolla & Biotina",
       "brand": "Capibell",
@@ -172,12 +183,15 @@
         "Aporta brillo y suavidad"
       ],
       "use": "Aplica sobre el cabello mojado, masajea suavemente el cuero cabelludo y enjuaga con abundante agua. Repite si es necesario.",
-      "tags": ["cebolla", "biotina", "sin sal", "sin parabenos"],
-      "featured": true,
-      "swatch": "#C2185B"
+      "tags": [
+        "cebolla",
+        "biotina",
+        "sin sal",
+        "sin parabenos"
+      ],
+      "featured": true
     },
     {
-      "id": "bty-lissia-425",
       "handle": "lissia-shampoo-aloe-vera",
       "title": "Lissia Shampoo Aloe Vera",
       "brand": "Beautyline",
@@ -194,12 +208,14 @@
         "Deja el cabello manejable y brillante"
       ],
       "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo, deja actuar de 2 a 3 minutos y enjuaga con abundante agua.",
-      "tags": ["aloe vera", "uso diario", "425 ml"],
-      "featured": false,
-      "swatch": "#1F6B3A"
+      "tags": [
+        "aloe vera",
+        "uso diario",
+        "425 ml"
+      ],
+      "featured": false
     },
     {
-      "id": "nsh-lisovital-500",
       "handle": "lisovital-shampoo-sin-sal",
       "title": "Lisovital Shampoo Sin Sal",
       "brand": "Natural Shot",
@@ -216,12 +232,16 @@
         "Brillo y suavidad natural"
       ],
       "use": "Aplica sobre el cabello mojado, masajea suavemente, deja actuar de 2 a 3 minutos y enjuaga con abundante agua.",
-      "tags": ["cebolla", "romero", "sábila", "lavanda", "sin sal"],
-      "featured": true,
-      "swatch": "#6B2D8E"
+      "tags": [
+        "cebolla",
+        "romero",
+        "sábila",
+        "lavanda",
+        "sin sal"
+      ],
+      "featured": true
     },
     {
-      "id": "nsh-argan-celulas-500",
       "handle": "shampoo-argan-y-celulas-madre",
       "title": "Shampoo Argán y Células Madre",
       "brand": "Natural Shot",
@@ -238,12 +258,14 @@
         "Protege del daño y la resequedad"
       ],
       "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo, deja actuar de 2 a 3 minutos y enjuaga con abundante agua.",
-      "tags": ["argán", "células madre", "uso diario"],
-      "featured": false,
-      "swatch": "#C9932F"
+      "tags": [
+        "argán",
+        "células madre",
+        "uso diario"
+      ],
+      "featured": false
     },
     {
-      "id": "trt-cebolla-500",
       "handle": "tratamiento-capilar-extracto-de-cebolla",
       "title": "Tratamiento Capilar con Extracto de Cebolla",
       "brand": null,
@@ -260,12 +282,15 @@
         "Mejora la textura y la suavidad"
       ],
       "use": "Aplica sobre el cabello limpio y húmedo, masajea desde la raíz hasta las puntas, deja actuar de 5 a 10 minutos y enjuaga con abundante agua.",
-      "tags": ["cebolla", "biotina", "keratina", "tratamiento"],
-      "featured": false,
-      "swatch": "#D14D8A"
+      "tags": [
+        "cebolla",
+        "biotina",
+        "keratina",
+        "tratamiento"
+      ],
+      "featured": false
     },
     {
-      "id": "nsh-cebolla-biotina-500",
       "handle": "tratamiento-capilar-cebolla-y-biotina",
       "title": "Tratamiento Capilar Cebolla + Biotina",
       "brand": "Natural Shot",
@@ -282,12 +307,15 @@
         "Nutre y repara el cabello maltratado"
       ],
       "use": "Aplica sobre el cabello limpio y húmedo, masajea desde la raíz hasta las puntas, deja actuar de 10 a 15 minutos y enjuaga con abundante agua.",
-      "tags": ["cebolla", "biotina", "sin sal", "tratamiento"],
-      "featured": false,
-      "swatch": "#B03A75"
+      "tags": [
+        "cebolla",
+        "biotina",
+        "sin sal",
+        "tratamiento"
+      ],
+      "featured": false
     },
     {
-      "id": "nsh-7hierbas-500",
       "handle": "siete-hierbas-sin-sal",
       "title": "7 Hierbas Sin Sal",
       "brand": "Natural Shot",
@@ -304,12 +332,18 @@
         "No requiere refrigeración"
       ],
       "use": "Agita bien antes de usar. Tómalo según la indicación del empaque, solo o mezclado en agua, jugos o infusiones. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
-      "tags": ["sábila", "manzanilla", "romero", "ortiga", "boldo", "té verde", "llantén"],
-      "featured": true,
-      "swatch": "#C9B535"
+      "tags": [
+        "sábila",
+        "manzanilla",
+        "romero",
+        "ortiga",
+        "boldo",
+        "té verde",
+        "llantén"
+      ],
+      "featured": true
     },
     {
-      "id": "nsh-crema-arroz-500",
       "handle": "crema-hidratante-de-arroz",
       "title": "Crema Hidratante de Arroz",
       "brand": "Natural Shot",
@@ -326,12 +360,14 @@
         "Ideal para todo tipo de piel"
       ],
       "use": "Aplica sobre la piel limpia y seca, masajea hasta su total absorción. Úsala a diario, especialmente después de la ducha.",
-      "tags": ["arroz", "hidratante", "500 ml"],
-      "featured": true,
-      "swatch": "#A98B5D"
+      "tags": [
+        "arroz",
+        "hidratante",
+        "500 ml"
+      ],
+      "featured": true
     },
     {
-      "id": "kb-hialuronico-300",
       "handle": "kiss-beauty-face-wash-acido-hialuronico",
       "title": "Kiss Beauty Face Wash · Ácido Hialurónico",
       "brand": "Kiss Beauty",
@@ -348,12 +384,14 @@
         "Apto para todo tipo de piel"
       ],
       "use": "Humedece tu rostro con agua, aplica el jabón líquido y masajea con movimientos circulares. Enjuaga con abundante agua. Usa mañana y noche.",
-      "tags": ["ácido hialurónico", "limpieza facial", "300 ml"],
-      "featured": true,
-      "swatch": "#3EA5DC"
+      "tags": [
+        "ácido hialurónico",
+        "limpieza facial",
+        "300 ml"
+      ],
+      "featured": true
     },
     {
-      "id": "kb-colageno-300",
       "handle": "kiss-beauty-face-wash-colageno",
       "title": "Kiss Beauty Face Wash · Colágeno",
       "brand": "Kiss Beauty",
@@ -370,9 +408,12 @@
         "Apto para todo tipo de piel"
       ],
       "use": "Humedece tu rostro con agua, aplica el jabón líquido y masajea con movimientos circulares. Enjuaga con abundante agua. Usa mañana y noche.",
-      "tags": ["colágeno", "limpieza facial", "300 ml"],
-      "featured": false,
-      "swatch": "#F0B323"
+      "tags": [
+        "colágeno",
+        "limpieza facial",
+        "300 ml"
+      ],
+      "featured": false
     }
   ]
 }

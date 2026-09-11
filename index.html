@@ -22,9 +22,6 @@
   <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <script>
     // Aplica el tema guardado antes de pintar, para que no haya parpadeo.
     try { const t = localStorage.getItem('dr-theme'); if (t) document.documentElement.dataset.theme = t } catch {}
@@ -123,10 +120,10 @@
           <h2>Por lo que necesitas</h2>
         </div>
         <div class="cat-grid">
-          <a class="cat-card reveal" href="catalogo.html?cat=capilar" style="--accent:#9B6FB0"><h3>Cuidado capilar</h3><p>Shampoos y tratamientos para fortalecer el cabello desde la raíz.</p><span>Ver 8 productos →</span></a>
-          <a class="cat-card reveal" href="catalogo.html?cat=esencias" style="--accent:#2F8C8C"><h3>Esencias florales</h3><p>Gotas de flores para acompañar el ánimo y los días difíciles.</p><span>Ver 4 productos →</span></a>
-          <a class="cat-card reveal" href="catalogo.html?cat=piel" style="--accent:#E0A02E"><h3>Cuidado de la piel</h3><p>Limpieza facial e hidratación para el cuidado diario.</p><span>Ver 3 productos →</span></a>
-          <a class="cat-card reveal" href="catalogo.html?cat=bienestar" style="--accent:#5B8C3E"><h3>Bienestar interno</h3><p>Preparaciones de hierbas para acompañar tu rutina diaria.</p><span>Ver productos →</span></a>
+          <a class="cat-card reveal" href="catalogo.html?cat=capilar" data-cat-accent="capilar"><h3>Cuidado capilar</h3><p>Shampoos y tratamientos para fortalecer el cabello desde la raíz.</p><span>Ver 8 productos →</span></a>
+          <a class="cat-card reveal" href="catalogo.html?cat=esencias" data-cat-accent="esencias"><h3>Esencias florales</h3><p>Gotas de flores para acompañar el ánimo y los días difíciles.</p><span>Ver 4 productos →</span></a>
+          <a class="cat-card reveal" href="catalogo.html?cat=piel" data-cat-accent="piel"><h3>Cuidado de la piel</h3><p>Limpieza facial e hidratación para el cuidado diario.</p><span>Ver 3 productos →</span></a>
+          <a class="cat-card reveal" href="catalogo.html?cat=bienestar" data-cat-accent="bienestar"><h3>Bienestar interno</h3><p>Preparaciones de hierbas para acompañar tu rutina diaria.</p><span>Ver productos →</span></a>
         </div>
       </div>
     </section>

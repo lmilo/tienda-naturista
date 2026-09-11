@@ -1,5 +1,5 @@
 import { renderCards, waLink, productMessage, formatPrice, hasPrice, categoryName, toast, observeReveals } from './ui.js'
-import { getProduct, products, imageOf, sheetOf, categoryColor, categoryInk, esc, PRICE_ON_REQUEST } from './store.js'
+import { getProduct, products, imageOf, sheetOf, sheetThumbOf, categoryColor, categoryInk, esc, PRICE_ON_REQUEST } from './store.js'
 import { icons } from './icons.js'
 
 const HANDLE_RE = /^[a-z0-9-]{1,64}$/
@@ -69,7 +69,7 @@ if (!product) {
               <span>Producto</span>
             </button>
             <button type="button" class="thumb" data-go="ficha" aria-pressed="false">
-              <img src="${sheetOf(product)}" alt="" loading="lazy" />
+              <img src="${sheetThumbOf(product)}" alt="" width="200" height="300" loading="lazy" />
               <span>Beneficios</span>
             </button>
           </div>
@@ -133,13 +133,19 @@ function initViewer() {
   thumbs.forEach((t) => t.addEventListener('click', () => show(t.dataset.go)))
 
   // Inclinación con parálaje
+  const TILT_Y = 17      // grados máximos de giro horizontal
+  const TILT_X = 11      // grados máximos de cabeceo
+  const DEPTH = 14       // px que el envase se adelanta al inclinarse
+  const PERSPECTIVE = 1100
+  const SHADOW_SHIFT = 26 // px que la sombra se corre en sentido contrario
+
   const reset = () => { stage.style.transform = '' }
   const tilt = (px, py) => {
     if (still.matches || viewer.classList.contains('is-zoom')) return
-    const ry = (px - 0.5) * 17
-    const rx = (0.5 - py) * 11
-    stage.style.transform = `perspective(1100px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(14px)`
-    viewer.style.setProperty('--shadow-x', `${(px - 0.5) * -26}px`)
+    const ry = (px - 0.5) * TILT_Y
+    const rx = (0.5 - py) * TILT_X
+    stage.style.transform = `perspective(${PERSPECTIVE}px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(${DEPTH}px)`
+    viewer.style.setProperty('--shadow-x', `${(px - 0.5) * -SHADOW_SHIFT}px`)
   }
 
   viewer.addEventListener('pointermove', (e) => {
