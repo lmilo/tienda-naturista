@@ -5,5 +5,10 @@ dist
 .env
 .env.*
 .vite
+
+# Material de trabajo no publicable
 contexto/
 propuesta-dulces-raices.md
+
+# El PDF se regenera desde propuesta/index.html; no vale versionar 1,8 MB binarios
+propuesta/*.pdf
