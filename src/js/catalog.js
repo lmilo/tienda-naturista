@@ -1,5 +1,5 @@
 import { renderCards } from './ui.js'
-import { products, categories, categoryColor, esc } from './store.js'
+import { products, categories, categoryColor, categoryInk, esc } from './store.js'
 
 const grid = document.querySelector('#catalog-grid')
 const filterBar = document.querySelector('#filters')
@@ -16,7 +16,7 @@ function build() {
     .map((c) => {
       const n = c.handle === 'todos' ? products.length : products.filter((p) => p.category === c.handle).length
       return `<button class="filter-chip${c.handle === active ? ' is-active' : ''}" data-cat="${c.handle}"
-        style="--cat:${c.handle === 'todos' ? 'var(--cacao-600)' : categoryColor(c.handle)}"
+        style="--cat:${c.handle === 'todos' ? 'var(--cacao-600)' : categoryColor(c.handle)};--cat-ink:${c.handle === 'todos' ? 'var(--cacao-700)' : categoryInk(c.handle)}"
         aria-pressed="${c.handle === active}">${esc(c.name)}<span class="filter-chip__n">${n}</span></button>`
     })
     .join('')

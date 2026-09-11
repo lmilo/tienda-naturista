@@ -1,7 +1,7 @@
 import '../styles/main.css'
 import {
   SHOP, formatPrice, hasPrice, waLink, productMessage, generalMessage,
-  categoryName, categoryColor, imageOf, esc, PRICE_SHORT,
+  categoryName, categoryColor, categoryInk, imageOf, esc, PRICE_SHORT,
 } from './store.js'
 import { icons } from './icons.js'
 
@@ -170,7 +170,7 @@ export function productCardHTML(p) {
     ? `<span class="price">${formatPrice(p.price)}</span>`
     : `<span class="price price--ask">${PRICE_SHORT}</span>`
   return `
-    <article class="product-card reveal" data-cat="${p.category}" style="--swatch:${p.swatch};--cat:${categoryColor(p.category)}">
+    <article class="product-card reveal" data-cat="${p.category}" style="--cat:${categoryColor(p.category)};--cat-ink:${categoryInk(p.category)}">
       <a class="product-card__media" href="producto.html?p=${p.handle}" aria-label="Ver ${esc(p.title)}">
         <img class="media-img" src="${imageOf(p, 480)}"
              srcset="${imageOf(p, 480)} 480w, ${imageOf(p, 960)} 960w"

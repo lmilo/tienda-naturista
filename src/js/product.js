@@ -1,5 +1,5 @@
 import { renderCards, waLink, productMessage, formatPrice, hasPrice, categoryName, toast, observeReveals } from './ui.js'
-import { getProduct, products, imageOf, sheetOf, categoryColor, esc, PRICE_ON_REQUEST } from './store.js'
+import { getProduct, products, imageOf, sheetOf, categoryColor, categoryInk, esc, PRICE_ON_REQUEST } from './store.js'
 import { icons } from './icons.js'
 
 const HANDLE_RE = /^[a-z0-9-]{1,64}$/
@@ -50,9 +50,9 @@ if (!product) {
       <span aria-current="page">${esc(product.title)}</span>
     </nav>
     <div class="container">
-      <div class="product" style="--cat:${categoryColor(product.category)}">
+      <div class="product" style="--cat:${categoryColor(product.category)};--cat-ink:${categoryInk(product.category)}">
         <div class="product__gallery">
-          <figure class="viewer" data-viewer tabindex="0" aria-label="Vista del producto. Mueve el cursor para girarlo, haz clic para ampliar.">
+          <figure class="viewer" data-viewer tabindex="0" aria-label="Vista del producto. Actívalo para ampliar.">
             <div class="viewer__stage">
               <img class="viewer__img is-active" data-view="frasco"
                    src="${imageOf(product, 960)}" alt="${esc(product.title)}"
@@ -63,12 +63,12 @@ if (!product) {
             </div>
             <span class="viewer__hint">${icons.zoom}<span>Clic para ampliar</span></span>
           </figure>
-          <div class="viewer__thumbs" role="tablist" aria-label="Vistas del producto">
-            <button class="thumb is-active" data-go="frasco" role="tab" aria-selected="true">
+          <div class="viewer__thumbs" role="group" aria-label="Vistas del producto">
+            <button type="button" class="thumb is-active" data-go="frasco" aria-pressed="true">
               <img src="${imageOf(product, 480)}" alt="" width="480" height="480" loading="lazy" />
               <span>Producto</span>
             </button>
-            <button class="thumb" data-go="ficha" role="tab" aria-selected="false">
+            <button type="button" class="thumb" data-go="ficha" aria-pressed="false">
               <img src="${sheetOf(product)}" alt="" loading="lazy" />
               <span>Beneficios</span>
             </button>
@@ -125,7 +125,7 @@ function initViewer() {
     thumbs.forEach((t) => {
       const on = t.dataset.go === name
       t.classList.toggle('is-active', on)
-      t.setAttribute('aria-selected', String(on))
+      t.setAttribute('aria-pressed', String(on))
     })
     viewer.classList.toggle('is-sheet', name === 'ficha')
     reset()

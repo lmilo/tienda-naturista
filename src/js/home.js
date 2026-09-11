@@ -1,5 +1,5 @@
 import { renderCards, observeReveals } from './ui.js'
-import { products, brands, categoryColor, esc } from './store.js'
+import { products, brands, categoryColor, categoryInk, esc } from './store.js'
 
 const featured = products.filter((p) => p.featured)
 const grid = document.querySelector('#featured-grid')
@@ -10,7 +10,7 @@ if (brandGrid) {
   brandGrid.innerHTML = brands()
     .map(
       (b) => `
-      <article class="brand-card reveal" style="--cat:${categoryColor(b.category)}">
+      <article class="brand-card reveal" style="--cat:${categoryColor(b.category)};--cat-ink:${categoryInk(b.category)}">
         <h3 class="brand-card__name">${esc(b.name)}</h3>
         <p class="brand-card__n">${b.count} ${b.count === 1 ? 'producto' : 'productos'}</p>
       </article>`

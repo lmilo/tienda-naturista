@@ -17,8 +17,10 @@
   --crema-200: #F5EAD6;
   --crema-300: #ecdcc0;
 
-  --wa-green: #1FA855;
-  --wa-green-dark: #178043;
+  /* #1FA855 es el verde oficial de WhatsApp, pero da 3.09:1 con texto
+     blanco. Se usa el tono oscuro, que cumple AA y sigue leyéndose igual. */
+  --wa-green: #178043;
+  --wa-green-dark: #11663A;
 
   --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
   --font-body: 'Mulish', system-ui, -apple-system, sans-serif;
@@ -51,7 +53,9 @@
   --ink-body: #4f3d2c;
   --line: #e7dac4;
 
-  /* Acentos andinos (del árbol de la vida) */
+  /* Acentos andinos (del árbol de la vida). Los vivos son para superficies:
+     barras, puntos, fondos decorativos. Para TEXTO va la variante -ink, que
+     alcanza 4.5:1 tanto sobre blanco como sobre el crema del fondo. */
   --terracota: #C5462E;
   --mostaza:   #E0A02E;
   --naranja:   #D77A2B;
@@ -59,6 +63,12 @@
   --hoja-dark: #436b2c;
   --teal:      #2F8C8C;
   --uva:       #9B6FB0;
+
+  --terracota-ink: #C5462E;
+  --mostaza-ink:   #93691E;
+  --hoja-ink:      #507C37;
+  --teal-ink:      #297C7C;
+  --uva-ink:       #89629C;
 
   /* Bandas oscuras (footer, tira de confianza, contacto) */
   --band-bg: var(--cacao-800);
@@ -102,6 +112,12 @@
     --teal:      #5FBDBD;
     --uva:       #C79BDD;
 
+    --terracota-ink: #E97357;
+    --mostaza-ink:   #F0BC5E;
+    --hoja-ink:      #8FBF6B;
+    --teal-ink:      #5FBDBD;
+    --uva-ink:       #C79BDD;
+
     --band-bg: #0F0A06;
     --band-bg-deep: #0A0704;
     --band-ink: #F6EBDA;
@@ -141,6 +157,12 @@
   --hoja-dark: #A5CF83;
   --teal:      #5FBDBD;
   --uva:       #C79BDD;
+
+  --terracota-ink: #E97357;
+  --mostaza-ink:   #F0BC5E;
+  --hoja-ink:    #8FBF6B;
+  --teal-ink:    #5FBDBD;
+  --uva-ink:     #C79BDD;
 
   --band-bg: #0F0A06;
   --band-bg-deep: #0A0704;
@@ -183,6 +205,16 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
 ul { list-style: none; padding: 0; }
 :focus-visible { outline: 3px solid var(--mostaza); outline-offset: 2px; border-radius: 4px; }
+
+/* ---------- Salto al contenido ---------- */
+.skip-link {
+  position: absolute; left: 0.75rem; top: -100px; z-index: 100;
+  background: var(--cacao-800); color: var(--crema-50);
+  padding: 0.7rem 1.2rem; border-radius: 0 0 var(--radius) var(--radius);
+  font-weight: 800; font-size: var(--step--1);
+  transition: top 0.2s var(--ease-out);
+}
+.skip-link:focus { top: 0; }
 
 /* ---------- Transición entre páginas (mejora progresiva) ---------- */
 @view-transition { navigation: auto; }
@@ -266,6 +298,9 @@ h1, h2, h3, h4 {
 }
 .nav__links a:hover { background: var(--surface-2); color: var(--ink-strong); }
 .nav__links a.is-active { color: var(--ink-strong); background: var(--surface-3); }
+/* `.nav__links a` (0,1,1) gana a `.btn--wa` (0,1,0): sin esto el botón hereda
+   el color de los enlaces y queda café sobre verde. */
+.nav__links a.btn--wa, .nav__links a.btn--wa:hover { color: #fff; }
 
 .nav__tools { display: flex; align-items: center; gap: 0.35rem; }
 .icon-btn {
@@ -463,7 +498,7 @@ h1, h2, h3, h4 {
 .product-card__body { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
 .product-card__brand {
   font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--cat, var(--ink-soft)); margin-bottom: 0.3rem;
+  color: var(--cat-ink, var(--ink-soft)); margin-bottom: 0.3rem;
 }
 .product-card__title { font-size: 1.22rem; line-height: 1.18; }
 .product-card__pres { font-size: var(--step--1); color: var(--ink-soft); font-weight: 700; margin-top: 0.15rem; }
@@ -517,7 +552,7 @@ h1, h2, h3, h4 {
   font-size: 0.72rem; font-weight: 800; padding: 0.1rem 0.42rem; border-radius: 999px;
   background: var(--surface-2); color: var(--ink-soft); transition: 0.18s;
 }
-.filter-chip.is-active { background: var(--cat); color: #fff; border-color: var(--cat); }
+.filter-chip.is-active { background: var(--cat-ink, var(--cat)); color: #fff; border-color: var(--cat-ink, var(--cat)); }
 .filter-chip.is-active .filter-chip__n { background: rgba(255,255,255,0.22); color: #fff; }
 .catalog-count { font-size: var(--step--1); color: var(--ink-soft); font-weight: 700; }
 
@@ -620,7 +655,7 @@ h1, h2, h3, h4 {
 .product__cat { color: var(--terracota); }
 .product__title { font-size: var(--step-3); margin: 0.4rem 0 0.3rem; }
 .product__brand { color: var(--ink-soft); font-size: var(--step--1); }
-.product__brand strong { color: var(--cat, var(--ink-strong)); font-weight: 800; }
+.product__brand strong { color: var(--cat-ink, var(--ink-strong)); font-weight: 800; }
 .product__meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.8rem; margin-top: 0.9rem; }
 .product__price { font-family: var(--font-display); font-size: var(--step-2); color: var(--ink-strong); }
 .product__price--ask {
@@ -762,7 +797,7 @@ h1, h2, h3, h4 {
 .brand-card__name { font-size: 1.3rem; line-height: 1.15; }
 .brand-card__n {
   margin-top: 0.3rem; font-size: 0.76rem; font-weight: 800;
-  letter-spacing: 0.08em; text-transform: uppercase; color: var(--cat, var(--ink-soft));
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--cat-ink, var(--ink-soft));
 }
 
 /* ============================================================

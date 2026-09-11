@@ -34,7 +34,7 @@
   {{> header}}
   <div class="greca greca--top"></div>
 
-  <main>
+  <main id="contenido" tabindex="-1">
     <section class="section--tight" style="background:var(--surface);padding-top:clamp(2rem,1.4rem+3vw,3.5rem)">
       <div class="container">
         <div class="section-head">
@@ -49,7 +49,7 @@
       <div class="container">
         <div class="catalog-bar">
           <div class="filters" id="filters"></div>
-          <p class="catalog-count" id="catalog-count"></p>
+          <p class="catalog-count" id="catalog-count" role="status" aria-live="polite"></p>
         </div>
         <div class="grid-products" id="catalog-grid"></div>
         <div class="state" id="catalog-empty" hidden>
