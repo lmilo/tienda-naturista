@@ -7,6 +7,7 @@ export const SHOP = {
   whatsappDisplay: '322 890 4164',
   phoneAlt: '313 814 0089',
   address: 'Carrera 29 #15-34, Bomboná · Pasto, Nariño',
+  addressQuery: 'Carrera 29 15-34 Bombona Pasto Narino',
   instagram: 'https://www.instagram.com/dulces.raices01/',
   facebook: 'https://www.facebook.com/profile.php?id=100063656336746',
   instagramHandle: 'dulces.raices01',

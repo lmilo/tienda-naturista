@@ -124,6 +124,18 @@ function initChrome() {
     el.href = waLink(generalMessage)
   })
 
+  // Enlaces que dependen de los datos de la tienda, antes repetidos en cada página
+  const mapsQuery = encodeURIComponent(SHOP.addressQuery)
+  const enlaces = {
+    '[data-ig]': SHOP.instagram,
+    '[data-fb]': SHOP.facebook,
+    '[data-maps-search]': `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`,
+    '[data-maps-dir]': `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`,
+  }
+  for (const [sel, href] of Object.entries(enlaces)) {
+    document.querySelectorAll(sel).forEach((el) => el.setAttribute('href', href))
+  }
+
   // Menú móvil
   const toggle = document.querySelector('.nav__toggle')
   const links = document.querySelector('.nav__links')

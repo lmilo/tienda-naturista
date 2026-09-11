@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propuesta · Dulces Raíces en internet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cacao-900:#2E1D10; --cacao-800:#3D2817; --cacao-700:#5B3A22; --cacao-600:#6B4423;
+      --crema-50:#FCF8F0; --crema-100:#FBF6EC; --crema-200:#F5EAD6; --crema-300:#ecdcc0;
+      --terracota:#C5462E; --mostaza:#E0A02E; --naranja:#D77A2B; --hoja:#5B8C3E; --teal:#2F8C8C; --uva:#9B6FB0;
+      --ink:#3D2817; --ink-soft:#6a5340; --line:#e7dac4;
+      --font-display:'Fraunces',Georgia,serif; --font-body:'Mulish',system-ui,sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { font-family: var(--font-body); color: var(--ink); line-height: 1.6; font-size: 11.5pt; background: #fff; }
+    h1,h2,h3 { font-family: var(--font-display); line-height: 1.1; color: var(--cacao-800); font-weight: 600; letter-spacing: -0.01em; }
+    p { margin-top: 0.5em; }
+    strong { color: var(--cacao-800); }
+    .eyebrow { font-weight: 800; font-size: 8.5pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--terracota); }
+    .greca { height: 12px; background: repeating-linear-gradient(135deg, var(--terracota) 0 8px, var(--mostaza) 8px 16px, var(--hoja) 16px 24px, var(--teal) 24px 32px, var(--uva) 32px 40px); }
+
+    @page { size: A4; margin: 16mm 16mm 18mm; }
+    .page { page-break-after: always; position: relative; min-height: 0; }
+    .page:last-child { page-break-after: auto; }
+
+    /* ---- Portada ---- */
+    .cover { page-break-after: always; display: flex; flex-direction: column; justify-content: center; min-height: 247mm; text-align: left;
+             background: radial-gradient(120% 80% at 100% 0%, var(--crema-200), transparent 55%), var(--crema-100); padding: 0; }
+    .cover__logo { width: 92px; margin-bottom: 26px; }
+    .cover h1 { font-size: 40pt; margin: 10px 0 6px; }
+    .cover h1 em { font-style: italic; color: var(--terracota); }
+    .cover .lead { font-size: 15pt; color: var(--ink-soft); max-width: 30em; }
+    .cover__meta { margin-top: 48px; padding-top: 18px; border-top: 2px solid var(--line); font-size: 10pt; color: var(--ink-soft); }
+    .cover__meta b { color: var(--cacao-800); }
+
+    /* ---- Encabezado de sección ---- */
+    .sec-head { margin-bottom: 14px; }
+    .sec-head h2 { font-size: 22pt; margin-top: 4px; }
+    .lead-2 { font-size: 12.5pt; color: var(--ink-soft); }
+
+    /* ---- Bloques ---- */
+    .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+    .card { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--crema-50); break-inside: avoid; }
+    .card .tag { display:inline-block; font-size:8pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:#fff; padding:3px 9px; border-radius:999px; margin-bottom:8px; }
+    .card h3 { font-size: 13.5pt; }
+    .card p { font-size: 10.5pt; color: var(--ink-soft); }
+
+    .note { background: var(--crema-200); border-left: 4px solid var(--hoja); border-radius: 8px; padding: 12px 16px; margin-top: 14px; font-size: 10.5pt; }
+    .note b { color: var(--hoja); }
+
+    ul.clean { margin-top: 10px; padding-left: 0; list-style: none; }
+    ul.clean li { padding-left: 22px; position: relative; margin-bottom: 7px; font-size: 11pt; }
+    ul.clean li::before { content: ''; position: absolute; left: 0; top: 8px; width: 9px; height: 9px; border-radius: 50%; background: var(--terracota); }
+
+    /* ---- Tabla de fases ---- */
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 10.5pt; }
+    th, td { text-align: left; padding: 11px 12px; vertical-align: top; border-bottom: 1px solid var(--line); }
+    thead th { background: var(--cacao-800); color: var(--crema-50); font-family: var(--font-body); font-size: 9.5pt; letter-spacing: 0.04em; }
+    thead th:first-child { border-top-left-radius: 10px; } thead th:last-child { border-top-right-radius: 10px; }
+    tbody tr:nth-child(even) { background: var(--crema-50); }
+    td .fase { font-family: var(--font-display); font-weight: 600; color: var(--cacao-800); font-size: 12pt; }
+
+    /* ---- Mockup ---- */
+    figure { margin: 14px 0 0; break-inside: avoid; }
+    figure img { width: 100%; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 8px 24px rgba(61,40,23,0.12); display:block; }
+    figcaption { font-size: 9.5pt; color: var(--ink-soft); margin-top: 7px; text-align: center; }
+
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+
+    /* ---- Cierre ---- */
+    .cta { background: var(--cacao-800); color: var(--crema-50); border-radius: 14px; padding: 22px 24px; margin-top: 16px; }
+    .cta h3 { color: #fff; font-size: 16pt; }
+    .cta p { color: #e7d8c2; }
+    .contact { margin-top: 14px; font-size: 11pt; }
+    .contact b { color: var(--cacao-800); }
+
+    .footer-note { margin-top: 22px; font-size: 8.5pt; color: #9b8569; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <!-- PORTADA -->
+  <section class="cover">
+    <img class="cover__logo" src="img/logo.png" alt="Dulces Raíces" />
+    <p class="eyebrow">Propuesta de presencia digital</p>
+    <h1>Dulces Raíces,<br>también en <em>internet</em></h1>
+    <p class="lead">Más que una página web: un plan para que te encuentren, te conozcan y te elijan — sin perder el trato cercano que ya te caracteriza.</p>
+    <div class="cover__meta">
+      Preparado para <b>Dulces Raíces</b> · Aceites y esencias sanadoras · Pasto, Nariño<br>
+      Junio de 2026
+    </div>
+  </section>
+
+  <!-- 1. DIAGNÓSTICO + IDEA -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Lo que vemos hoy</p><h2>Tienes una marca hermosa. Falta que la vean.</h2></div>
+    <p>Dulces Raíces tiene algo que el resto no tiene: <strong>identidad nariñense, tradición y productos naturales hechos a mano.</strong> Eso vale oro y es difícil de copiar.</p>
+    <p>El reto es simple: hoy te conoce, sobre todo, quien pasa por tu local o ya te tiene en WhatsApp. Cuando alguien busca <em>“aceites esenciales en Pasto”</em> en Google o en redes, te encuentra a otros, no a ti. Tu marca merece verse tan profesional como es.</p>
+
+    <div class="sec-head" style="margin-top:26px"><p class="eyebrow">La idea</p><h2>No te vendemos una página. Te ayudamos a estar presente.</h2></div>
+    <p>Una página sola es como un local hermoso en una calle sin gente. Lo que de verdad necesitas —y lo que ya intuías al pensar en Google, Instagram y TikTok— es <strong>estar donde tu clienta te busca, las 24 horas</strong>, y que todo te lleve clientes por WhatsApp, que es el canal que ya manejas.</p>
+    <div class="note"><b>En una frase:</b> que cuando alguien quiera lo que tú vendes, te encuentre a ti — y le sea fácil escribirte o visitarte.</div>
+  </section>
+
+  <!-- 2. CÓMO TE AYUDAMOS -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Cómo te ayudamos</p><h2>Tu presencia, en piezas que trabajan juntas</h2></div>
+    <p class="lead-2">Todo conectado, y todo apuntando a WhatsApp y a tu tienda física.</p>
+    <div class="cards">
+      <div class="card"><span class="tag" style="background:var(--terracota)">Tu página</span><h3>Catálogo y casa de tu marca</h3><p>Quiénes somos, tus productos con foto y precio, y un botón para pedir por WhatsApp en cada uno. Con un solo enlace muestras todo tu catálogo.</p></div>
+      <div class="card"><span class="tag" style="background:var(--hoja)">Google</span><h3>Que te encuentren en el mapa</h3><p>Tu ficha en Google con ubicación, fotos, horario y reseñas. Para que aparezcas cuando buscan productos naturales en Pasto. Es gratis y de alto impacto.</p></div>
+      <div class="card"><span class="tag" style="background:var(--uva)">Redes</span><h3>Instagram y TikTok ordenados</h3><p>Tus redes alineadas con la marca y conectadas a la página, para que la gente te conozca y te siga.</p></div>
+      <div class="card"><span class="tag" style="background:var(--teal)">Tu local</span><h3>Tu tienda física, con protagonismo</h3><p>Mapa, dirección y “cómo llegar” bien visibles. Que internet te traiga gente también a tu puerta en Pasto.</p></div>
+    </div>
+    <div class="note" style="border-left-color:var(--mostaza)"><b style="color:var(--naranja)">El corazón de todo:</b> WhatsApp. No te cambiamos la forma de vender; le ponemos alrededor todo lo que hace que llegue más gente.</div>
+  </section>
+
+  <!-- 3. MARKETING -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Que llegue más gente</p><h2>El acompañamiento de marketing</h2></div>
+    <p class="lead-2">No basta con existir en internet; hay que ayudar a que te descubran.</p>
+    <ul class="clean">
+      <li><strong>Google Business:</strong> aparecer en el mapa y en las búsquedas locales (“tienda naturista Pasto”, “aceites esenciales Pasto”). Es lo primero y es gratis.</li>
+      <li><strong>Reseñas de clientes:</strong> invitamos a tus clientas felices a dejar su reseña. Nada genera más confianza que la voz de otra persona.</li>
+      <li><strong>Contenido en redes:</strong> una línea sencilla y sostenible para Instagram y TikTok (tu historia, tus aceites, consejos de bienestar) que construye comunidad.</li>
+      <li><strong>Que la página la encuentre Google:</strong> la armamos pensada para aparecer en las búsquedas de tu zona.</li>
+      <li><strong>Comunicación clara y responsable:</strong> cuidamos el lenguaje para resaltar lo natural y la tradición, protegiendo siempre la imagen de tu marca.</li>
+    </ul>
+    <div class="note"><b>Importante:</b> empezamos por lo esencial y de bajo costo (tu página y Google). A medida que veas resultados, crecemos. Sin saltos al vacío.</div>
+  </section>
+
+  <!-- 4. UN VISTAZO A LA PÁGINA -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Un primer vistazo</p><h2>Así se vería tu página</h2></div>
+    <p>Una idea de diseño con tu marca: tus colores, tu árbol de la vida y el sello de “hecho en Nariño”. Pensada para verse muy bien en el celular, que es por donde llega la mayoría.</p>
+    <figure>
+      <img src="img/mockup-inicio.png" alt="Vista del inicio de la página" />
+      <figcaption>Página de inicio — catálogo, identidad de marca y pedidos por WhatsApp.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/mockup-catalogo.png" alt="Catálogo de productos" />
+      <figcaption>Catálogo — tus productos con foto, organizados por categoría.</figcaption>
+    </figure>
+  </section>
+
+  <!-- 5. PLAN POR FASES -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Paso a paso</p><h2>El plan, por etapas</h2></div>
+    <p class="lead-2">Empezamos pequeño y seguro, y crecemos contigo.</p>
+    <table>
+      <thead><tr><th style="width:24%">Etapa</th><th>Qué hacemos</th><th style="width:30%">Qué ganas</th></tr></thead>
+      <tbody>
+        <tr><td><span class="fase">1. Presencia</span></td><td>Tu página + ficha de Google + redes ordenadas.</td><td>Te encuentran, te ves profesional y vendes mejor por WhatsApp.</td></tr>
+        <tr><td><span class="fase">2. Crecimiento</span></td><td>Contenido en redes, reseñas en Google, catálogo creciendo.</td><td>Más alcance en Pasto y Nariño, y una comunidad alrededor de tu marca.</td></tr>
+        <tr><td><span class="fase">3. Tienda en línea</span></td><td>Pagos por internet y envíos, cuando el volumen lo pida.</td><td>Vendes tus esencias nariñenses a toda Colombia, no solo a quien pasa por tu local.</td></tr>
+      </tbody>
+    </table>
+    <div class="note" style="border-left-color:var(--terracota)"><b style="color:var(--terracota)">A dónde podemos llegar:</b> imagina tus esencias de Nariño llegando a alguien en Bogotá o Cali. Esa es la meta que sembramos desde hoy.</div>
+  </section>
+
+  <!-- 6. CÓMO TRABAJAMOS + PRÓXIMOS PASOS -->
+  <section class="page">
+    <div class="sec-head"><p class="eyebrow">Cómo trabajamos</p><h2>Cercanos, claros y a tu ritmo</h2></div>
+    <p>Te acompañamos en cada paso y te explicamos todo en palabras sencillas. Tú te dedicas a lo que sabes —tus productos y tus clientes— y nosotros nos encargamos de lo técnico.</p>
+
+    <div class="two" style="margin-top:18px">
+      <div>
+        <p class="eyebrow">Para empezar, necesitamos de ti</p>
+        <ul class="clean">
+          <li>Tu logo en buena calidad.</li>
+          <li>Fotos de tus productos (sobre todo los aceites).</li>
+          <li>Tu historia y un par de textos cortos.</li>
+          <li>Los enlaces de tus redes.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">La inversión</p>
+        <p style="font-size:10.5pt;color:var(--ink-soft)">La conversamos juntos según las etapas que elijas. La idea es empezar por lo esencial, con una inversión cómoda, y crecer a medida que veas los resultados.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>¿Damos el primer paso?</h3>
+      <p>Con tu logo, tus fotos y tu historia, ponemos tu marca en internet y empezamos a que te encuentren.</p>
+    </div>
+
+    <p class="contact"><b>Dulces Raíces</b> · Carrera 29 #15-34, Bomboná · Pasto, Nariño · WhatsApp 322 890 4164</p>
+    <p class="footer-note">Propuesta preliminar de presencia digital. Las imágenes de la página son una muestra de diseño y se ajustan con tu material real.</p>
+  </section>
+
+</body>
+</html>
