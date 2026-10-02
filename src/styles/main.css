@@ -817,6 +817,7 @@ h1, h2, h3, h4 {
   border-color: color-mix(in srgb, var(--cat) 35%, var(--line));
 }
 .brand-card__name { font-size: 1.3rem; line-height: 1.15; }
+.brands__more { text-align: center; margin-top: 1.2rem; color: var(--ink-soft); font-size: var(--step--1); font-weight: 700; }
 .brand-card__n {
   margin-top: 0.3rem; font-size: 0.76rem; font-weight: 800;
   letter-spacing: 0.08em; text-transform: uppercase; color: var(--cat-ink, var(--ink-soft));

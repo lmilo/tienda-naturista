@@ -3,7 +3,22 @@
     {
       "handle": "capilar",
       "name": "Cuidado capilar",
-      "blurb": "Shampoos y tratamientos para fortalecer el cabello desde la raíz."
+      "blurb": "Shampoos, tratamientos y séruns para fortalecer el cabello desde la raíz."
+    },
+    {
+      "handle": "piel",
+      "name": "Cuidado de la piel",
+      "blurb": "Limpieza facial, hidratación y cuidado diario del rostro y el cuerpo."
+    },
+    {
+      "handle": "jabones",
+      "name": "Jabones naturales",
+      "blurb": "Jabones artesanales y dermatológicos para cada tipo de piel."
+    },
+    {
+      "handle": "aromaterapia",
+      "name": "Aromaterapia y aceites",
+      "blurb": "Aceites esenciales, vegetales y aromatizadores para tu espacio."
     },
     {
       "handle": "esencias",
@@ -11,14 +26,14 @@
       "blurb": "Gotas de flores para acompañar el ánimo y los días difíciles."
     },
     {
-      "handle": "piel",
-      "name": "Cuidado de la piel",
-      "blurb": "Limpieza facial e hidratación para el cuidado diario."
-    },
-    {
       "handle": "bienestar",
       "name": "Bienestar interno",
-      "blurb": "Preparaciones de hierbas para acompañar tu rutina diaria."
+      "blurb": "Suplementos, mieles y preparaciones de hierbas para tu rutina."
+    },
+    {
+      "handle": "tradicional",
+      "name": "Tópicos tradicionales",
+      "blurb": "Preparaciones andinas de uso externo para masaje."
     }
   ],
   "products": [
@@ -28,7 +43,7 @@
       "brand": "Funat",
       "category": "esencias",
       "presentation": "25 mL",
-      "price": null,
+      "price": 25500,
       "currency": "COP",
       "shortDescription": "Segunda dilución en macerado de flores, para momentos de tensión.",
       "description": "Esencia floral de Funat elaborada como segunda dilución en macerado de flores. Pensada para acompañar los momentos de estrés o cansancio mental, cuando la mente no baja de revoluciones y el cuerpo lo siente.",
@@ -100,7 +115,7 @@
       "brand": "Flora",
       "category": "esencias",
       "presentation": "30 ml (1 fl. oz.)",
-      "price": null,
+      "price": 24000,
       "currency": "COP",
       "shortDescription": "Sin alcohol. Para las emociones alrededor del apetito.",
       "description": "Esencia floral de Flora en fórmula sin alcohol. Pensada para acompañar las emociones ligadas al apetito y a la relación con la comida, en épocas de cambio o desequilibrio emocional.",
@@ -124,7 +139,7 @@
       "brand": "Natural Saint",
       "category": "capilar",
       "presentation": "500 ml",
-      "price": null,
+      "price": 28800,
       "currency": "COP",
       "shortDescription": "El clásico de romero y quina, sin azufre.",
       "description": "Shampoo de romero y quina de Natural Saint, una fórmula de toda la vida para quienes buscan fortalecer el cabello desde la raíz. Aporta esencia natural y viene sin azufre.",
@@ -189,7 +204,7 @@
         "sin sal",
         "sin parabenos"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "handle": "lissia-shampoo-aloe-vera",
@@ -247,7 +262,7 @@
       "brand": "Natural Shot",
       "category": "capilar",
       "presentation": "500 ml",
-      "price": null,
+      "price": 29900,
       "currency": "COP",
       "shortDescription": "Reparación profunda para cabello maltratado.",
       "description": "Shampoo de Natural Shot con aceite de argán y células madre vegetales. Pensado para cabello trabajado con tintes, plancha o secador, que necesita recuperar cuerpo y brillo.",
@@ -271,7 +286,7 @@
       "brand": null,
       "category": "capilar",
       "presentation": "500 ml",
-      "price": null,
+      "price": 28800,
       "currency": "COP",
       "shortDescription": "Mascarilla de cebolla, biotina y keratina para dejar actuar.",
       "description": "Tratamiento capilar con extracto de cebolla, biotina y keratina. Se deja actuar unos minutos después del shampoo, para acompañar el crecimiento y mejorar la textura del cabello.",
@@ -389,7 +404,7 @@
         "limpieza facial",
         "300 ml"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "handle": "kiss-beauty-face-wash-colageno",
@@ -413,6 +428,968 @@
         "limpieza facial",
         "300 ml"
       ],
+      "featured": false
+    },
+    {
+      "handle": "biocorp-aceite-vegetal-macadamia",
+      "title": "Aceite Vegetal de Macadamia",
+      "brand": "Biocorp",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": 69000,
+      "shortDescription": "Rico en ácido palmitoleico, nutre e hidrata piel y cabello.",
+      "description": "Aceite vegetal de macadamia (Macadamia ternifolia seed oil) de Biocorp. Rico en ácido palmitoleico, nutre e hidrata intensamente la piel y el cabello. Ideal para pieles secas y cabello dañado.",
+      "benefits": [
+        "Nutre e hidrata intensamente",
+        "Ayuda a regenerar la piel",
+        "Previene el envejecimiento prematuro",
+        "Ideal para pieles secas y cabello dañado"
+      ],
+      "use": "Aplica unas gotas directamente sobre la piel o el cabello y masajea suavemente hasta que absorba.",
+      "tags": [
+        "macadamia",
+        "aceite vegetal",
+        "uso cosmético"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "dulces-raices-colageno",
+      "title": "Colágeno Extracto Natural",
+      "brand": "Dulces Raíces",
+      "category": "bienestar",
+      "presentation": "30 ml",
+      "price": 15500,
+      "shortDescription": "Nuestro propio colágeno en gotero, para firmeza y luminosidad.",
+      "description": "Colágeno de extracto natural preparado por Dulces Raíces, en frasco gotero. Hidrata en profundidad y acompaña la elasticidad de la piel.",
+      "benefits": [
+        "Hidrata profundamente",
+        "Mejora la elasticidad",
+        "Reduce la apariencia de líneas finas",
+        "Deja la piel más firme y luminosa"
+      ],
+      "use": "Aplica 3 a 5 gotas sobre la piel limpia y masajea suavemente hasta su absorción.",
+      "tags": [
+        "colágeno",
+        "marca propia",
+        "gotero"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "aceite-de-coca",
+      "title": "Aceite de Coca",
+      "brand": null,
+      "category": "tradicional",
+      "presentation": "Consultar presentación",
+      "price": 35000,
+      "shortDescription": "Esencia tradicional de uso tópico para masajes.",
+      "description": "Aceite de hoja de coca de uso tópico, dentro de la tradición andina de preparaciones para masaje. Se aplica sobre la zona a trabajar.",
+      "benefits": [
+        "Uso tópico tradicional",
+        "Acompaña el masaje muscular y articular",
+        "Preparación de tradición andina"
+      ],
+      "use": "Aplica 3 a 5 gotas sobre la zona deseada y masajea suavemente. No ingerir. Evita el contacto con ojos y mucosas.",
+      "tags": [
+        "uso tópico",
+        "tradicional",
+        "masaje"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "biocorp-aceite-esencial-pino",
+      "title": "Aceite Esencial de Pino Silvestre",
+      "brand": "Biocorp",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": 43700,
+      "shortDescription": "Purificante y descongestionante, para difusor o masaje.",
+      "description": "Aceite esencial de pino silvestre de Biocorp. Se usa en difusor aromático, en inhalación de vapor o diluido para masaje corporal.",
+      "benefits": [
+        "Purifica el ambiente",
+        "Acompaña el alivio de resfriados",
+        "Descongestionante respiratorio",
+        "Aporta energía y enfoque"
+      ],
+      "use": "Úsalo en difusor aromático, en inhalación de vapor o diluido para masaje corporal.",
+      "tags": [
+        "pino",
+        "aceite esencial",
+        "difusor"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "biocorp-aromatizador-arco-iris-azul",
+      "title": "Aromatizador de Ambiente Arco Iris Azul",
+      "brand": "Biocorp",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": 34500,
+      "shortDescription": "Notas frescas y florales para difusor.",
+      "description": "Aromatizador de ambiente de Biocorp, de notas frescas, florales y sutilmente amaderadas. Pensado para meditación, alivio del estrés y descanso.",
+      "benefits": [
+        "Calma la mente",
+        "Promueve la relajación profunda",
+        "Notas frescas y florales",
+        "Ideal para meditación y descanso"
+      ],
+      "use": "Agrega 5 a 7 gotas al agua de tu difusor.",
+      "tags": [
+        "aromatizador",
+        "difusor",
+        "ambiente"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "amasinchi-aceite-sacha-inchi",
+      "title": "Aceite Puro de Sacha Inchi",
+      "brand": "Amasinchi",
+      "category": "aromaterapia",
+      "presentation": "30 ml",
+      "price": 25000,
+      "shortDescription": "Oro líquido de la Amazonía, rico en omegas 3, 6 y 9.",
+      "description": "Aceite puro de sacha inchi de Amasinchi, conocido como el oro líquido de la Amazonía. Rico en omegas 3, 6 y 9, nutre y revitaliza la piel y el cabello.",
+      "benefits": [
+        "Rico en omegas 3, 6 y 9",
+        "Nutre y revitaliza la piel",
+        "Deja el cabello suave e hidratado",
+        "Absorción rápida"
+      ],
+      "use": "Rostro: 2 a 3 gotas sobre la piel limpia. Cabello: aplica de medios a puntas antes o después del lavado.",
+      "tags": [
+        "sacha inchi",
+        "omegas",
+        "amazonía"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "urbanatt-zarzaparrilla-jarabe",
+      "title": "Zarzaparrilla Jarabe",
+      "brand": "Urbanatt",
+      "category": "bienestar",
+      "presentation": "500 ml",
+      "price": null,
+      "shortDescription": "Depurativo tradicional y tónico energético.",
+      "description": "Jarabe de zarzaparrilla de Urbanatt. Tradicionalmente usado como depurativo sanguíneo y tónico energético, para promover la vitalidad y el bienestar general. Ingrediente 100% natural.",
+      "benefits": [
+        "Uso tradicional como depurativo",
+        "Tónico energético",
+        "Acompaña la vitalidad y el bienestar",
+        "Ingrediente 100% natural"
+      ],
+      "use": "Consulta la dosis en la etiqueta del producto.",
+      "tags": [
+        "zarzaparrilla",
+        "jarabe",
+        "depurativo"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "mieli-propoleo-compuesto",
+      "title": "Propóleo Compuesto",
+      "brand": "Mieli",
+      "category": "bienestar",
+      "presentation": "300 g",
+      "price": null,
+      "shortDescription": "Propóleo en miel, para la garganta y las defensas.",
+      "description": "Propóleo compuesto de Mieli, en presentación de 300 g. De uso tradicional para irritaciones de garganta y como acompañante de las defensas.",
+      "benefits": [
+        "Uso tópico para irritaciones de garganta",
+        "Acompaña el alivio de molestias respiratorias leves",
+        "Apoya las defensas"
+      ],
+      "use": "Se recomienda consumir una cucharadita diaria.",
+      "tags": [
+        "propóleo",
+        "miel",
+        "garganta"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "sundark-protector-solar-spf60",
+      "title": "Protector Solar SPF 60+",
+      "brand": "Sundark",
+      "category": "piel",
+      "presentation": "12 sachets × 10 g",
+      "price": null,
+      "shortDescription": "Bloqueo UVA/UVB con extractos vegetales.",
+      "description": "Protector solar total Sundark SPF 60+, con extractos vegetales de aloe vera, avena sativa, té verde y elastina. Textura ligera de rápida absorción, no grasa, para uso diario facial y corporal.",
+      "benefits": [
+        "Bloquea rayos UVB y radiación UVA",
+        "Con aloe vera, avena sativa y té verde",
+        "Protege contra el envejecimiento prematuro",
+        "Textura ligera, no grasa"
+      ],
+      "use": "Aplica antes de la exposición al sol y reaplica según la exposición.",
+      "tags": [
+        "protector solar",
+        "SPF 60",
+        "uso diario"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "amasinchi-crema-corporal-hidratante",
+      "title": "Crema Corporal Hidratante",
+      "brand": "Amasinchi",
+      "category": "piel",
+      "presentation": "250 ml",
+      "price": null,
+      "shortDescription": "Con aceite de sacha inchi y omega 3-6-9.",
+      "description": "Crema corporal hidratante de Amasinchi, con aceite de sacha inchi y omega 3-6-9. Hidratación profunda y duradera para todo tipo de piel.",
+      "benefits": [
+        "Hidratación profunda y duradera",
+        "Nutre y suaviza la piel",
+        "Fortalece la barrera cutánea",
+        "Rápida absorción"
+      ],
+      "use": "Aplica sobre la piel limpia y masajea hasta su absorción.",
+      "tags": [
+        "sacha inchi",
+        "corporal",
+        "hidratante"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-sangre-de-drago",
+      "title": "Sangre de Drago",
+      "brand": "Fito Medic's",
+      "category": "bienestar",
+      "presentation": "80 ml",
+      "price": null,
+      "shortDescription": "Croton lechleri, cicatrizante de uso tradicional.",
+      "description": "Sangre de drago (Croton lechleri Mull. Arg) de Fito Medic's. De uso tradicional como coadyuvante en el tratamiento de úlceras gastroduodenales y gastritis.",
+      "benefits": [
+        "Uso tradicional como cicatrizante",
+        "Propiedades antiinflamatorias",
+        "Antimicrobiano natural",
+        "100% producto natural"
+      ],
+      "use": "Consulta con tu médico antes de usarlo. Generalmente se diluyen gotas en agua.",
+      "tags": [
+        "sangre de drago",
+        "croton lechleri",
+        "tradicional"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "cultevo-te-negro-curcuma-chai",
+      "title": "Té Negro Juventud · Cúrcuma y Chai",
+      "brand": "Cultévo",
+      "category": "bienestar",
+      "presentation": "20 bolsitas · 24 g",
+      "price": null,
+      "shortDescription": "Antioxidante de cúrcuma y especias chai.",
+      "description": "Té negro de Cultévo con cúrcuma y especias chai. La cúrcuma y las especias acompañan el bienestar articular, y el té negro aporta energía sostenida.",
+      "benefits": [
+        "Antioxidante que combate los radicales libres",
+        "Cúrcuma y especias chai",
+        "Energía sostenida y mejor concentración",
+        "Especias que favorecen la digestión"
+      ],
+      "use": "Prepara una bolsita en agua caliente. Ideal para consumir a diario.",
+      "tags": [
+        "té negro",
+        "cúrcuma",
+        "chai",
+        "antioxidante"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "biopropoly-elixir-inmunitario",
+      "title": "Biopropoly · Elixir Inmunitario",
+      "brand": "Biopropoly",
+      "category": "bienestar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "shortDescription": "Polen, miel y propóleo con vitaminas y minerales.",
+      "description": "Elixir inmunitario Biopropoly a base de polen, miel y propóleo, con vitaminas y minerales. Edulcorado naturalmente.",
+      "benefits": [
+        "Apoyo natural a las defensas",
+        "Acción antioxidante",
+        "Energía y revitalización",
+        "Con vitaminas y minerales"
+      ],
+      "use": "Consulta la dosis en la etiqueta del producto.",
+      "tags": [
+        "polen",
+        "miel",
+        "propóleo",
+        "defensas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "labfarve-locion-calendula-gualanday",
+      "title": "Loción de Caléndula y Gualanday",
+      "brand": "Labfarve",
+      "category": "piel",
+      "presentation": "120 mL",
+      "price": null,
+      "shortDescription": "Limpiadora facial que no requiere enjuague.",
+      "description": "Loción limpiadora de caléndula y gualanday de Labfarve, con extractos vegetales. Limpia en profundidad, equilibra el pH natural de la piel y la prepara para la hidratación.",
+      "benefits": [
+        "Limpieza profunda y suave",
+        "Calmante y antiinflamatoria",
+        "Regenera y purifica",
+        "Equilibra el pH natural de la piel"
+      ],
+      "use": "Aplica con un algodón sobre el rostro y cuello limpios. No requiere enjuague.",
+      "tags": [
+        "caléndula",
+        "gualanday",
+        "limpiadora"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "healthy-america-vitamina-a-d",
+      "title": "Vitamina A 10.000 & D 400 Plus Bilberry",
+      "brand": "Healthy America",
+      "category": "bienestar",
+      "presentation": "100 softgels",
+      "price": 48000,
+      "shortDescription": "Con extracto de arándano, para la salud ocular.",
+      "description": "Suplemento dietario de Healthy America con vitamina A 10.000 UI, vitamina D 400 UI y extracto de bilberry (arándano). 100 softgels.",
+      "benefits": [
+        "El extracto de bilberry acompaña la salud ocular",
+        "Vitamina A para piel, visión y sistema inmunológico",
+        "Vitamina D para la absorción de calcio",
+        "Antioxidantes naturales del arándano"
+      ],
+      "use": "Tomar una softgel al día con las comidas.",
+      "tags": [
+        "vitamina A",
+        "vitamina D",
+        "arándano",
+        "suplemento"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "funat-desodorante-antitranspirante",
+      "title": "Desodorante con Propiedades Antitranspirantes",
+      "brand": "Funat de Oro",
+      "category": "piel",
+      "presentation": "60 g",
+      "price": null,
+      "shortDescription": "Roll-on con romero, caléndula y aloe vera.",
+      "description": "Desodorante roll-on de Funat de Oro con extractos naturales de romero, caléndula y aloe vera. Alta dermocosmética natural.",
+      "benefits": [
+        "Propiedades antitranspirantes",
+        "Con romero, caléndula y aloe vera",
+        "Dermocosmética natural"
+      ],
+      "use": "Aplica sobre la piel limpia y seca.",
+      "tags": [
+        "desodorante",
+        "romero",
+        "caléndula",
+        "aloe vera"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "mieli-polen",
+      "title": "Polen",
+      "brand": "Mieli",
+      "category": "bienestar",
+      "presentation": "75 g",
+      "price": null,
+      "shortDescription": "Polen de abeja, energía y nutrientes.",
+      "description": "Polen de abeja de Mieli, en presentación de 75 g. Rico en proteínas, vitaminas y minerales.",
+      "benefits": [
+        "Aumenta la energía y la vitalidad",
+        "Rico en proteínas, vitaminas y minerales",
+        "Fortalece el sistema inmunológico",
+        "Propiedades antioxidantes"
+      ],
+      "use": "Consulta la dosis en la etiqueta del producto.",
+      "tags": [
+        "polen",
+        "abejas",
+        "energía"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "floravet-panics-and-fears",
+      "title": "FloraVet · Panics and Fears",
+      "brand": "Labfarve",
+      "category": "esencias",
+      "presentation": "1 fl. oz.",
+      "price": 27000,
+      "shortDescription": "Esencias florales para mascotas con miedo o ansiedad.",
+      "description": "Esencias florales de Labfarve formuladas para mascotas. Pensadas para acompañar el pánico, los miedos intensos y la ansiedad: tormentas, fuegos artificiales, visitas al veterinario o situaciones de estrés.",
+      "benefits": [
+        "Formuladas para mascotas",
+        "Para tormentas y fuegos artificiales",
+        "Acompaña visitas al veterinario",
+        "Esencias florales naturales"
+      ],
+      "use": "Aplica en el agua o directamente en la boca, según las indicaciones del producto.",
+      "tags": [
+        "mascotas",
+        "esencias florales",
+        "ansiedad"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "prunex-1",
+      "title": "Prunex 1",
+      "brand": "Fuxion",
+      "category": "bienestar",
+      "presentation": "28 sobres",
+      "price": 48700,
+      "shortDescription": "Alimento en polvo con linaza, guindón y stevia.",
+      "description": "Prunex 1 de Fuxion, alimento en polvo para preparar con ingredientes naturales de linaza, guindón y stevia. Acompaña el tránsito intestinal.",
+      "benefits": [
+        "Apoya un tránsito intestinal saludable",
+        "Ayuda a eliminar toxinas de forma natural",
+        "Promueve la regularidad",
+        "Con linaza, guindón y stevia"
+      ],
+      "use": "Disuelve un sobre en agua. Consulta la frecuencia en el empaque.",
+      "tags": [
+        "linaza",
+        "guindón",
+        "stevia",
+        "digestión"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "pomada-marihuana-con-coca",
+      "title": "Pomada de Marihuana con Coca",
+      "brand": null,
+      "category": "tradicional",
+      "presentation": "50 g",
+      "price": 45000,
+      "shortDescription": "Uso tópico tradicional para masaje muscular.",
+      "description": "Pomada de uso tópico con ingredientes naturales de cannabis y coca, dentro de la tradición de preparaciones para masaje. Se aplica sobre la piel limpia y seca.",
+      "benefits": [
+        "Uso tópico tradicional",
+        "Acompaña el masaje en zonas localizadas",
+        "Preparación de tradición andina"
+      ],
+      "use": "Aplica con suaves masajes sobre la piel limpia y seca. Solo uso externo.",
+      "tags": [
+        "uso tópico",
+        "tradicional",
+        "masaje"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "homeonat-flower-essences",
+      "title": "Homeonat · Fórmula Floral",
+      "brand": "Homeonat",
+      "category": "esencias",
+      "presentation": "1 fl. oz. (30 ml)",
+      "price": null,
+      "shortDescription": "Fórmula floral para el equilibrio emocional.",
+      "description": "Esencias florales de Homeonat, fórmula pensada para equilibrar estados emocionales y mentales, y acompañar la gestión del estrés y la ansiedad.",
+      "benefits": [
+        "Acompaña el equilibrio emocional",
+        "Ayuda a gestionar el estrés",
+        "Promueve la armonía interior",
+        "Coadyuvante en bienestar emocional"
+      ],
+      "use": "Sigue la posología indicada en el empaque del fabricante.",
+      "tags": [
+        "esencias florales",
+        "equilibrio emocional"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "encis-agua-micelar",
+      "title": "Agua Micelar · Rostro, Labios y Ojos",
+      "brand": "Encis Collections",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": 10000,
+      "shortDescription": "Limpia, desmaquilla y tonifica en un paso.",
+      "description": "Agua micelar de Encis Collections con agua termal y extractos botánicos. Limpia, desmaquilla, purifica, suaviza y reequilibra, incluso con maquillaje de larga duración.",
+      "benefits": [
+        "Elimina impurezas y residuos de maquillaje",
+        "Desmaquilla ojos y labios suavemente",
+        "Respeta el equilibrio natural de la piel",
+        "Apta para pieles sensibles"
+      ],
+      "use": "Aplica con un algodón sobre rostro, labios y ojos. No requiere enjuague.",
+      "tags": [
+        "agua micelar",
+        "desmaquillante",
+        "agua termal"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-crema-despigmentadora",
+      "title": "Crema Despigmentadora",
+      "brand": "Fito Medic's",
+      "category": "piel",
+      "presentation": "80 g",
+      "price": 45600,
+      "shortDescription": "Con perejil, aloe vera, caléndula y ajo.",
+      "description": "Crema despigmentadora de Fito Medic's con extractos naturales de perejil, aloe vera, salvia, caléndula y ajo. Fórmula avanzada para unificar el tono de la piel.",
+      "benefits": [
+        "Reduce la apariencia de manchas oscuras",
+        "Unifica el tono y mejora la luminosidad",
+        "Con extractos naturales",
+        "Hidratante y calmante"
+      ],
+      "use": "Aplica diariamente por la noche sobre la piel limpia y seca.",
+      "tags": [
+        "despigmentante",
+        "perejil",
+        "aloe vera"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "athos-agua-de-rosas",
+      "title": "Agua de Rosas · Tónico Facial",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "250 ml",
+      "price": 6000,
+      "shortDescription": "Tónico con aloe vera, vitamina E y colágeno.",
+      "description": "Agua de rosas de Athos, tónico facial y corporal con aloe vera, vitamina E, colágeno y elastina. Hidrata, tonifica y equilibra la piel.",
+      "benefits": [
+        "Hidrata profundamente",
+        "Tonifica y equilibra la piel",
+        "Efecto antiedad con colágeno",
+        "Refresca y suaviza"
+      ],
+      "use": "Rocía sobre rostro y cuello limpios, mañana y noche. También sirve para fijar el maquillaje.",
+      "tags": [
+        "agua de rosas",
+        "tónico",
+        "colágeno"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "jabon-natural-ruda-y-romero",
+      "title": "Jabón Natural de Ruda & Romero",
+      "brand": "Dr. Peña",
+      "category": "jabones",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "shortDescription": "Limpieza y purificación energética y corporal.",
+      "description": "Jabón natural de ruda y romero del Dr. Peña. Pensado para la limpieza y purificación energética y corporal, equilibrando cuerpo y mente.",
+      "benefits": [
+        "Propiedades relajantes",
+        "Purificante y armonizante",
+        "Ayuda a liberar tensiones",
+        "Uso diario en ducha o baño"
+      ],
+      "use": "Úsalo a diario en la ducha o el baño.",
+      "tags": [
+        "ruda",
+        "romero",
+        "jabón natural"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "crema-facial-rosa-mosqueta-camelia",
+      "title": "Crema Facial Rosa Mosqueta y Camelia",
+      "brand": null,
+      "category": "piel",
+      "presentation": "75 g",
+      "price": 18000,
+      "shortDescription": "Regeneración celular con aceite de rosa mosqueta.",
+      "description": "Crema facial con aceite de rosa mosqueta y camelia. Hidrata intensamente y acompaña la elasticidad y el tono de la piel.",
+      "benefits": [
+        "Acompaña la regeneración celular",
+        "Hidrata intensamente",
+        "Acción antioxidante",
+        "Ayuda a mejorar la luminosidad y el tono"
+      ],
+      "use": "Aplica mañana y noche sobre rostro y cuello limpios.",
+      "tags": [
+        "rosa mosqueta",
+        "camelia",
+        "facial"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "jabon-artesanal-aceites-vegetales",
+      "title": "Jabón Artesanal con Aceites Vegetales",
+      "brand": null,
+      "category": "jabones",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "shortDescription": "Caléndula y guaba, para piel irritada.",
+      "description": "Jabón artesanal con aceites vegetales, caléndula y guaba. Pensado para la inflamación y reparación de la piel después de la actividad física.",
+      "benefits": [
+        "Caléndula de propiedades antiinflamatorias",
+        "Guaba rica en antioxidantes",
+        "Aceites vegetales que hidratan y nutren",
+        "Ideal después del ejercicio"
+      ],
+      "use": "Úsalo sobre la piel húmeda y enjuaga.",
+      "tags": [
+        "caléndula",
+        "guaba",
+        "artesanal"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "athos-hielo-mineral-sport",
+      "title": "Hielo Mineral Sport",
+      "brand": "Athos",
+      "category": "tradicional",
+      "presentation": "Consultar presentación",
+      "price": 16000,
+      "shortDescription": "Efecto frío-calor con árnica y caléndula.",
+      "description": "Hielo mineral sport de Athos, en spray, con extractos naturales de árnica y caléndula. Efecto frío-calor para after del ejercicio.",
+      "benefits": [
+        "Alivio inmediato con efecto frío-calor",
+        "Ideal para la recuperación deportiva",
+        "Con árnica y caléndula",
+        "Fórmula natural, no grasa"
+      ],
+      "use": "Rocía sobre la zona y masajea. Solo uso externo.",
+      "tags": [
+        "árnica",
+        "caléndula",
+        "deportivo",
+        "spray"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "jabon-aloe-vera-y-curcuma",
+      "title": "Jabón de Aloe Vera y Cúrcuma",
+      "brand": null,
+      "category": "jabones",
+      "presentation": "Consultar presentación",
+      "price": 25000,
+      "shortDescription": "Calmante y antiinflamatorio, ideal para acné.",
+      "description": "Jabón de aloe vera orgánico, cúrcuma pura y aceite de oliva virgen. Pensado para pieles sensibles y con acné, y para unificar el tono de la piel.",
+      "benefits": [
+        "Calmante y antiinflamatorio",
+        "Antioxidante",
+        "Ideal para pieles sensibles y acné",
+        "Hidratación profunda"
+      ],
+      "use": "Úsalo en rostro y cuerpo sobre la piel húmeda.",
+      "tags": [
+        "aloe vera",
+        "cúrcuma",
+        "acné"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "fito-medics-crema-nutritiva",
+      "title": "Crema Nutritiva con ADN Vegetal",
+      "brand": "Fito Medic's",
+      "category": "piel",
+      "presentation": "80 g",
+      "price": 65000,
+      "shortDescription": "ADN vegetal y ácido hialurónico, efecto reafirmante.",
+      "description": "Crema nutritiva de Fito Medic's con ADN vegetal, ácido hialurónico y extractos botánicos. Aporta nutrientes esenciales para revitalizar la piel cansada.",
+      "benefits": [
+        "Hidratación profunda con ácido hialurónico",
+        "El ADN vegetal acompaña la renovación de la piel",
+        "Nutrición intensa",
+        "Efecto reafirmante"
+      ],
+      "use": "Aplica diariamente, mañana y noche, sobre rostro y cuello limpios.",
+      "tags": [
+        "ADN vegetal",
+        "ácido hialurónico",
+        "nutritiva"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "lfv-crema-placenta-antiarrugas-q10",
+      "title": "Crema de Placenta Antiarrugas Q10",
+      "brand": "LFV",
+      "category": "piel",
+      "presentation": "250 g",
+      "price": 75000,
+      "shortDescription": "Extracto de placenta y coenzima Q10.",
+      "description": "Crema de placenta antiarrugas de LFV con coenzima Q10. El extracto de placenta acompaña la renovación de la piel y la Q10 protege del envejecimiento prematuro.",
+      "benefits": [
+        "Acompaña la regeneración celular",
+        "Reduce la apariencia de líneas",
+        "Antioxidante con Q10",
+        "Hidratación profunda"
+      ],
+      "use": "Aplica sobre la piel limpia, mañana y noche.",
+      "tags": [
+        "placenta",
+        "Q10",
+        "antiarrugas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "lely-crema-limpiadora-calendula",
+      "title": "Crema Limpiadora de Caléndula",
+      "brand": "Lely",
+      "category": "piel",
+      "presentation": "250 mL",
+      "price": 40500,
+      "shortDescription": "Con almendra, pantenol y vitamina E.",
+      "description": "Crema limpiadora de caléndula de Lely, con almendra, pantenol y vitamina E. Limpia y desmaquilla sin alterar el manto hidrolipídico de la piel.",
+      "benefits": [
+        "Limpieza suave y eficaz",
+        "Calmante y antiinflamatoria",
+        "Hidratante y nutritiva",
+        "Protege contra el daño ambiental"
+      ],
+      "use": "Aplica sobre el rostro, masajea y retira.",
+      "tags": [
+        "caléndula",
+        "almendra",
+        "vitamina E"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "jabon-bassa-sulfuroso",
+      "title": "Jabón Bassa Sulfuroso Curacyl",
+      "brand": "Bassa",
+      "category": "jabones",
+      "presentation": "80 g",
+      "price": null,
+      "shortDescription": "Controla el exceso de grasa, para piel con acné.",
+      "description": "Jabón sulfuroso Bassa Curacyl con hidratante natural. Pensado para pieles grasas y propensas al acné, con acción queratolítica y antiseborreica.",
+      "benefits": [
+        "Controla el exceso de grasa",
+        "Acción queratolítica y antiseborreica",
+        "Coadyuvante en dermatitis seborreica",
+        "Limpieza profunda sin resecar"
+      ],
+      "use": "Úsalo sobre la piel húmeda y enjuaga con abundante agua.",
+      "tags": [
+        "sulfuroso",
+        "acné",
+        "piel grasa"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "aromasense-intense-love",
+      "title": "AromaSense · Intense Love",
+      "brand": "AromaSense",
+      "category": "aromaterapia",
+      "presentation": "100 ml",
+      "price": 20000,
+      "shortDescription": "Aroma intenso y cálido, perfume corporal ligero.",
+      "description": "Splash corporal Intense Love de AromaSense, de aroma intenso y cálido. Sirve como ambientador de espacios y como perfume corporal ligero.",
+      "benefits": [
+        "Aroma intenso y envolvente",
+        "Ambienta hogar, oficina o vehículo",
+        "Perfume corporal ligero",
+        "Con extractos naturales y vitamina E"
+      ],
+      "use": "Rocía en el aire o sobre la piel con suaves masajes.",
+      "tags": [
+        "splash",
+        "aromaterapia",
+        "perfume"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-capilar-bio-elixir",
+      "title": "Aceite Capilar Bio-Elixir",
+      "brand": "Athos",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": 15000,
+      "shortDescription": "Argán, karité y macadamia, ultraligero y no graso.",
+      "description": "Aceite capilar Bio-Elixir de Athos, enriquecido con argán, karité y macadamia. Fórmula ultraligera que aporta brillo sin apelmazar.",
+      "benefits": [
+        "Nutrición intensa desde la raíz",
+        "Repara puntas abiertas",
+        "Brillo y suavidad sin apelmazar",
+        "Protege de la plancha y el secador"
+      ],
+      "use": "Aplica sobre cabello húmedo o seco, de medios a puntas. No graso.",
+      "tags": [
+        "argán",
+        "karité",
+        "macadamia",
+        "capilar"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "biocorp-agua-tonica-herbal-rosa",
+      "title": "Agua Tónica Herbal de Rosas",
+      "brand": "Biocorp",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "shortDescription": "Hidratante, equilibrante y refrescante, con aloe vera.",
+      "description": "Agua tónica herbal de rosas de Biocorp, con extracto de rosas, aloe vera y agua purificada. Hidrata, equilibra el pH y refresca la piel.",
+      "benefits": [
+        "Hidratación profunda",
+        "Equilibra el pH y controla el exceso de grasa",
+        "Efecto calmante y refrescante",
+        "Prepara la piel para tratamientos posteriores"
+      ],
+      "use": "Aplica después de la limpieza, mañana y noche.",
+      "tags": [
+        "agua de rosas",
+        "tónico",
+        "aloe vera"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "labfarve-crema-de-azucena",
+      "title": "Crema de Azucena",
+      "brand": "Labfarve",
+      "category": "piel",
+      "presentation": "60 g",
+      "price": 30000,
+      "shortDescription": "Despigmentante e iluminadora con extractos vegetales.",
+      "description": "Crema de azucena de Labfarve, a base de azucena y extractos vegetales. Acompaña a aclarar manchas y unificar el tono de la piel.",
+      "benefits": [
+        "Acción despigmentante",
+        "Iluminador facial",
+        "Hidratante y nutritiva",
+        "Regenerador celular"
+      ],
+      "use": "Aplica diariamente sobre el rostro y cuello limpios.",
+      "tags": [
+        "azucena",
+        "despigmentante",
+        "iluminadora"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "pomada-de-coca",
+      "title": "Pomada de Coca",
+      "brand": null,
+      "category": "tradicional",
+      "presentation": "50 g",
+      "price": 38000,
+      "shortDescription": "Uso tópico tradicional de extracto de coca.",
+      "description": "Pomada de uso tópico con extracto de hoja de coca, dentro de la tradición andina de preparaciones para masaje. Se aplica sobre la piel limpia y seca.",
+      "benefits": [
+        "Uso tópico tradicional",
+        "Acompaña el masaje en zonas localizadas",
+        "Preparación de tradición indígena"
+      ],
+      "use": "Aplica con suaves masajes sobre la piel limpia y seca. Solo uso externo.",
+      "tags": [
+        "uso tópico",
+        "tradicional",
+        "masaje"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "aromasense-vanilla-sky",
+      "title": "AromaSense · Vanilla Sky",
+      "brand": "AromaSense",
+      "category": "aromaterapia",
+      "presentation": "60 ml",
+      "price": 15000,
+      "shortDescription": "Vainilla dulce y cálida, relajante.",
+      "description": "Splash Vanilla Sky de AromaSense, de aroma dulce y cálido a vainilla. Ayuda a reducir el estrés y la ansiedad, y sirve como perfume corporal ligero.",
+      "benefits": [
+        "Aroma dulce y cálido de vainilla",
+        "Ayuda a reducir el estrés",
+        "Ambienta hogar, oficina o vehículo",
+        "Con extractos naturales"
+      ],
+      "use": "Rocía en el aire o sobre la piel.",
+      "tags": [
+        "vainilla",
+        "splash",
+        "relajante"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "onionvital-serum-capilar",
+      "title": "OnionVital · Sérum Revitalizador Capilar",
+      "brand": "Natural Shot",
+      "category": "capilar",
+      "presentation": "60 ml",
+      "price": 24000,
+      "shortDescription": "Cebolla, romero, biotina y arginina en gotero.",
+      "description": "Sérum revitalizador capilar OnionVital de Natural Shot, con cebolla, romero, biotina y arginina. Se aplica directo sobre el cuero cabelludo, de uso diario.",
+      "benefits": [
+        "Fortalece el cabello desde la raíz",
+        "Activa la circulación en el cuero cabelludo",
+        "Repara puntas abiertas",
+        "Aporta brillo y suavidad"
+      ],
+      "use": "Aplica unas gotas diariamente sobre el cuero cabelludo y las puntas. No graso.",
+      "tags": [
+        "cebolla",
+        "romero",
+        "biotina",
+        "arginina"
+      ],
+      "currency": "COP",
       "featured": false
     }
   ]

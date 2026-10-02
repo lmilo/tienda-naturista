@@ -12,3 +12,6 @@ propuesta-dulces-raices.md
 
 # El PDF se regenera desde propuesta/index.html; no vale versionar 1,8 MB binarios
 propuesta/*.pdf
+
+# Runbook local de la skill napkin, no compartir
+.claude/napkin.md

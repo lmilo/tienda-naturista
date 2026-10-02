@@ -37,6 +37,9 @@ const CATEGORY_COLORS = {
   esencias: '#2F8C8C',
   piel: '#E0A02E',
   bienestar: '#5B8C3E',
+  jabones: '#D77A2B',
+  aromaterapia: '#C5462E',
+  tradicional: '#6B4423',
 }
 /** Mismo tono, oscurecido hasta 4.5:1 sobre crema. Para texto y fondos con texto blanco. */
 const CATEGORY_INK = {
@@ -44,6 +47,9 @@ const CATEGORY_INK = {
   esencias: '#297C7C',
   piel: '#93691E',
   bienestar: '#507C37',
+  jabones: '#9E5920',
+  aromaterapia: '#B03F29',
+  tradicional: '#6B4423',
 }
 export const categoryColor = (handle) => CATEGORY_COLORS[handle] ?? '#6B4423'
 export const categoryInk = (handle) => CATEGORY_INK[handle] ?? '#5B3A22'
