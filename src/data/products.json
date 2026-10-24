@@ -28,7 +28,12 @@
     {
       "handle": "bienestar",
       "name": "Bienestar interno",
-      "blurb": "Suplementos, mieles y preparaciones de hierbas para tu rutina."
+      "blurb": "Mieles, hierbas, tés y preparaciones tradicionales para tu rutina."
+    },
+    {
+      "handle": "suplementos",
+      "name": "Suplementos y vitaminas",
+      "blurb": "Cápsulas, gotas y polvos para complementar tu alimentación."
     },
     {
       "handle": "tradicional",
@@ -67,7 +72,7 @@
       "brand": "Funat",
       "category": "esencias",
       "presentation": "25 mL",
-      "price": null,
+      "price": 27500,
       "currency": "COP",
       "shortDescription": "La esencia de cabecera para los días de crisis o angustia.",
       "description": "La más pedida de la línea floral de Funat. Segunda dilución en macerado de flores, pensada para tener a la mano en momentos de crisis, tristeza o angustia, cuando hace falta recuperar el piso.",
@@ -91,7 +96,7 @@
       "brand": "Fito Médica",
       "category": "esencias",
       "presentation": "25 ml",
-      "price": null,
+      "price": 27500,
       "currency": "COP",
       "shortDescription": "Esencia de Bach en frasco gotero, para la tensión del día a día.",
       "description": "Esencia floral del sistema de Bach preparada por Fito Médica, en frasco ámbar con gotero. Acompaña los días de tensión emocional y ayuda a cerrar la jornada con más calma.",
@@ -183,14 +188,14 @@
     },
     {
       "handle": "capibell-shampoo-cebolla-y-biotina",
-      "title": "Capibell Shampoo Cebolla & Biotina",
+      "title": "Capibell Cebolla & Biotina · Shampoo + Acondicionador",
       "brand": "Capibell",
       "category": "capilar",
-      "presentation": "470 ml",
-      "price": null,
+      "presentation": "Oferta: shampoo 470 ml + acondicionador",
+      "price": 29000,
       "currency": "COP",
-      "shortDescription": "Con extracto de cebolla, biotina y keratina. Sin sal ni parabenos.",
-      "description": "Shampoo fortalecedor de Capibell con extracto de cebolla, biotina y keratina. Limpia, fortalece y acompaña el crecimiento, en una fórmula sin sal y sin parabenos.",
+      "shortDescription": "Oferta del dúo: shampoo y acondicionador con cebolla, biotina y keratina.",
+      "description": "Oferta de Capibell que trae el shampoo fortalecedor y el acondicionador de la misma línea, con extracto de cebolla, biotina y keratina. Limpia, fortalece y acompaña el crecimiento, en una fórmula sin sal y sin parabenos. La foto muestra el shampoo; el acondicionador viene incluido.",
       "benefits": [
         "Fortalece el cabello desde la raíz",
         "Acompaña el crecimiento",
@@ -212,7 +217,7 @@
       "brand": "Beautyline",
       "category": "capilar",
       "presentation": "425 ml",
-      "price": null,
+      "price": 28800,
       "currency": "COP",
       "shortDescription": "Limpieza profunda de uso diario, sin resecar.",
       "description": "Shampoo de uso diario de Beautyline, rico en aloe vera y extractos naturales. Para quienes lavan el cabello seguido y necesitan limpiar a fondo sin resecar el cuero cabelludo.",
@@ -254,7 +259,7 @@
         "lavanda",
         "sin sal"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "handle": "shampoo-argan-y-celulas-madre",
@@ -356,7 +361,7 @@
         "té verde",
         "llantén"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "handle": "crema-hidratante-de-arroz",
@@ -380,7 +385,7 @@
         "hidratante",
         "500 ml"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "handle": "kiss-beauty-face-wash-acido-hialuronico",
@@ -458,7 +463,7 @@
       "handle": "dulces-raices-colageno",
       "title": "Colágeno Extracto Natural",
       "brand": "Dulces Raíces",
-      "category": "bienestar",
+      "category": "suplementos",
       "presentation": "30 ml",
       "price": 15500,
       "shortDescription": "Nuestro propio colágeno en gotero, para firmeza y luminosidad.",
@@ -770,7 +775,7 @@
       "handle": "healthy-america-vitamina-a-d",
       "title": "Vitamina A 10.000 & D 400 Plus Bilberry",
       "brand": "Healthy America",
-      "category": "bienestar",
+      "category": "suplementos",
       "presentation": "100 softgels",
       "price": 48000,
       "shortDescription": "Con extracto de arándano, para la salud ocular.",
@@ -867,7 +872,7 @@
       "handle": "prunex-1",
       "title": "Prunex 1",
       "brand": "Fuxion",
-      "category": "bienestar",
+      "category": "suplementos",
       "presentation": "28 sobres",
       "price": 48700,
       "shortDescription": "Alimento en polvo con linaza, guindón y stevia.",
@@ -1278,7 +1283,7 @@
       "brand": "Biocorp",
       "category": "piel",
       "presentation": "Consultar presentación",
-      "price": null,
+      "price": 23500,
       "shortDescription": "Hidratante, equilibrante y refrescante, con aloe vera.",
       "description": "Agua tónica herbal de rosas de Biocorp, con extracto de rosas, aloe vera y agua purificada. Hidrata, equilibra el pH y refresca la piel.",
       "benefits": [
@@ -1388,6 +1393,529 @@
         "romero",
         "biotina",
         "arginina"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-coconut-keratin",
+      "title": "Coconut Keratin 3 Steps",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "Kit de 3 pasos",
+      "price": 35000,
+      "shortDescription": "Tratamiento de coco y keratina para alisar y quitar el frizz.",
+      "description": "Tratamiento capilar de Natural Sant que combina las propiedades del coco con keratina para alisar, nutrir y fortalecer el cabello. Lo deja más suave, brillante y sin frizz. Libre de formol.",
+      "benefits": [
+        "Alisa el cabello y facilita el peinado",
+        "Hidrata y nutre con extracto de coco y keratina",
+        "Ayuda a reparar la fibra capilar",
+        "Da brillo y suavidad"
+      ],
+      "use": "Sigue los tres pasos indicados en la caja. Ideal para cabello seco, dañado o con frizz.",
+      "tags": [
+        "coco",
+        "keratina",
+        "alisado",
+        "antifrizz"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "natural-sant-shampoo-aguacate",
+      "title": "Shampoo con Aguacate & Aceite de Oliva",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": 25900,
+      "shortDescription": "Limpia, nutre y fortalece el cabello seco o quebradizo.",
+      "description": "Shampoo de Natural Sant que limpia suavemente el cabello y lo nutre gracias al aguacate y al aceite de oliva. Ayuda a evitar el cabello seco y quebradizo, y le aporta brillo, suavidad y vitalidad.",
+      "benefits": [
+        "Nutre y fortalece desde la raíz hasta las puntas",
+        "Da brillo y suavidad",
+        "Ayuda a evitar la resequedad",
+        "Cuida el cuero cabelludo"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua. Ideal para todo tipo de cabello, en especial el seco o sin brillo.",
+      "tags": [
+        "aguacate",
+        "aceite de oliva",
+        "cabello seco"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "rce-aromma-shampoo-7-hierbas",
+      "title": "Shampoo Natural 7 Hierbas Sin Sal",
+      "brand": "RCE Aromma",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": 29900,
+      "shortDescription": "Extractos naturales, colágeno, espirulina y elastina. pH neutro.",
+      "description": "Shampoo natural de RCE Aromma con extractos de siete hierbas, colágeno, espirulina y elastina. Limpia el cuero cabelludo y fortalece el cabello, con pH neutro y sin sal, apto para todo tipo de cabello.",
+      "benefits": [
+        "Limpia impurezas y exceso de grasa del cuero cabelludo",
+        "Fortalece el cabello con colágeno, espirulina y elastina",
+        "Mejora la suavidad, el brillo y la elasticidad",
+        "Ayuda a fortalecer desde la raíz y reducir la caída"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "7 hierbas",
+        "sin sal",
+        "colágeno",
+        "espirulina",
+        "elastina"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "natural-sant-crema-hidratante-arroz",
+      "title": "Crema Hidratante de Arroz con Aceite de Oliva",
+      "brand": "Natural Sant",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "shortDescription": "Con extracto de arroz y aceite de oliva, sin sensación grasosa.",
+      "description": "Crema humectante de Natural Sant que ayuda a nutrir, suavizar e hidratar la piel gracias al extracto de arroz y al aceite de oliva. Deja la piel más suave y luminosa, sin sensación grasosa.",
+      "benefits": [
+        "Hidrata profundamente y mantiene la piel flexible",
+        "El extracto de arroz ayuda a mejorar la textura",
+        "El aceite de oliva aporta antioxidantes",
+        "Suaviza y mejora el tono natural de la piel"
+      ],
+      "use": "Aplica sobre la piel limpia y masajea hasta su absorción. Ideal para todo tipo de piel, en especial la seca.",
+      "tags": [
+        "arroz",
+        "aceite de oliva",
+        "hidratante",
+        "crema corporal"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "vicios-esencia-floral-de-bach",
+      "title": "Vicios · Esencia Floral de Bach",
+      "brand": "Fito Medic's",
+      "category": "esencias",
+      "presentation": "30 ml",
+      "price": 27500,
+      "shortDescription": "Apoyo emocional en momentos de estrés o de cambio.",
+      "description": "Esencia floral de Bach de Fito Medic's, usada como apoyo para el bienestar emocional. Acompaña momentos de estrés, preocupación o cambios emocionales y favorece una sensación de calma.",
+      "benefits": [
+        "Bienestar emocional",
+        "Relajación",
+        "Armonía",
+        "Acompaña momentos de estrés o preocupación"
+      ],
+      "use": "Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "esencia floral",
+        "flores de Bach",
+        "30 ml"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "asocampo-miel-de-abejas",
+      "title": "Miel de Abejas Pura Multifloral",
+      "brand": "Asocampo",
+      "category": "bienestar",
+      "presentation": "300 g",
+      "price": 29000,
+      "shortDescription": "Miel 100% natural, sin aditivos. Producto colombiano.",
+      "description": "Miel de abejas pura y multifloral de Asocampo, 100% natural y sin aditivos. Un alimento rico en nutrientes que aporta energía y sirve como endulzante natural en el desayuno, en bebidas o en tus recetas.",
+      "benefits": [
+        "Energía natural de sus carbohidratos",
+        "Rica en nutrientes y antioxidantes",
+        "Suaviza la garganta",
+        "Endulzante natural para bebidas y recetas"
+      ],
+      "use": "Consúmela sola, en el desayuno, en bebidas calientes o como endulzante en tus recetas.",
+      "tags": [
+        "miel",
+        "multifloral",
+        "endulzante natural",
+        "producto colombiano"
+      ],
+      "currency": "COP",
+      "featured": true
+    },
+    {
+      "handle": "green-life-stevia-drops",
+      "title": "Stevia Drops · Pack Promocional",
+      "brand": "Green Life",
+      "category": "bienestar",
+      "presentation": "Pack: compra 2 y el 3.º es gratis",
+      "price": 81000,
+      "shortDescription": "Edulcorante en gotas, sin calorías y sin cambiar el sabor.",
+      "description": "Edulcorante natural en gotas de Green Life, extraído de la planta Stevia rebaudiana. Endulza bebidas y alimentos sin aportar calorías ni cambiar su sabor. Pack promocional: compra 2 y el tercero es gratis.",
+      "benefits": [
+        "No aporta calorías",
+        "No eleva el azúcar en la sangre",
+        "No favorece la formación de caries",
+        "Endulza sin cambiar el sabor"
+      ],
+      "use": "Añade de 2 a 6 gotas en tus bebidas o alimentos, al gusto. Una gota equivale aproximadamente a un sobre de azúcar.",
+      "tags": [
+        "stevia",
+        "edulcorante",
+        "sin calorías",
+        "gotas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "herbalmax-vitamina-d3",
+      "title": "Vitamina D3 4000 UI",
+      "brand": "Nature's Herbalmax",
+      "category": "suplementos",
+      "presentation": "100 cápsulas",
+      "price": 42900,
+      "shortDescription": "Una cápsula al día para huesos, defensas y músculos.",
+      "description": "Suplemento de vitamina D3 de 4000 UI de Nature's Herbalmax. Ayuda a la absorción del calcio y contribuye al funcionamiento normal del sistema inmunológico y de los músculos.",
+      "benefits": [
+        "Ayuda a la absorción del calcio para huesos fuertes",
+        "Apoya el funcionamiento del sistema inmunológico",
+        "Contribuye al mantenimiento de la función muscular",
+        "Una sola cápsula al día"
+      ],
+      "use": "Toma 1 cápsula al día. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "vitamina D3",
+        "huesos",
+        "cápsulas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-ajo-perejil",
+      "title": "Ajo y Perejil",
+      "brand": "Fito Medic's",
+      "category": "suplementos",
+      "presentation": "100 cápsulas",
+      "price": 55000,
+      "shortDescription": "Suplemento a base de ajo y perejil, rico en antioxidantes.",
+      "description": "Suplemento dietario de Fito Medic's a base de perejil (Petroselinum crispum) y ajo (Allium sativum). Acompaña la salud cardiovascular, la circulación y el bienestar digestivo.",
+      "benefits": [
+        "Apoya la salud cardiovascular",
+        "Acompaña la circulación",
+        "Favorece el bienestar digestivo",
+        "Rico en antioxidantes"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "ajo",
+        "perejil",
+        "circulación",
+        "cápsulas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-amedanil",
+      "title": "Amedanil",
+      "brand": "Fito Medic's",
+      "category": "suplementos",
+      "presentation": "30 cápsulas",
+      "price": 39500,
+      "shortDescription": "Con sulfato ferroso, frutas y vitaminas A y E.",
+      "description": "Suplemento dietario de Fito Medic's que complementa la ingesta diaria de nutrientes clave. Su fórmula con sulfato ferroso, frutos naturales y vitaminas A y E apoya el bienestar general y el metabolismo energético.",
+      "benefits": [
+        "Aporta hierro (sulfato ferroso)",
+        "Apoya el metabolismo energético",
+        "Con vitaminas A y E",
+        "Complementa la alimentación diaria"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "hierro",
+        "vitamina A",
+        "vitamina E",
+        "cápsulas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "sun-vitamins-resveratrol",
+      "title": "Resveratrol 700 mg",
+      "brand": "Sun Vitamins",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": 59900,
+      "shortDescription": "Antioxidante de alta concentración, de liberación rápida.",
+      "description": "Resveratrol de máxima concentración (700 mg) de Sun Vitamins, en cápsulas de liberación rápida. Un antioxidante presente en la uva que acompaña el cuidado frente al envejecimiento.",
+      "benefits": [
+        "Propiedades antioxidantes",
+        "Acompaña el cuidado antienvejecimiento",
+        "700 mg por porción",
+        "Cápsulas de liberación rápida"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "resveratrol",
+        "antioxidante",
+        "uva",
+        "cápsulas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "sun-vitamins-rejuven",
+      "title": "Rejuven · Biotina, Colágeno y Ácido Hialurónico",
+      "brand": "Sun Vitamins",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": 49900,
+      "shortDescription": "Fórmula para piel, cabello y uñas.",
+      "description": "Fórmula de belleza de Sun Vitamins con biotina (1.500 mcg), colágeno hidrolizado (1.500 mg) y ácido hialurónico (60 mg). Aporta nutrientes que ayudan a la elasticidad, la firmeza y el tono de la piel.",
+      "benefits": [
+        "Biotina para cabello y uñas",
+        "Colágeno hidrolizado para la firmeza de la piel",
+        "Ácido hialurónico para la elasticidad",
+        "Cápsulas fáciles de tragar"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "biotina",
+        "colágeno",
+        "ácido hialurónico",
+        "cápsulas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "green-life-biotina-drops",
+      "title": "Biotina Drops 2500 µg",
+      "brand": "Green Life",
+      "category": "suplementos",
+      "presentation": "120 ml",
+      "price": 59000,
+      "shortDescription": "Biotina y vitaminas A, D, B1, B3 y B6 en gotas.",
+      "description": "Suplemento nutricional en gotas de Green Life que aporta biotina (2500 µg) y vitaminas A, D, B1, B3 y B6. Ayuda a mantener la salud del cabello, la piel, los huesos y los dientes. Libre de calorías.",
+      "benefits": [
+        "Fortalece el cabello y ayuda a que crezca más sano",
+        "Contribuye a mantener una piel saludable",
+        "Apoya huesos y dientes",
+        "Acompaña el buen funcionamiento del organismo"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "biotina",
+        "vitaminas",
+        "gotas",
+        "cabello"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-star-fiber",
+      "title": "Star Fiber",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "Tarro",
+      "price": 60000,
+      "shortDescription": "Psyllium, alcachofa, noni, té verde y chía.",
+      "description": "Fibra en polvo de Urbanatt con psyllium, alcachofa en polvo, noni en polvo, té verde y semilla de chía. Aporta fibra para favorecer la regularidad intestinal y una digestión saludable.",
+      "benefits": [
+        "Favorece la regularidad intestinal",
+        "Apoya una digestión saludable",
+        "El psyllium y la chía aumentan el volumen de las heces",
+        "Ayuda a mantener una buena hidratación intestinal"
+      ],
+      "use": "Sigue la dosis indicada en el empaque. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "fibra",
+        "psyllium",
+        "chía",
+        "digestión"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-maka-plus",
+      "title": "Maka Plus",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "700 g",
+      "price": 60000,
+      "shortDescription": "Maca, moringa, proteína de soya y vitaminas. Sabor vainilla.",
+      "description": "Alimento en polvo de Urbanatt a base de harina de arroz, proteína de soya, moringa, harina de maca, yacón y ganoderma, con premezcla de vitaminas y minerales. Sabor vainilla. Contiene edulcorantes.",
+      "benefits": [
+        "Con maca y moringa",
+        "Aporta proteína de soya",
+        "Con vitaminas y minerales",
+        "Sabor vainilla"
+      ],
+      "use": "Mezcla la porción indicada en el empaque con agua, leche o jugo. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "maca",
+        "moringa",
+        "proteína",
+        "polvo"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanfit-skolmaxx",
+      "title": "Skolmaxx · Ganancia Muscular",
+      "brand": "Urbanfit",
+      "category": "suplementos",
+      "presentation": "450 g",
+      "price": 61000,
+      "shortDescription": "Maca, guaraná, BCAA, creatina y vitaminas. Sabor café.",
+      "description": "Suplemento en polvo de Urbanfit que combina maca, guaraná, aminoácidos de cadena ramificada (BCAA), creatina y vitaminas. Pensado para acompañar el aumento de masa muscular, la energía y el rendimiento físico. Sabor café.",
+      "benefits": [
+        "Creatina y BCAA para el desarrollo muscular",
+        "Guaraná y maca para la energía",
+        "Ideal para entrenamientos de fuerza",
+        "Aporta vitaminas y minerales"
+      ],
+      "use": "Mezcla la porción indicada en el empaque con agua o leche. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "maca",
+        "creatina",
+        "BCAA",
+        "deportistas"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-citrato-de-magnesio-polvo",
+      "title": "Citrato de Magnesio COM-B en Polvo",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "700 g",
+      "price": 62000,
+      "shortDescription": "Con citrato de potasio, vitamina E y biotina.",
+      "description": "Alimento en polvo o granulado de Urbanatt a base de citrato de magnesio, citrato de potasio y cloruro de magnesio, con vitamina E y biotina. Apoya la función muscular y nerviosa, y contribuye a la salud ósea.",
+      "benefits": [
+        "Apoya la función muscular y nerviosa",
+        "Contribuye a la salud ósea",
+        "Ayuda a reducir el cansancio y la fatiga",
+        "Con vitamina E y biotina"
+      ],
+      "use": "Disuelve la porción indicada en el empaque en agua o jugo. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "magnesio",
+        "potasio",
+        "vitamina E",
+        "polvo"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-citrato-de-magnesio-capsulas",
+      "title": "Citrato de Magnesio 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "shortDescription": "Magnesio en cápsulas para músculos, nervios y tránsito intestinal.",
+      "description": "Citrato de magnesio de Urbanatt en cápsulas de administración oral. El magnesio contribuye al funcionamiento normal de los músculos y los nervios, y el citrato de magnesio se utiliza también por su efecto laxante suave.",
+      "benefits": [
+        "Apoya la función muscular",
+        "Contribuye al funcionamiento nervioso",
+        "Favorece el tránsito intestinal",
+        "Bienestar general"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "magnesio",
+        "cápsulas",
+        "tránsito intestinal"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbamaxx-colageno-hidrolizado",
+      "title": "Urbamaxx Colágeno Hidrolizado",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "Tarro",
+      "price": 94500,
+      "shortDescription": "Colágeno hidrolizado en polvo para piel, cabello y articulaciones.",
+      "description": "Colágeno hidrolizado en polvo de la línea Urbamaxx de Urbanatt, en tarro. Se mezcla con agua o jugo como parte de la rutina diaria para acompañar el cuidado de la piel, el cabello, las uñas y las articulaciones. Contiene edulcorantes.",
+      "benefits": [
+        "Acompaña la firmeza de la piel",
+        "Apoya cabello y uñas",
+        "Acompaña el cuidado de las articulaciones",
+        "Fácil de mezclar"
+      ],
+      "use": "Disuelve la porción indicada en el empaque en agua o jugo. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "colágeno",
+        "hidrolizado",
+        "polvo",
+        "articulaciones"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-colageno-marino",
+      "title": "Colágeno Hidrolizado de Origen Marino",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "450 g",
+      "price": null,
+      "shortDescription": "Con magnesio, cúrcuma, uva, vitamina D, calcio y zinc. Sin azúcar.",
+      "description": "Colágeno hidrolizado de origen marino de Urbanatt, adicionado con péptidos de colágeno, cloruro de magnesio, cúrcuma, uva, vitaminas B, C, D y E, biotina, calcio y zinc. Sin azúcar ni colorantes artificiales, endulzado con stevia. Apto para toda la familia.",
+      "benefits": [
+        "Ayuda a mantener la piel firme y elástica",
+        "Nutre el cabello y fortalece las uñas",
+        "Contribuye al cuidado de las articulaciones",
+        "Aporta calcio, magnesio, vitamina D y zinc para los huesos"
+      ],
+      "use": "Disuelve la porción indicada en el empaque en agua o jugo. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "colágeno",
+        "origen marino",
+        "sin azúcar",
+        "polvo"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-polvo-noni-espirulina",
+      "title": "Mezcla en Polvo con Noni, Espirulina y Chía",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "450 g",
+      "price": 46500,
+      "shortDescription": "Fibra, superalimentos y probióticos. Sabor frutos rojos.",
+      "description": "Alimento en polvo de Urbanatt a base de linaza, con noni, espirulina, flor de jamaica, semilla de chía, pitahaya, ciruela, psyllium, alcachofa, fructooligosacáridos con probióticos, omega 3 y té verde. Sabor frutos rojos. Contiene edulcorantes.",
+      "benefits": [
+        "Fibra de linaza y psyllium para la digestión",
+        "Espirulina, noni y té verde para la vitalidad",
+        "Omega 3 y antioxidantes",
+        "Su fibra genera saciedad"
+      ],
+      "use": "Mezcla la porción indicada en el empaque con agua, jugo o batidos. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "noni",
+        "espirulina",
+        "chía",
+        "linaza",
+        "probióticos"
       ],
       "currency": "COP",
       "featured": false
