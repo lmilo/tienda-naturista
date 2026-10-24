@@ -206,6 +206,17 @@
   color-scheme: dark;
 }
 
+/* --cat-ink está calibrado contra crema; sobre cacao se aclara hacia la tinta.
+   Al 55 % la peor categoría (tradicional) queda en 5:1. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) :is(.product-card__brand, .product__brand strong, .brand-card__n) {
+    color: color-mix(in oklab, var(--cat) 55%, var(--ink-strong));
+  }
+}
+:root[data-theme='dark'] :is(.product-card__brand, .product__brand strong, .brand-card__n) {
+  color: color-mix(in oklab, var(--cat) 55%, var(--ink-strong));
+}
+
 /* ---------- Reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; }
