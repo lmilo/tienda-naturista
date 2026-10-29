@@ -180,7 +180,7 @@ export function productCardHTML(p) {
         <img class="media-img" src="${imageOf(p, 480)}"
              srcset="${imageOf(p, 480)} 480w, ${imageOf(p, 960)} 960w"
              sizes="(max-width: 560px) 92vw, (max-width: 900px) 45vw, 290px"
-             alt="${esc(p.title)}" width="480" height="480" loading="lazy" decoding="async" />
+             alt="${esc(p.title)}" width="480" height="720" loading="lazy" decoding="async" />
         <span class="product-card__cat">${esc(categoryName(p.category))}</span>
       </a>
       <div class="product-card__body">

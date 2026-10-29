@@ -5,11 +5,12 @@ Navegable, sin checkout: cada producto lleva a un pedido por **WhatsApp**.
 
 Publicado en [dulcesraices.netlify.app](https://dulcesraices.netlify.app).
 
-> **La tienda selecciona, no fabrica.** El catálogo son marcas comerciales
-> (Funat, Natural Shot, Natural Saint, Capibell, Beautyline, Kiss Beauty,
-> Flora, Fito Médica) que la tienda revende y sobre las que asesora. Los
-> textos del sitio están escritos desde ese posicionamiento: si algún día
-> hay línea propia, hay que revisarlos.
+> **La tienda selecciona y tiene línea propia.** Casi todo el catálogo son
+> marcas comerciales (Funat, Natural Sant, Urbanatt, Athos, Fito Medic's…) que
+> la tienda revende y sobre las que asesora. Desde el lote del 28-oct hay
+> además aceites de **línea propia** con los teléfonos de la tienda en la
+> etiqueta, bajo «Sanas Raíces» y «Dulces Raíces». Los textos dicen «nuestra
+> línea», nunca «fabricamos»: no consta que los produzcan ellos.
 
 ## Stack
 
@@ -56,8 +57,7 @@ src/
   styles/main.css      sistema de diseño (tokens crudos → semánticos → componentes)
 
 public/img/productos/<handle>/
-  frasco-480.webp  frasco-960.webp   envase recortado sobre fondo de marca
-  ficha.webp       ficha-160.webp    infografía del fabricante y su miniatura
+  foto-480.webp  foto-960.webp   foto que envió la tienda, con su fondo original, en 2:3
 
 raw/productos/    originales que envió la tienda — fuente del pipeline de imágenes
 ```
@@ -77,25 +77,18 @@ precio». Al poner un número aparece formateado en pesos, sin tocar nada más.
 
 ## Pipeline de imágenes
 
-Las fotos que envió la tienda **no son fotos de producto**: son infografías de
-marketing del fabricante, cada una con su propia paleta. Puestas tal cual, el
-catálogo queda como un collage multicolor.
+Cada producto lleva **la foto que envió la tienda, con su fondo original**: no
+se recorta el envase ni se inventa fondo. Si un lote trae foto nueva de un
+producto que ya existe, la nueva reemplaza a la anterior.
 
-El procesamiento que se les aplicó:
+Lo único que se normaliza es el marco, para que el grid sea parejo:
 
-1. **Recorte del envase** con [`rembg`](https://github.com/danielgatis/rembg)
-   (modelo `isnet-general-use`; `u2net` funcionó mejor en las dos imágenes de
-   baja resolución). Un caso —la caja verde de Funat— no lo resolvió ningún
-   modelo, porque su cuerpo blanco se funde con el fondo claro: se recortó con
-   un polígono ajustado a sus aristas.
-2. **Normalización:** cada envase se compone sobre un lienzo cuadrado con el
-   crema de marca `#FBF6EC`, misma línea de base y sombra de contacto, para que
-   el grid se lea como una serie fotográfica.
-3. **Exportación** a WebP en cuatro tamaños.
+1. Lienzo **2:3** (480×720 y 960×1440, WebP).
+2. Si la foto se aparta ≤ 6 % de 2:3, recorte centrado mínimo.
+3. Si se aparta más (banners horizontales, fotos casi cuadradas), entra
+   completa sobre el crema de marca `#FBF6EC`, sin recortar nada.
 
-`rembg` no es dependencia del proyecto: se instala aparte solo si hay que
-reprocesar imágenes (`pip install "rembg[cpu]" onnxruntime`, descarga ~170 MB
-de modelo). Los originales quedan en `raw/productos/` para poder rehacerlo.
+Los originales quedan en `raw/` para poder rehacerlo.
 
 ## Calidad
 

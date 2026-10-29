@@ -69,9 +69,7 @@ export const formatPrice = (value) =>
 
 export const hasPrice = (p) => typeof p.price === 'number'
 
-export const imageOf = (p, size = 480) => `/img/productos/${p.handle}/frasco-${size}.webp`
-export const sheetOf = (p) => `/img/productos/${p.handle}/ficha.webp`
-export const sheetThumbOf = (p) => `/img/productos/${p.handle}/ficha-160.webp`
+export const imageOf = (p, size = 480) => `/img/productos/${p.handle}/foto-${size}.webp`
 
 /** Arma un link de WhatsApp con mensaje prearmado. */
 export const waLink = (message) =>

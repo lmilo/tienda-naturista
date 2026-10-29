@@ -1919,6 +1919,1302 @@
       ],
       "currency": "COP",
       "featured": false
+    },
+    {
+      "handle": "natural-sant-shampoo-7-hierbas-sin-sal",
+      "title": "Shampoo 7 Hierbas Sin Sal",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo sin sal con siete hierbas para limpiar y equilibrar el cuero cabelludo.",
+      "description": "Shampoo 7 Hierbas sin sal de Natural Sant, pensado para limpiar con suavidad y equilibrar el cuero cabelludo. Acompaña el cuidado del cabello dejándolo suave y manejable, sin sales que lo resequen.",
+      "benefits": [
+        "Limpia profundamente el cuero cabelludo",
+        "Fórmula sin sal",
+        "Deja el cabello suave y manejable",
+        "Acompaña a fortalecer y vitalizar el cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "siete hierbas",
+        "sin sal",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-aguacate",
+      "title": "Aceite de Aguacate",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite vegetal de aguacate en spray para cuidar piel y cabello.",
+      "description": "Aceite vegetal de aguacate de Sanas Raíces, rico en ácidos grasos y vitamina E, en frasco con atomizador. Pensado para el cuidado de la piel y el cabello y para masajes.",
+      "benefits": [
+        "Ayuda a hidratar y suavizar la piel",
+        "Nutre y aporta brillo al cabello",
+        "Ayuda a mantener la piel flexible",
+        "Ideal para masajes y cuidado corporal"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aguacate",
+        "aceite vegetal",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-coco",
+      "title": "Aceite de Coco en Spray",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de coco en spray para el cuidado de piel, cabello y cuerpo.",
+      "description": "Aceite natural extraído de la pulpa del coco, en frasco con atomizador. Según la marca, es rico en ácidos grasos, vitaminas E y K y antioxidantes, y se usa en cuidado cosmético y corporal.",
+      "benefits": [
+        "Ayuda a hidratar y suavizar la piel",
+        "Acompaña el cuidado del cabello",
+        "Aporta nutrición al cuerpo",
+        "Puede usarse en labios, uñas y zonas sensibles",
+        "100% natural, sin parabenos"
+      ],
+      "use": "Aplica sobre la piel o el cabello y extiende con un suave masaje. Uso externo.",
+      "tags": [
+        "coco",
+        "spray",
+        "uso cosmético",
+        "100% natural"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-uva",
+      "title": "Aceite de Uva",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de semilla de uva en spray para el cuidado de la piel y el cabello.",
+      "description": "Aceite natural extraído de la semilla de uva, con vitaminas A, C y E y ácidos grasos esenciales, de Sanas Raíces. Acompaña el cuidado de la piel y el cabello, sin químicos ni parabenos.",
+      "benefits": [
+        "Ayuda a mantener la piel suave e hidratada",
+        "Aporta brillo y suavidad al cabello",
+        "Con antioxidantes y vitaminas A, C y E",
+        "Apto para todo tipo de piel",
+        "Sin parabenos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite de uva",
+        "spray",
+        "piel y cabello"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-argan-vitamina-e-durazno",
+      "title": "Aceite de Argán con Vitamina E y Aceite de Durazno",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Argán con vitamina E y aceite de durazno para piel y cabello.",
+      "description": "Aceite natural extraído del argán, enriquecido con vitamina E y aceite de durazno, para cuidar la piel y el cabello. Sin parabenos y sin pruebas en animales, según la infografía.",
+      "benefits": [
+        "Ayuda a hidratar la piel y dejarla suave y luminosa",
+        "Nutre el cabello y ayuda a evitar la resequedad",
+        "Aporta brillo y suavidad",
+        "La vitamina E aporta efecto antioxidante"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "argán",
+        "durazno",
+        "vitamina E"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-saint-aceite-de-aguacate",
+      "title": "Aceite de Aguacate",
+      "brand": "Natural Saint",
+      "category": "piel",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de aguacate con vitamina E y aceite de oliva, corporal y capilar.",
+      "description": "Aceite de aguacate de Natural Saint con vitamina E y aceite de oliva, de uso corporal y capilar. Pensado para el cuidado del cabello maltratado y para masajes corporales.",
+      "benefits": [
+        "Nutre e hidrata piel y cabello",
+        "Acompaña el cuidado del cabello maltratado",
+        "Apoya la suavidad y elasticidad de la piel",
+        "Con vitamina E y aceite de oliva",
+        "Ideal para masajes corporales"
+      ],
+      "use": "Aplica sobre la piel o el cabello y masajea suavemente hasta que absorba.",
+      "tags": [
+        "aguacate",
+        "vitamina E",
+        "corporal y capilar",
+        "120 ml"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-ricino-spray",
+      "title": "Aceite de Ricino en spray",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de ricino natural en spray para cabello y piel.",
+      "description": "Aceite natural extraído de las semillas de ricino, de Sanas Raíces, en presentación spray. Rico en ácidos grasos, acompaña el cuidado de la piel, el cabello y el cuerpo.",
+      "benefits": [
+        "Nutre e hidrata el cabello",
+        "Ayuda a mantener la piel suave",
+        "Acompaña el cuidado de cabello brillante",
+        "Natural, sin químicos ni aditivos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite de ricino",
+        "spray",
+        "cabello"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-romero",
+      "title": "Aceite de Romero",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de romero en spray para fortalecer el cabello y cuidar el cuero cabelludo.",
+      "description": "Aceite natural extraído de las hojas de romero, rico en antioxidantes y vitaminas, en frasco con atomizador. Acompaña el cuidado del cabello y del cuero cabelludo; 100% natural, sin parabenos.",
+      "benefits": [
+        "Activa la circulación en el cuero cabelludo",
+        "Acompaña el fortalecimiento del cabello",
+        "Ayuda a mantener el cuero cabelludo limpio y saludable",
+        "Aporta brillo, suavidad y un aroma natural"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "romero",
+        "capilar",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-naranja",
+      "title": "Aceite de Naranja",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de naranja de aroma cítrico para masajes y cuidado corporal.",
+      "description": "Aceite natural elaborado a partir de naranja, de uso externo, en frasco con atomizador. Su aroma cítrico lo hace agradable para masajes y cuidado corporal.",
+      "benefits": [
+        "Ayuda a hidratar y suavizar la piel",
+        "Aporta una sensación refrescante",
+        "Ideal para masajes y cuidado corporal",
+        "Aroma cítrico agradable y revitalizante"
+      ],
+      "use": "Uso externo. No ingerir.",
+      "tags": [
+        "naranja",
+        "cítrico",
+        "masaje",
+        "uso externo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-aceite-de-cannabis-vitamina-e",
+      "title": "Aceite de Cannabis con Vitamina E y Aceite de Oliva",
+      "brand": "Natural Sant",
+      "category": "piel",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal con cannabis, vitamina E y aceite de oliva, ideal para masajes.",
+      "description": "Aceite natural de Natural Sant elaborado con extracto de cannabis, vitamina E y aceite de oliva. Humectante y antioxidante, pensado para el cuidado de la piel y los masajes corporales.",
+      "benefits": [
+        "Hidrata y nutre la piel",
+        "Humectante y antioxidante",
+        "Ideal para masajes corporales",
+        "Acompaña la regeneración de la piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "cannabis",
+        "aceite corporal",
+        "masajes",
+        "500 ml"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-castano-de-indias-6ch",
+      "title": "Castaño de Indias 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático de castaño de Indias para acompañar la circulación.",
+      "description": "Medicamento homeopático oficial de Urbanatt a base de Aesculus hippocastanum 6CH, en 60 cápsulas de administración oral. El castaño de Indias es una planta de uso tradicional para el cuidado de las piernas.",
+      "benefits": [
+        "Acompaña la circulación de las piernas",
+        "Apoya la sensación de piernas ligeras",
+        "Contribuye al cuidado de venas y capilares",
+        "Sin colorantes artificiales ni azúcar"
+      ],
+      "use": "Vía de administración oral. Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "homeopático",
+        "circulación",
+        "piernas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-melatonina-3ch",
+      "title": "Melatonina 3CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático oficinal de Melatoninum 3CH para acompañar el descanso.",
+      "description": "Medicamento homeopático oficinal de Urbanatt con Melatoninum 3CH como principio activo, en frasco de 60 cápsulas. Según el fabricante, acompaña el ciclo sueño-vigilia y el bienestar general.",
+      "benefits": [
+        "Medicamento homeopático oficinal",
+        "Acompaña el ciclo sueño-vigilia",
+        "Contribuye al descanso y al bienestar",
+        "Sin colorantes artificiales ni azúcar"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "melatonina",
+        "homeopático",
+        "sueño",
+        "60 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "herbalmax-oregano-max",
+      "title": "Oregano Max",
+      "brand": "Nature's Herbalmax",
+      "category": "suplementos",
+      "presentation": "100 softgels · 45 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de orégano (carvacrol 80%) en softgels, antioxidante natural.",
+      "description": "Oregano Max de Nature's Herbalmax aporta aceite de orégano con 80% de carvacrol en softgels de fácil absorción. Acompaña al sistema inmune y digestivo, y se presenta como potente antioxidante.",
+      "benefits": [
+        "Apoya el sistema inmune",
+        "Contribuye al bienestar digestivo",
+        "Antioxidante natural",
+        "Sin colorantes artificiales ni gluten"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "orégano",
+        "carvacrol",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-complejo-b-zinc",
+      "title": "Complejo B + Zinc",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas blandas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Vitaminas del complejo B y zinc para energía y bienestar diario.",
+      "description": "Elemento dietario de Urbanatt con vitaminas del complejo B y zinc, en 60 cápsulas blandas. Nutrientes que contribuyen al metabolismo energético y al funcionamiento normal del sistema nervioso e inmunitario.",
+      "benefits": [
+        "Ayuda al metabolismo energético",
+        "Contribuye al funcionamiento normal del sistema nervioso",
+        "Apoya el funcionamiento normal del sistema inmunitario",
+        "Contribuye al mantenimiento de piel, cabello y uñas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "complejo B",
+        "zinc",
+        "cápsulas blandas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-vitamina-e-1000-ui-zinc",
+      "title": "Vitamina E 1000 UI + Zinc 15 mg",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "50 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Vitamina E 1000 UI con zinc 15 mg en cápsulas blandas.",
+      "description": "Suplemento dietario de Urbanatt con vitamina E de 1000 UI y zinc de 15 mg, en frasco de 50 cápsulas blandas. Un aporte antioxidante para el día a día.",
+      "benefits": [
+        "Aporte antioxidante de vitamina E",
+        "Zinc que contribuye a las defensas y a la piel",
+        "Apoya el cuidado de la piel",
+        "Cápsulas blandas, sin gluten ni colorantes artificiales"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "vitamina E",
+        "zinc",
+        "antioxidante",
+        "50 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-mitrum-vit",
+      "title": "Mitrum Vit Multivitaminas y Minerales",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "120 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Fórmula de multivitaminas y minerales en cápsulas blandas vegetales.",
+      "description": "Mitrum Vit de Millenium Natural Systems es un suplemento dietario con vitaminas y minerales esenciales, con luteína y zeaxantina. Acompaña la energía diaria, las defensas y el bienestar general.",
+      "benefits": [
+        "Aporta vitaminas y minerales esenciales",
+        "Con luteína y zeaxantina para la salud visual",
+        "Con calcio, magnesio y zinc",
+        "Acompaña la energía y las defensas",
+        "Sin gluten ni azúcares"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "multivitamínico",
+        "minerales",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "herbalmax-biotin-500",
+      "title": "Biotin 500 mg",
+      "brand": "Nature's Herbalmax",
+      "category": "suplementos",
+      "presentation": "100 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Biotina para cabello, piel y uñas, en 100 cápsulas.",
+      "description": "Suplemento de biotina de Nature's Herbalmax, en frasco de 100 cápsulas (contenido neto 50 g). Pensado para acompañar el cuidado de cabello, piel y uñas.",
+      "benefits": [
+        "Acompaña el cuidado del cabello",
+        "Contribuye al mantenimiento de piel y uñas",
+        "Contribuye a un metabolismo saludable",
+        "Sin colorantes artificiales ni gluten"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "biotina",
+        "cabello",
+        "uñas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-saw-palmetum-3ch",
+      "title": "Saw Palmetum 3CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático oficial de Serenoa repens 3CH.",
+      "description": "Medicamento homeopático oficial de Urbanatt con Serenoa repens (Saw palmetto) en dilución 3CH, en frasco de 60 cápsulas.",
+      "benefits": [
+        "Medicamento homeopático oficial",
+        "Principio activo: Serenoa repens 3CH",
+        "Frasco de 60 cápsulas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "saw palmetto",
+        "homeopático",
+        "serenoa repens",
+        "60 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-omega-3",
+      "title": "Omega 3 1000 mg",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas blandas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Omega 3 (EPA 180 mg, DHA 120 mg) en cápsulas blandas de 1000 mg.",
+      "description": "Suplemento dietario de Urbanatt con aceite de pescado, aportando EPA 180 mg y DHA 120 mg por cápsula de 1000 mg, con vitamina E. Acompaña el bienestar del corazón, el cerebro y la visión.",
+      "benefits": [
+        "EPA 180 mg y DHA 120 mg",
+        "Apoya la salud del corazón",
+        "Contribuye a la función cerebral y visual",
+        "Con vitamina E antioxidante",
+        "Sin gluten ni azúcares"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "omega 3",
+        "aceite de pescado",
+        "corazón"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-omega-3-6-9",
+      "title": "Omega 3-6-9",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "100 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Ácidos grasos esenciales omega 3, 6 y 9 en 100 cápsulas blandas.",
+      "description": "Suplemento dietario de Millenium Natural Systems con aceites de pescado (EPA y DHA), aceite de linaza y aceite de oliva, en 100 cápsulas blandas. Aporta ácidos grasos esenciales para la rutina diaria.",
+      "benefits": [
+        "Aporta omega 3 (EPA y DHA), omega 6 y omega 9",
+        "Apoya la salud del corazón",
+        "Acompaña la función cerebral y la salud visual",
+        "Favorece la hidratación y apariencia de piel y cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "omega 3-6-9",
+        "softgels",
+        "ácidos grasos"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "fbh-aesculus-hippocastanum-b-castano-de-indias",
+      "title": "Aesculus hippocastanum B (Castaño de Indias)",
+      "brand": "fbh",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático oficial de Castaño de Indias, uso tradicional para las piernas.",
+      "description": "Medicamento homeopático oficial de fbh con Aesculus hippocastanum B (Castaño de Indias), en 60 cápsulas de administración oral. Se usa tradicionalmente como apoyo para la circulación venosa.",
+      "benefits": [
+        "Medicamento homeopático oficial",
+        "Uso tradicional como apoyo a la circulación venosa",
+        "Acompaña la sensación de piernas cansadas",
+        "Sin colorantes artificiales ni gluten"
+      ],
+      "use": "Vía oral. Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "castaño de indias",
+        "homeopático",
+        "piernas",
+        "60 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-saw-palmetto-320-mg",
+      "title": "Saw Palmetto 320 mg",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "100 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Saw Palmetto (Serenoa repens) 320 mg, de uso tradicional para la próstata.",
+      "description": "Suplemento dietario de Millenium Natural Systems con Saw Palmetto (Serenoa repens) 320 mg. De uso tradicional para acompañar la salud prostática y urinaria masculina.",
+      "benefits": [
+        "Uso tradicional para la salud prostática",
+        "Acompaña el bienestar urinario",
+        "Relacionado con el cuidado capilar",
+        "Sin colorantes artificiales, azúcares ni gluten"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "saw palmetto",
+        "próstata",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-biotina-6ch",
+      "title": "Biotina 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático de biotina para cabello, piel y uñas.",
+      "description": "Medicamento homeopático oficial de Urbanatt con biotina (vitamina B7) 6CH, en 60 cápsulas de administración oral. Diseñado para apoyar la salud del cabello, la piel y las uñas.",
+      "benefits": [
+        "Apoya la salud del cabello, la piel y las uñas",
+        "Contribuye al metabolismo de los nutrientes",
+        "Contribuye al buen funcionamiento del sistema nervioso",
+        "Sin colorantes artificiales, azúcares ni gluten"
+      ],
+      "use": "Vía de administración oral. Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "homeopático",
+        "biotina",
+        "cabello y uñas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-calendula",
+      "title": "Caléndula",
+      "brand": "Fito Medic's",
+      "category": "suplementos",
+      "presentation": "100 cápsulas",
+      "price": 20000,
+      "currency": "COP",
+      "shortDescription": "Caléndula (Calendula officinalis L.) en 100 cápsulas.",
+      "description": "Cápsulas de caléndula (Calendula officinalis L.) del laboratorio Fito Medic's, en frasco de 100 cápsulas. Una planta de uso tradicional para el cuidado de la piel.",
+      "benefits": [
+        "Apoya la salud de la piel",
+        "Ayuda a calmar irritaciones leves",
+        "Propiedades antiinflamatorias y antioxidantes de la planta",
+        "Contribuye al bienestar digestivo"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "caléndula",
+        "hierbas",
+        "100 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-ginkgo-biloba-6ch",
+      "title": "Ginkgo Biloba 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático oficinal de Ginkgo Biloba 6CH, vía oral.",
+      "description": "Medicamento homeopático oficinal de Urbanatt con Ginkgo Biloba 6CH, de administración oral. Acompaña la función cognitiva, la memoria y la concentración.",
+      "benefits": [
+        "Apoya la función cognitiva y la memoria",
+        "Acompaña la circulación sanguínea",
+        "Propiedades antioxidantes",
+        "Ayuda a mantener la concentración"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "homeopático",
+        "ginkgo",
+        "memoria"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-cardo-mariano-6ch",
+      "title": "Cardo Mariano 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Medicamento homeopático de cardo mariano para acompañar la salud hepática.",
+      "description": "Medicamento homeopático oficial de Urbanatt a base de Silybum marianum 6CH, en 60 cápsulas de administración oral. El cardo mariano es una planta de uso tradicional para el cuidado del hígado.",
+      "benefits": [
+        "Apoya la salud hepática",
+        "Acompaña los procesos naturales de depuración del cuerpo",
+        "Uso tradicional para el cuidado del hígado"
+      ],
+      "use": "Vía de administración oral. Sigue la posología indicada en el empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "homeopático",
+        "cardo mariano",
+        "hígado"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-health-nad-resveratrol-colageno-magnesio",
+      "title": "NAD+ con Resveratrol, Colágeno y Citrato de Magnesio",
+      "brand": "Natural Health",
+      "category": "suplementos",
+      "presentation": "100 unidades (60 g)",
+      "price": 38900,
+      "currency": "COP",
+      "shortDescription": "Fórmula con NAD+, resveratrol, colágeno hidrolizado y citrato de magnesio.",
+      "description": "Suplemento de Natural Health que combina NAD+, resveratrol, colágeno hidrolizado y citrato de magnesio. Contenido neto de 100 unidades (60 g), unas 23 porciones por envase.",
+      "benefits": [
+        "Apoya la producción de energía celular",
+        "Resveratrol para el cuidado cardiovascular",
+        "Colágeno que contribuye a piel y articulaciones",
+        "Citrato de magnesio que apoya función muscular y nerviosa"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "NAD+",
+        "resveratrol",
+        "colágeno",
+        "magnesio"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-lavanda-y-manzanilla",
+      "title": "Aceite Corporal Lavanda y Manzanilla",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal con aceite de arroz, vitamina E y manteca de karité.",
+      "description": "Aceite corporal de Athos con lavanda y manzanilla, formulado con aceite de arroz, vitamina E y manteca de karité. Acompaña la hidratación y suavidad de la piel.",
+      "benefits": [
+        "Hidrata profundamente",
+        "Humecta y tonifica la piel",
+        "Protege y suaviza",
+        "Nutre la piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite corporal",
+        "lavanda",
+        "manzanilla"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-argan",
+      "title": "Aceite Corporal Argán",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal de argán con manteca de karité, aceite de arroz y vitamina E.",
+      "description": "Aceite corporal de Athos con argán, manteca de karité, aceite de arroz y vitamina E. Ayuda a hidratar, acondicionar y suavizar la piel; también sirve para masajes.",
+      "benefits": [
+        "Ayuda a hidratar y nutrir la piel",
+        "Acción antioxidante y emoliente",
+        "Acondiciona y suaviza la piel",
+        "Ideal para masajes"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "argán",
+        "aceite corporal",
+        "karité"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-zanahoria-y-canela",
+      "title": "Aceite Corporal Zanahoria & Canela",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal con aceite de arroz, vitamina E y manteca de karité.",
+      "description": "Aceite corporal de Athos, con aceite de arroz, vitamina E y manteca de karité, en versión zanahoria y canela. Hidrata, suaviza y nutre la piel.",
+      "benefits": [
+        "Hidrata, humecta y tonifica",
+        "Protege, suaviza y nutre la piel",
+        "Efecto antioxidante",
+        "Acompaña el cuidado para prevenir estrías",
+        "Libre de parabenos"
+      ],
+      "use": "Aplica sobre la piel y masajea hasta su absorción.",
+      "tags": [
+        "athos",
+        "zanahoria",
+        "canela",
+        "aceite corporal"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-almendras",
+      "title": "Aceite Corporal con Almendras",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal con manteca de karité, aceite de arroz y vitamina E.",
+      "description": "Aceite corporal de Athos con almendras, manteca de karité, aceite de arroz y vitamina E. Acondiciona y suaviza la piel, ideal para masajes relajantes.",
+      "benefits": [
+        "Hidrata y nutre profundamente",
+        "Efecto antioxidante y emoliente",
+        "Acondiciona y suaviza la piel",
+        "Ideal para masajes relajantes"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite corporal",
+        "almendras",
+        "masajes"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-capilar-coco",
+      "title": "Aceite Corporal y Capilar Coco",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite 3 en 1 de coco para piel, cabello y masajes.",
+      "description": "Aceite corporal y capilar de Athos con aroma de coco, manteca de karité, aceite de arroz y vitamina E. Efecto 3 en 1: hidrata, acondiciona y protege.",
+      "benefits": [
+        "Ayuda a hidratar y nutrir la piel",
+        "Acondiciona el cabello",
+        "Suaviza y protege",
+        "Ideal para masajes"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "coco",
+        "efecto 3 en 1",
+        "corporal y capilar"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-calendula",
+      "title": "Aceite Corporal Caléndula",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal de caléndula con aceite de arroz y vitamina E.",
+      "description": "Aceite corporal de Athos en versión caléndula, con aceite de arroz, vitamina E y manteca de karité. Hidrata, suaviza y nutre la piel.",
+      "benefits": [
+        "Hidrata y humecta",
+        "Tonifica y protege la piel",
+        "Suaviza",
+        "Nutre la piel"
+      ],
+      "use": "Aplica sobre la piel y masajea hasta su absorción.",
+      "tags": [
+        "athos",
+        "caléndula",
+        "aceite corporal"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-corporal-romero-eucalipto-menta",
+      "title": "Aceite Corporal Romero, Eucalipto y Menta",
+      "brand": "Athos",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal con romero, eucalipto y menta; fórmula mejorada, paraben free.",
+      "description": "Aceite corporal de Athos con romero, eucalipto y menta, más aceite de arroz, vitamina E y manteca de karité. Fórmula mejorada libre de parabenos que acompaña la hidratación y el tono de la piel.",
+      "benefits": [
+        "Hidrata y nutre la piel",
+        "Suaviza y protege",
+        "Antioxidante y relajante",
+        "Útil para desmaquillar",
+        "Fórmula paraben free"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite corporal",
+        "romero",
+        "eucalipto"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-te-verde-mr-cheng",
+      "title": "Té Verde Mr-Cheng",
+      "brand": "Urbanatt",
+      "category": "bienestar",
+      "presentation": "45 g (35 sobres de 1,3 g)",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Mezcla para infusión de té verde, 100% natural y sin azúcar.",
+      "description": "Mezcla para preparar infusión con té verde de Urbanatt, en presentación de 45 g. Una bebida caliente para acompañar tu rutina diaria; sin colorantes artificiales ni azúcar.",
+      "benefits": [
+        "100% té verde natural",
+        "Antioxidantes naturales",
+        "Acompaña la digestión y el bienestar diario",
+        "Sin colorantes artificiales ni azúcar"
+      ],
+      "use": "Agrega 1 sobre (1,3 g) en una taza, vierte agua caliente (sin hervir), deja reposar de 3 a 5 minutos y endulza al gusto.",
+      "tags": [
+        "té verde",
+        "infusión",
+        "45 g"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-colageno-hidrolizado-500-mg",
+      "title": "Colágeno Hidrolizado 500 mg",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas blandas",
+      "price": 42900,
+      "currency": "COP",
+      "shortDescription": "Colágeno hidrolizado de 500 mg en cápsulas blandas.",
+      "description": "Suplemento dietario de Urbanatt con colágeno hidrolizado de 500 mg, en frasco de 60 cápsulas blandas. Apoya el cuidado de piel, cabello, uñas y articulaciones.",
+      "benefits": [
+        "Apoya la salud de la piel",
+        "Acompaña el cuidado de cabello y uñas",
+        "Apoya las articulaciones",
+        "Contribuye a la elasticidad y firmeza de la piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "colágeno",
+        "hidrolizado",
+        "500 mg",
+        "60 cápsulas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "procaps-vitamina-e-capsulas-blandas",
+      "title": "Vitamina E Cápsulas Blandas",
+      "brand": "Procaps",
+      "category": "suplementos",
+      "presentation": "50 cápsulas blandas",
+      "price": 29900,
+      "currency": "COP",
+      "shortDescription": "Vitamina E en cápsulas blandas para el cuidado de piel, cabello y uñas.",
+      "description": "Suplemento de Vitamina E de Procaps en 50 cápsulas blandas con fórmula Speed Gel. Antioxidante que acompaña el cuidado de la piel, el cabello y las uñas.",
+      "benefits": [
+        "Antioxidante que protege las células",
+        "Acompaña la elasticidad de la piel",
+        "Contribuye a cabello y uñas más fuertes",
+        "Fórmula Speed Gel de buena absorción"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "vitamina E",
+        "cápsulas blandas",
+        "piel y cabello"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-biotics-50-billones",
+      "title": "Biotics 50 Billones",
+      "brand": "Fito Medic's",
+      "category": "suplementos",
+      "presentation": "30 cápsulas",
+      "price": 62800,
+      "currency": "COP",
+      "shortDescription": "Prebióticos y probióticos, 50 billones garantizados y 16 cepas.",
+      "description": "Suplemento dietario de Fito Medic's a base de prebióticos y probióticos, con 50 billones garantizados y 16 cepas probióticas. Apoya la salud digestiva y el equilibrio de la flora intestinal.",
+      "benefits": [
+        "Apoya la salud digestiva y la flora intestinal",
+        "Acompaña las defensas del organismo",
+        "Contribuye a la absorción de nutrientes",
+        "Fórmula con 16 cepas probióticas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "probióticos",
+        "prebióticos",
+        "digestión"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-balanced-b-super-complex",
+      "title": "Balanced B Super Complex",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Complejo de las 8 vitaminas B esenciales, fórmula de alta potencia.",
+      "description": "Complejo B de Millenium Natural Systems, de fórmula integral y alta potencia, que reúne las 8 vitaminas B esenciales. Pensado para acompañar la energía diaria.",
+      "benefits": [
+        "Apoya la producción de energía celular",
+        "Contribuye al funcionamiento normal del sistema nervioso",
+        "Ayuda a reducir el cansancio y la fatiga",
+        "Contiene las 8 vitaminas B esenciales"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "complejo B",
+        "vitaminas",
+        "energía",
+        "Millenium"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-ricino-puro",
+      "title": "Aceite de Ricino Puro",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de ricino puro en gotero, para piel, cabello, pestañas y cejas.",
+      "description": "Aceite de ricino puro de Sanas Raíces en frasco con gotero. Acompaña la hidratación de la piel, el cuidado del cabello y de pestañas y cejas.",
+      "benefits": [
+        "Hidrata y nutre la piel",
+        "Fortalece y acompaña el cuidado del cabello",
+        "Para pestañas y cejas",
+        "Presentación en gotero"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite de ricino",
+        "gotero",
+        "pestañas y cejas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "dulces-raices-aceite-de-cannabis",
+      "title": "Aceite de Cannabis",
+      "brand": "Dulces Raíces",
+      "category": "tradicional",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Extracto de cannabis de espectro completo en aceite portador, uso externo.",
+      "description": "Aceite de cannabis de Dulces Raíces, elaborado con extracto de cannabis de espectro completo y aceite portador, en frasco gotero. De uso externo, dentro de la tradición de preparaciones para masaje.",
+      "benefits": [
+        "Acompaña el masaje en zonas musculares y articulares",
+        "Uso tradicional para momentos de tensión",
+        "Apoya el descanso",
+        "Preparación de uso externo"
+      ],
+      "use": "Solo para uso externo o como indique tu profesional de la salud. Mantener en lugar fresco y seco.",
+      "tags": [
+        "cannabis",
+        "uso externo",
+        "gotero"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "dulces-raices-aceite-de-argan",
+      "title": "Aceite de Argán",
+      "brand": "Dulces Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de argán 100% puro prensado en frío, en gotero.",
+      "description": "Aceite de argán de Dulces Raíces, 100% puro de presión en frío, en frasco con gotero. Acompaña el cuidado del cabello, la piel y las uñas. Uso externo.",
+      "benefits": [
+        "Nutre y aporta brillo al cabello",
+        "Hidrata la piel",
+        "Suaviza las cutículas",
+        "100% puro, prensado en frío"
+      ],
+      "use": "Uso externo. Mantener en lugar fresco y seco.",
+      "tags": [
+        "argán",
+        "gotero",
+        "prensado en frío"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-rosa-mosqueta",
+      "title": "Aceite de Rosa Mosqueta Puro",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite puro de rosa mosqueta en gotero para el cuidado de la piel.",
+      "description": "Aceite de rosa mosqueta puro de Sanas Raíces, en frasco gotero. De uso externo, acompaña la hidratación y nutrición de la piel.",
+      "benefits": [
+        "Ayuda a hidratar y nutrir la piel",
+        "Acompaña el cuidado de cicatrices, estrías y manchas",
+        "Apoya la regeneración de la piel",
+        "Uso externo"
+      ],
+      "use": "Aplica unas gotas sobre la piel limpia y masajea suavemente. Uso externo. Mantener en lugar fresco y seco.",
+      "tags": [
+        "rosa mosqueta",
+        "aceite vegetal",
+        "gotero"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "dulces-raices-aceite-de-coco",
+      "title": "Aceite de Coco Virgen",
+      "brand": "Dulces Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de coco virgen prensado en frío, para piel y cabello.",
+      "description": "Aceite de coco 100% virgen prensado en frío de Dulces Raíces (Natural Spirit), en frasco gotero. Para la hidratación de piel y cabello y como desmaquillante natural.",
+      "benefits": [
+        "Hidratación profunda de piel y cabello",
+        "Aporta nutrición a la piel",
+        "Apoya el fortalecimiento del cabello",
+        "Sirve como desmaquillante natural"
+      ],
+      "use": "Uso externo. Mantener en lugar fresco y seco.",
+      "tags": [
+        "coco",
+        "virgen",
+        "marca propia",
+        "gotero"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "labfarve-emenat-solucion-oral",
+      "title": "Emenat Solución Oral",
+      "brand": "Labfarve",
+      "category": "bienestar",
+      "presentation": "60 mL",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Solución oral con extractos vegetales para la higiene bucal.",
+      "description": "Emenat de Labfarve es una solución oral con extractos vegetales como manzanilla y menta. Acompaña la higiene de la boca y deja una sensación de frescura.",
+      "benefits": [
+        "Acompaña la higiene bucal",
+        "Cuida las encías",
+        "Refresca el aliento",
+        "Con extractos vegetales"
+      ],
+      "use": "Diluir 10 a 15 mL (una medida) en un vaso de agua y hacer enjuagues bucales de 2 a 3 veces al día, o según indicación.",
+      "tags": [
+        "higiene bucal",
+        "extractos vegetales",
+        "enjuague"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-podium-q",
+      "title": "Podium-Q",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 ml (2 porciones)",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Concentrado de malta con fibra de frutas, magnesio y vitaminas B5 y K.",
+      "description": "Concentrado a base de malta de Urbanatt para preparar bebida, con fibra de manzana, papaya, pitaya, psyllium y ciruela, magnesio y vitaminas B5 y K. Para toda la familia; sabor artificial a mandarina.",
+      "benefits": [
+        "Su fibra acompaña el tránsito intestinal",
+        "Aporta energía con malta y vitaminas B5 y K",
+        "Contribuye al equilibrio digestivo",
+        "Para niños, jóvenes y adultos"
+      ],
+      "use": "Mezcla 2 porciones (60 ml) en agua o en tu bebida favorita. Agita bien antes de consumir.",
+      "tags": [
+        "malta",
+        "fibra",
+        "familia"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "botanica-aseptic-crema-gel-antibacterial",
+      "title": "Crema Gel Antibacterial",
+      "brand": "Botánica Aseptic",
+      "category": "piel",
+      "presentation": "100 mL",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema gel antibacterial con aloe vera, caléndula, manzanilla y vitamina E.",
+      "description": "Crema gel antibacterial de Botánica Aseptic con extractos de aloe vera, caléndula, manzanilla y vitamina E. Pensada para el uso diario en manos y cuerpo, sin necesidad de enjuague.",
+      "benefits": [
+        "Fórmula antibacterial para manos y cuerpo",
+        "Con aloe vera, caléndula y manzanilla",
+        "Aporta suavidad y frescura",
+        "Con vitamina E",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una pequeña cantidad sobre la piel limpia y seca y frota suavemente hasta que se absorba. No necesita enjuague.",
+      "tags": [
+        "antibacterial",
+        "aloe vera",
+        "caléndula",
+        "100 mL"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "athos-aceite-de-ricino",
+      "title": "Aceite de Ricino",
+      "brand": "Athos",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de ricino 100% puro con vitamina E, para piel y cabello.",
+      "description": "Aceite de ricino (higuerilla) 100% puro de Athos, rico en ácidos grasos y vitamina E. Suaviza e hidrata la piel y el cabello, y acompaña el cuidado de uñas, cejas y pestañas.",
+      "benefits": [
+        "Suaviza e hidrata piel y cabello",
+        "100% puro, con vitamina E",
+        "Acompaña el cuidado de las uñas",
+        "Para cejas y pestañas"
+      ],
+      "use": "Aplica una pequeña cantidad en la zona deseada con un suave masaje hasta su absorción. Puede usarse a diario.",
+      "tags": [
+        "aceite de ricino",
+        "higuerilla",
+        "Athos"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "botanica-aseptic-jabon-liquido-antibacterial",
+      "title": "Jabón Líquido Antibacterial",
+      "brand": "Botánica Aseptic",
+      "category": "jabones",
+      "presentation": "290 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Jabón líquido antibacterial con aloe vera, caléndula, manzanilla y vitamina E.",
+      "description": "Jabón líquido antibacterial de Botánica Aseptic con extractos naturales de aloe vera, caléndula, manzanilla y vitamina E. Según el envase elimina el 99,9 % de las bacterias y no reseca las manos.",
+      "benefits": [
+        "Limpia y protege la piel de las manos",
+        "Efecto hidratante, no reseca",
+        "Con aloe vera, caléndula y manzanilla",
+        "Deja la piel suave y fresca"
+      ],
+      "use": "Aplica una pequeña cantidad en tus manos o en la zona que desees limpiar, frota suavemente y enjuaga.",
+      "tags": [
+        "antibacterial",
+        "aloe vera",
+        "manos"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "solo-natural-aceite-arbol-de-te-vitamina-e",
+      "title": "Aceite Emoliente de Árbol de Té con Vitamina E",
+      "brand": "Solo Natural",
+      "category": "piel",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite emoliente de árbol de té con vitamina E, uso tópico.",
+      "description": "Aceite emoliente de Solo Natural con árbol de té y vitamina E, de uso tópico. Ayuda a mantener la piel limpia, fresca e hidratada; pensado para pieles de tendencia grasa o mixta.",
+      "benefits": [
+        "Ayuda a mantener la piel limpia y fresca",
+        "Contribuye al cuidado de imperfecciones",
+        "Hidrata y suaviza con vitamina E",
+        "Acompaña pieles con tendencia grasa o mixta",
+        "Libre de parabenos"
+      ],
+      "use": "Aplica unas gotas sobre la piel limpia y seca y masajea suavemente hasta su completa absorción. Puede usarse en rostro y cuerpo.",
+      "tags": [
+        "árbol de té",
+        "vitamina E",
+        "uso tópico",
+        "120 ml"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "leon-aceite-de-almendras-vitamina-a-e",
+      "title": "Aceite de Almendras Vitamina A + E",
+      "brand": "Laboratorios León",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de almendras con vitaminas A y E en spray, para piel y cabello.",
+      "description": "Aceite de almendras de Laboratorios León con vitaminas A y E, en presentación spray. Acompaña a nutrir, hidratar y suavizar la piel y el cabello.",
+      "benefits": [
+        "Hidrata y suaviza la piel",
+        "Aporta brillo al cabello",
+        "Con vitaminas A y E",
+        "Apto para todo tipo de piel y cabello"
+      ],
+      "use": "Aplica una pequeña cantidad en la piel o el cabello con un suave masaje hasta su absorción. Puedes usarlo a diario.",
+      "tags": [
+        "aceite de almendras",
+        "vitamina A y E",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "vizio-aceite-corporal-miel-almendras",
+      "title": "Aceite Corporal Miel + Almendras",
+      "brand": "Vizio",
+      "category": "piel",
+      "presentation": "300 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal oil spa con miel y almendras, tonificante y emoliente.",
+      "description": "Aceite corporal Oil Spa de Vizio con miel y almendras, elaborado con aceites vegetales y libre de parabenos. Ayuda a hidratar y nutrir la piel; apto para todo tipo de piel.",
+      "benefits": [
+        "Ayuda a mantener la piel suave e hidratada",
+        "Nutre y revitaliza con miel y aceite de almendras",
+        "Tonificante y emoliente",
+        "Para todo tipo de piel, libre de parabenos"
+      ],
+      "use": "Aplica sobre la piel limpia y seca, realizando un suave masaje hasta su completa absorción. Puedes usarlo todos los días.",
+      "tags": [
+        "miel",
+        "almendras",
+        "aceite corporal"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "solo-natural-aceite-ricino-vitamina-e",
+      "title": "Aceite Emoliente de Ricino con Vitamina E",
+      "brand": "Solo Natural",
+      "category": "aromaterapia",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de ricino con vitamina E para cabello, cejas, pestañas, piel y uñas.",
+      "description": "Aceite emoliente de Solo Natural con ricino y vitamina E, de uso tópico. Acompaña el cuidado del cabello, las cejas, la piel y las uñas.",
+      "benefits": [
+        "Nutre y acompaña el cuidado del cabello",
+        "Apoya el cuidado de cejas y pestañas",
+        "Hidrata y suaviza la piel",
+        "Contribuye al cuidado de las uñas",
+        "Libre de parabenos"
+      ],
+      "use": "Aplica una pequeña cantidad sobre la piel, el cabello, las cejas, las pestañas o las uñas y da un masaje suave hasta su completa absorción.",
+      "tags": [
+        "ricino",
+        "vitamina E",
+        "cejas y pestañas",
+        "120 ml"
+      ],
+      "featured": false
     }
   ]
 }

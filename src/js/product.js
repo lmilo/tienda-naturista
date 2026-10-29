@@ -1,5 +1,5 @@
-import { renderCards, waLink, productMessage, formatPrice, hasPrice, categoryName, toast, observeReveals } from './ui.js'
-import { getProduct, products, imageOf, sheetOf, sheetThumbOf, categoryColor, categoryInk, esc, PRICE_ON_REQUEST } from './store.js'
+import { renderCards, waLink, productMessage, formatPrice, hasPrice, categoryName, observeReveals } from './ui.js'
+import { getProduct, products, imageOf, categoryColor, categoryInk, esc, PRICE_ON_REQUEST } from './store.js'
 import { icons } from './icons.js'
 
 const HANDLE_RE = /^[a-z0-9-]{1,64}$/
@@ -54,25 +54,11 @@ if (!product) {
         <div class="product__gallery">
           <figure class="viewer" data-viewer tabindex="0" aria-label="Vista del producto. Actívalo para ampliar.">
             <div class="viewer__stage">
-              <img class="viewer__img is-active" data-view="frasco"
-                   src="${imageOf(product, 960)}" alt="${esc(product.title)}"
-                   width="960" height="960" fetchpriority="high" decoding="async" />
-              <img class="viewer__img" data-view="ficha"
-                   src="${sheetOf(product)}" alt="Información del fabricante sobre ${esc(product.title)}"
-                   loading="lazy" decoding="async" />
+              <img class="viewer__img" src="${imageOf(product, 960)}" alt="${esc(product.title)}"
+                   width="960" height="1440" fetchpriority="high" decoding="async" />
             </div>
             <span class="viewer__hint">${icons.zoom}<span>Clic para ampliar</span></span>
           </figure>
-          <div class="viewer__thumbs" role="group" aria-label="Vistas del producto">
-            <button type="button" class="thumb is-active" data-go="frasco" aria-pressed="true">
-              <img src="${imageOf(product, 480)}" alt="" width="480" height="480" loading="lazy" />
-              <span>Producto</span>
-            </button>
-            <button type="button" class="thumb" data-go="ficha" aria-pressed="false">
-              <img src="${sheetThumbOf(product)}" alt="" width="200" height="300" loading="lazy" />
-              <span>Beneficios</span>
-            </button>
-          </div>
         </div>
 
         <div class="product__info">
@@ -110,78 +96,12 @@ if (!product) {
   observeReveals()
 }
 
-/* ---------- Visor: cambio de vista, inclinación y lupa ---------- */
+/* ---------- Visor: lupa ---------- */
 function initViewer() {
   const viewer = document.querySelector('[data-viewer]')
   if (!viewer) return
   const stage = viewer.querySelector('.viewer__stage')
-  const still = window.matchMedia('(prefers-reduced-motion: reduce)')
 
-  // Cambio entre frasco e infografía
-  const views = [...viewer.querySelectorAll('.viewer__img')]
-  const thumbs = [...document.querySelectorAll('.thumb')]
-  const show = (name) => {
-    views.forEach((v) => v.classList.toggle('is-active', v.dataset.view === name))
-    thumbs.forEach((t) => {
-      const on = t.dataset.go === name
-      t.classList.toggle('is-active', on)
-      t.setAttribute('aria-pressed', String(on))
-    })
-    viewer.classList.toggle('is-sheet', name === 'ficha')
-    reset()
-  }
-  thumbs.forEach((t) => t.addEventListener('click', () => show(t.dataset.go)))
-
-  // Inclinación con parálaje
-  const TILT_Y = 17      // grados máximos de giro horizontal
-  const TILT_X = 11      // grados máximos de cabeceo
-  const DEPTH = 14       // px que el envase se adelanta al inclinarse
-  const PERSPECTIVE = 1100
-  const SHADOW_SHIFT = 26 // px que la sombra se corre en sentido contrario
-
-  const reset = () => { stage.style.transform = '' }
-  const tilt = (px, py) => {
-    if (still.matches || viewer.classList.contains('is-zoom')) return
-    const ry = (px - 0.5) * TILT_Y
-    const rx = (0.5 - py) * TILT_X
-    stage.style.transform = `perspective(${PERSPECTIVE}px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(${DEPTH}px)`
-    viewer.style.setProperty('--shadow-x', `${(px - 0.5) * -SHADOW_SHIFT}px`)
-  }
-
-  viewer.addEventListener('pointermove', (e) => {
-    if (e.pointerType === 'touch') return
-    const r = viewer.getBoundingClientRect()
-    tilt((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height)
-  })
-  viewer.addEventListener('pointerleave', reset)
-
-  // Giroscopio en móvil, solo si el visitante lo concede
-  const motionBtn = document.querySelector('[data-motion]')
-  if (motionBtn) {
-    const listen = () => {
-      window.addEventListener('deviceorientation', (e) => {
-        if (e.gamma == null || e.beta == null) return
-        tilt(0.5 + Math.max(-1, Math.min(1, e.gamma / 45)) / 2,
-             0.5 + Math.max(-1, Math.min(1, (e.beta - 45) / 45)) / 2)
-      })
-      motionBtn.hidden = true
-    }
-    const needsPermission = typeof DeviceOrientationEvent !== 'undefined' &&
-      typeof DeviceOrientationEvent.requestPermission === 'function'
-    if (!needsPermission && 'ondeviceorientation' in window) motionBtn.hidden = true
-    else if (needsPermission) {
-      motionBtn.hidden = false
-      motionBtn.addEventListener('click', async () => {
-        try {
-          const r = await DeviceOrientationEvent.requestPermission()
-          r === 'granted' ? listen() : toast('Permiso de movimiento denegado.', 'warn')
-        } catch { toast('Este dispositivo no permite el giro.', 'warn') }
-      })
-    }
-  }
-
-  // Lupa. La escala va en línea igual que la inclinación: así una no pisa
-  // a la otra y no depende de qué regla gane en la cascada.
   const ZOOM = 2.1
   const zoom = (on) => {
     viewer.classList.toggle('is-zoom', on)
@@ -199,16 +119,6 @@ function initViewer() {
   viewer.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); zoom(!viewer.classList.contains('is-zoom')) }
     if (e.key === 'Escape') zoom(false)
-  })
-
-  // Si una imagen no carga, se retira la vista en vez de dejar el hueco roto
-  views.forEach((img) => {
-    img.addEventListener('error', () => {
-      const t = thumbs.find((x) => x.dataset.go === img.dataset.view)
-      if (t) t.remove()
-      img.remove()
-      if (img.classList.contains('is-active')) show('frasco')
-    })
   })
 }
 

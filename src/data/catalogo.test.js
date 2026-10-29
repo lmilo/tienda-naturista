@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs'
 import catalog from './products.json'
 
 const categorias = new Set(catalog.categories.map((c) => c.handle))
-const IMAGENES = ['frasco-480.webp', 'frasco-960.webp', 'ficha.webp', 'ficha-160.webp']
+const IMAGENES = ['foto-480.webp', 'foto-960.webp']
 
 /**
  * products.json lo edita la tienda a mano. Estos tests cubren las formas de
@@ -44,7 +44,7 @@ describe('catálogo', () => {
     }
   })
 
-  it('tiene las cuatro imágenes de cada producto en disco', () => {
+  it('tiene las dos fotos de cada producto en disco', () => {
     for (const p of catalog.products) {
       for (const img of IMAGENES) {
         expect(existsSync(`public/img/productos/${p.handle}/${img}`), `${p.handle}/${img}`).toBe(true)
