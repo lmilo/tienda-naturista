@@ -37,7 +37,7 @@ completos.
 
 ### Piel
 
-- Natural Shot · Crema Hidratante de Arroz 500 ml
+- Natural Sant · Crema Hidratante de Arroz 500 ml
 - Natural Sant · Crema Hidratante de Arroz con Aceite de Oliva
 - Kiss Beauty Face Wash · Ácido Hialurónico
 - Kiss Beauty Face Wash · Colágeno
@@ -54,7 +54,7 @@ completos.
 
 ### Bienestar
 
-- Natural Shot · 7 Hierbas Sin Sal *(el bebible; el de $29.900 resultó ser el shampoo)*
+- Natural Sant · 7 Hierbas Sin Sal *(el bebible; el de $29.900 resultó ser el shampoo)*
 - Urbanatt · Zarzaparrilla Jarabe 500 ml *(los $46.500 eran del polvo)*
 - Mieli · Propóleo Compuesto 300 g
 - Mieli · Polen 75 g
@@ -82,7 +82,7 @@ legible en la foto: aparecen como «Consultar presentación».
 
 #### Cuidado de la piel
 
-- Natural Saint · Aceite de Aguacate
+- Natural Sant · Aceite de Aguacate
 - Natural Sant · Aceite de Cannabis con Vitamina E y Aceite de Oliva
 - Athos · Aceite Corporal Lavanda y Manzanilla
 - Athos · Aceite Corporal Argán
