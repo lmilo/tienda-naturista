@@ -3460,13 +3460,13 @@
     {
       "handle": "gregorian-miel-angelita-uchuva",
       "title": "Gregorian · Miel Angelita con Extracto de Uchuva",
-      "brand": "Natural Freshly",
+      "brand": null,
       "category": "bienestar",
       "presentation": "30 g",
       "price": null,
       "currency": "COP",
       "shortDescription": "Mezcla de miel de abejas angelita con extracto de uchuva para el cuidado de los ojos.",
-      "description": "Mezcla de miel de abejas angelita con extracto de uchuva, de Natural Freshly, en presentación de 30 g. Tradicionalmente se usa para el cuidado de los ojos. Pregúntanos en tienda por la forma de uso.",
+      "description": "Mezcla de miel de abejas angelita con extracto de uchuva en presentación de 30 g. Tradicionalmente se usa para el cuidado de los ojos. Pregúntanos en tienda por la forma de uso.",
       "benefits": [
         "Miel de abejas angelita",
         "Con extracto de uchuva",
@@ -3507,13 +3507,13 @@
     {
       "handle": "jaquin-dren-lifa-esencia-floral",
       "title": "Dren-Lifa · Esencia Floral en Spray",
-      "brand": "Jaquin de France",
+      "brand": null,
       "category": "esencias",
       "presentation": "50 ml",
       "price": null,
       "currency": "COP",
       "shortDescription": "Esencia floral en spray para limpiar el hígado y desinflamar el cuerpo.",
-      "description": "Esencia floral Dren-Lifa de Jaquin de France en spray de 50 ml. Se usa para acompañar la limpieza del hígado y la desinflamación del cuerpo.",
+      "description": "Esencia floral Dren-Lifa en spray de 50 ml. Se usa para acompañar la limpieza del hígado y la desinflamación del cuerpo.",
       "benefits": [
         "Acompaña la limpieza del hígado",
         "Ayuda a desinflamar el cuerpo",
@@ -4510,7 +4510,7 @@
     {
       "handle": "aceite-de-mano-de-res",
       "title": "Aceite de Mano de Res con Vitaminas A y E",
-      "brand": "Clynx",
+      "brand": null,
       "category": "aromaterapia",
       "presentation": "240 ml",
       "price": null,
@@ -4534,13 +4534,13 @@
     {
       "handle": "adriangel-aceite-macadamia",
       "title": "Aceite de Macadamia",
-      "brand": "Adriangel",
+      "brand": null,
       "category": "aromaterapia",
       "presentation": "120 ml",
       "price": null,
       "currency": "COP",
       "shortDescription": "Aceite de macadamia hidratante, antioxidante y antifrizz.",
-      "description": "Aceite con fragancia de macadamia de Adriangel. Da hidratación profunda, es antioxidante y antiedad, y en el cabello repara, reconstruye y ayuda a controlar el frizz.",
+      "description": "Aceite con fragancia de macadamia. Da hidratación profunda, es antioxidante y antiedad, y en el cabello repara, reconstruye y ayuda a controlar el frizz.",
       "benefits": [
         "Hidratación profunda",
         "Antioxidante y antiedad",

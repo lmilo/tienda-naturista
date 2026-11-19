@@ -149,13 +149,9 @@ legible en la foto: aparecen como «Consultar presentación».
 
 ### Lote del 18 y 19-nov (72 sin precio)
 
-Llegaron con foto y descripción de uso, sin precio. Datos por confirmar con la tienda:
-
-- Romero & Quina: la foto es un *Tratamiento Rinse* (no enjuagar); se cargó aparte y el «Shampoo Romero & Quina» con precio quedó igual. Confirmar si existen los dos.
-- Sin contenido neto legible: Ashwagandha, Maca, Flexbon, Vitamina C y Luteína (Millenium), Mascarilla Hidratante y Pulpa de Coco (Natural Sant), Carbón Activado (sin marca legible), Lehit Keracrece y Queratina, Herbacol, Sonia Vega, Cannabes, Aceite de Aguacate Hass, Aceite de Maní, Linaza Dulces Raíces, Jabón Lizz, Contorno de Ojos Bioaqua (nombre exacto tampoco se ve).
-- Marcas leídas de logos poco nítidos: Gregorian (Natural Freshly), Dren-Lifa (Jaquin de France), Aceite de Mano de Res (Clynx), Macadamia (Adriangel).
-- La etiqueta de la Linaza Dulces Raíces dice «Natural Saint» al pie.
-- Foto 65 trae también un sobre de 15 ml del tratamiento de cebolla Natural Sant; no se cargó como producto aparte.
+Llegaron con foto y descripción de uso, sin precio. Decisiones del 19-nov: existen el
+Shampoo y el Tratamiento Rinse Romero & Quina; lo que no se lee en la foto (contenido
+neto, marcas dudosas) se deja sin mostrar; los precios quedan en «Consultar precio».
 
 #### Cuidado de la piel
 
@@ -194,12 +190,12 @@ Llegaron con foto y descripción de uso, sin precio. Datos por confirmar con la 
 
 #### Bienestar interno
 
-- Natural Freshly · Gregorian · Miel Angelita con Extracto de Uchuva · 30 g
+- Sin marca · Gregorian · Miel Angelita con Extracto de Uchuva · 30 g
 - Funat · Sangre de Drago · 60 ml
 
 #### Esencias florales
 
-- Jaquin de France · Dren-Lifa · Esencia Floral en Spray · 50 ml
+- Sin marca · Dren-Lifa · Esencia Floral en Spray · 50 ml
 
 #### Jabones naturales
 
@@ -247,8 +243,8 @@ Llegaron con foto y descripción de uso, sin precio. Datos por confirmar con la 
 - Funat · Herbal Oil Reafirmante · 220 g
 - Sin marca · Aceite de Aguacate Extra Virgen · Consultar presentación
 - Prodcoco · Aceite de Coco Virgen Prensado en Frío · 265 ml
-- Clynx · Aceite de Mano de Res con Vitaminas A y E · 240 ml
-- Adriangel · Aceite de Macadamia · 120 ml
+- Sin marca · Aceite de Mano de Res con Vitaminas A y E · 240 ml
+- Sin marca · Aceite de Macadamia · 120 ml
 - Sin marca · Aceite de Maní · Consultar presentación
 - Dulces Raíces · Aceite de Linaza · Consultar presentación
 - Sanas Raíces · Aceite de Ajonjolí · Consultar presentación
