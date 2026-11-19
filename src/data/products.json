@@ -1845,6 +1845,30 @@
       "featured": false
     },
     {
+      "handle": "urbanatt-ashwagandha-6ch",
+      "title": "Ashwagandha 6CH",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "60 cápsulas",
+      "price": null,
+      "shortDescription": "Ashwagandha en cápsulas para acompañar la memoria y la protección del cerebro.",
+      "description": "Ashwagandha (Withania somnifera, ginseng indio) de Urbanatt, medicamento homeopático oficinal en cápsulas de administración oral. Se usa como regenerador celular, para proteger el cerebro y ayudar a recuperar la memoria.",
+      "benefits": [
+        "Regenerador celular",
+        "Ayuda a proteger el cerebro",
+        "Acompaña la recuperación de la memoria",
+        "Bienestar general"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "ashwagandha",
+        "cápsulas",
+        "memoria"
+      ],
+      "currency": "COP",
+      "featured": false
+    },
+    {
       "handle": "urbamaxx-colageno-hidrolizado",
       "title": "Urbamaxx Colágeno Hidrolizado",
       "brand": "Urbanatt",
@@ -2113,6 +2137,31 @@
       "tags": [
         "romero",
         "capilar",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sanas-raices-aceite-de-ajonjoli",
+      "title": "Aceite de Ajonjolí",
+      "brand": "Sanas Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de ajonjolí en spray para nutrir la piel y para masajes en zonas con molestias.",
+      "description": "Aceite de ajonjolí (sésamo) de nuestra línea Sanas Raíces, en frasco con atomizador. Tradicionalmente se usa para nutrir y regenerar la piel, y en masajes sobre articulaciones y huesos adoloridos.",
+      "benefits": [
+        "Nutre e hidrata la piel",
+        "Acompaña la regeneración de la piel",
+        "Ideal para masajes en articulaciones y huesos adoloridos",
+        "Fácil de aplicar con atomizador"
+      ],
+      "use": "Aplica sobre la piel limpia y masajea suavemente. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "ajonjolí",
+        "piel",
+        "masajes",
         "spray"
       ],
       "featured": false
@@ -3213,6 +3262,1677 @@
         "vitamina E",
         "cejas y pestañas",
         "120 ml"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "umbrella-fotoprotector-urban-protect-spf-50",
+      "title": "Umbrella Urban Protect SPF 50 · Emulsión Ultra Ligera",
+      "brand": "Umbrella",
+      "category": "piel",
+      "presentation": "50 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Protector solar de toque seco y efecto matte para piel mixta a grasa.",
+      "description": "Fotoprotector Umbrella de Medihealth en emulsión ultra ligera, con protección UVA, UVB, luz azul (UV-HEV) e infrarroja (IR-A). Tiene acción antioxidante y tecnología antipolución, toque seco y efecto matte. Indicado para piel mixta a grasa.",
+      "benefits": [
+        "Protección SPF 50 de amplio espectro",
+        "Toque seco y efecto matte",
+        "Acción antioxidante y antipolución",
+        "Para piel mixta a grasa"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "protector solar",
+        "spf 50",
+        "piel grasa"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "umbrella-fotoprotector-crema-spf-50",
+      "title": "Umbrella SPF 50+ · Crema Fotoprotectora",
+      "brand": "Umbrella",
+      "category": "piel",
+      "presentation": "60 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Protector solar en crema con vitamina E para piel normal a seca.",
+      "description": "Fotoprotector Umbrella de Medihealth en crema, con protección UVA, UVB, luz azul (UV-HEV) e infrarroja (IR-A). Tiene acción emoliente y humectante, vitamina E y es hipoalergénico, apto para piel sensible. Indicado para piel normal a seca.",
+      "benefits": [
+        "Protección SPF 50+ de amplio espectro",
+        "Humecta, con vitamina E",
+        "Hipoalergénico, apto para piel sensible",
+        "Para piel normal a seca"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "protector solar",
+        "spf 50",
+        "piel seca"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-ashwagandha-vitaminas-minerales",
+      "title": "Ashwagandha con Vitaminas y Minerales",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Ashwagandha en softgels, antioxidante para el cerebro y las defensas.",
+      "description": "Suplemento dietario de Millenium Natural Systems con ashwagandha, vitaminas y minerales, en cápsulas blandas. Se usa como antioxidante y para acompañar el cuidado del cerebro y del sistema inmunológico.",
+      "benefits": [
+        "Acción antioxidante",
+        "Acompaña el cuidado del cerebro",
+        "Apoya el sistema inmunológico",
+        "Con vitaminas y minerales"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "ashwagandha",
+        "antioxidante",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-omega-3-aceite-de-salmon",
+      "title": "Omega 3 EPA + DHA · Aceite de Salmón 1.300 mg",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "100 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Omega 3 de aceite de salmón para el sistema circulatorio.",
+      "description": "Suplemento dietario de Millenium Natural Systems con omega 3 (EPA y DHA) de aceite de salmón, 1.300 mg por cápsula blanda. Se usa para acompañar la salud del sistema circulatorio y el control de las grasas en la sangre.",
+      "benefits": [
+        "Aporta omega 3 EPA y DHA",
+        "Acompaña la salud del sistema circulatorio",
+        "Ayuda a controlar las grasas en la sangre",
+        "Bienestar cardiovascular"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "omega 3",
+        "circulación",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "fito-medics-omega-3-2000-vitamina-e",
+      "title": "Omega 3 2000 mg + Vitamina E",
+      "brand": "Fito Medic's",
+      "category": "suplementos",
+      "presentation": "100 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Omega 3 de alta concentración con vitamina E para la circulación.",
+      "description": "Suplemento dietario de Fito Medic's con 2000 mg de omega 3 (EPA y DHA) y vitamina E, en cápsulas blandas. Se usa para acompañar la salud del sistema circulatorio y el control de las grasas en la sangre.",
+      "benefits": [
+        "2000 mg de omega 3 EPA + DHA",
+        "Acompaña la salud del sistema circulatorio",
+        "Ayuda a controlar las grasas en la sangre",
+        "Con vitamina E antioxidante"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "omega 3",
+        "circulación",
+        "vitamina e"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-maca-500-vitamina-c",
+      "title": "Maca 500 mg + Vitamina C",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Maca con vitamina C para la energía y la nutrición.",
+      "description": "Suplemento dietario de Millenium Natural Systems con 500 mg de maca y vitamina C. La maca se usa tradicionalmente como nutritivo y energizante, y para acompañar la salud de los ovarios y la próstata.",
+      "benefits": [
+        "Nutritivo y energizante",
+        "Acompaña la salud de los ovarios",
+        "Acompaña la salud de la próstata",
+        "Con vitamina C"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "maca",
+        "energía",
+        "vitamina c"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-flexbon",
+      "title": "Flexbon",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Suplemento para huesos, articulaciones, cartílagos y músculos.",
+      "description": "Suplemento dietario Flexbon de Millenium Natural Systems en cápsulas blandas. Se usa para apoyar la salud de los huesos, las articulaciones, los cartílagos, los ligamentos y los músculos.",
+      "benefits": [
+        "Apoya la salud de los huesos",
+        "Acompaña articulaciones y cartílagos",
+        "Cuida ligamentos y músculos",
+        "Para el movimiento diario"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "articulaciones",
+        "huesos",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-vitamina-c-1000-rose-hips",
+      "title": "Vitamina C 1000 mg con Rose Hips",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Vitamina C con escaramujo para las defensas y la temporada de gripa.",
+      "description": "Suplemento dietario de Millenium Natural Systems con 1000 mg de vitamina C y rose hips (escaramujo), en cápsulas blandas. Se usa para apoyar el sistema inmune y acompañar la temporada de gripas.",
+      "benefits": [
+        "1000 mg de vitamina C",
+        "Apoya el sistema inmune",
+        "Acompaña la temporada de gripas",
+        "Con rose hips (escaramujo)"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "vitamina c",
+        "defensas",
+        "gripa"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "gregorian-miel-angelita-uchuva",
+      "title": "Gregorian · Miel Angelita con Extracto de Uchuva",
+      "brand": "Natural Freshly",
+      "category": "bienestar",
+      "presentation": "30 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Mezcla de miel de abejas angelita con extracto de uchuva para el cuidado de los ojos.",
+      "description": "Mezcla de miel de abejas angelita con extracto de uchuva, de Natural Freshly, en presentación de 30 g. Tradicionalmente se usa para el cuidado de los ojos. Pregúntanos en tienda por la forma de uso.",
+      "benefits": [
+        "Miel de abejas angelita",
+        "Con extracto de uchuva",
+        "Uso tradicional para el cuidado de los ojos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "miel angelita",
+        "uchuva",
+        "ojos"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "funat-sangre-de-drago",
+      "title": "Sangre de Drago",
+      "brand": "Funat",
+      "category": "bienestar",
+      "presentation": "60 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Sangre de drago en gotas para la digestión y como cicatrizante.",
+      "description": "Sangre de drago de Funat, producto de fitoterapia en gotero. Según su etiqueta, es coadyuvante en el tratamiento de úlceras gastroduodenales y otras inflamaciones del tubo digestivo. Se usa también para acompañar la eliminación de Helicobacter pylori y como cicatrizante.",
+      "benefits": [
+        "Coadyuvante en úlceras gastroduodenales",
+        "Acompaña la eliminación de Helicobacter pylori",
+        "Apoya la digestión",
+        "Cicatrizante natural"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "sangre de drago",
+        "digestión",
+        "gotas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "jaquin-dren-lifa-esencia-floral",
+      "title": "Dren-Lifa · Esencia Floral en Spray",
+      "brand": "Jaquin de France",
+      "category": "esencias",
+      "presentation": "50 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Esencia floral en spray para limpiar el hígado y desinflamar el cuerpo.",
+      "description": "Esencia floral Dren-Lifa de Jaquin de France en spray de 50 ml. Se usa para acompañar la limpieza del hígado y la desinflamación del cuerpo.",
+      "benefits": [
+        "Acompaña la limpieza del hígado",
+        "Ayuda a desinflamar el cuerpo",
+        "Práctico formato en spray"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "esencia floral",
+        "hígado",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-luteina-20-mg",
+      "title": "Luteína 20 mg",
+      "brand": "Millenium Natural Systems",
+      "category": "suplementos",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Luteína para el cuidado de la visión.",
+      "description": "Suplemento dietario de Millenium Natural Systems con 20 mg de luteína. La luteína es un pigmento natural presente en el ojo y se usa para acompañar el cuidado de la visión.",
+      "benefits": [
+        "20 mg de luteína",
+        "Acompaña el cuidado de la visión",
+        "Antioxidante para los ojos"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "luteína",
+        "visión",
+        "ojos"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "ivka-espuma-limpiadora-de-arroz",
+      "title": "Espuma Limpiadora de Arroz",
+      "brand": "Ivka Barukčić Cosmetika",
+      "category": "piel",
+      "presentation": "150 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Espuma facial con extracto de arroz que limpia a fondo y da brillo al rostro.",
+      "description": "Espuma limpiadora de Ivka Barukčić, sustituto de jabón con extracto de arroz, colágeno y vitamina E. Remueve impurezas, maquillaje y el exceso de grasa, y ayuda a eliminar células muertas para un rostro más luminoso. Sin fragancias, sulfatos, sal ni parabenos.",
+      "benefits": [
+        "Limpieza profunda del rostro",
+        "Ayuda a eliminar células muertas",
+        "Aporta luminosidad y efecto mate",
+        "Sin sulfatos, sal ni parabenos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "limpiador facial",
+        "arroz",
+        "espuma"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "bassa-jabon-rosa-mosqueta",
+      "title": "Jabón de Rosa Mosqueta",
+      "brand": "Bassa",
+      "category": "jabones",
+      "presentation": "90 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Jabón regenerador con rosa mosqueta para la piel.",
+      "description": "Jabón Bassa de rosa mosqueta, regenerador y rejuvenecedor natural. Ayuda a regenerar la piel, disminuye arrugas y líneas de expresión y mantiene la piel firme.",
+      "benefits": [
+        "Ayuda a regenerar la piel",
+        "Disminuye arrugas y líneas de expresión",
+        "Mantiene la piel firme",
+        "Producto natural"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "rosa mosqueta",
+        "jabón",
+        "regenerador"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-nad-resveratrol",
+      "title": "NAD+ Resveratrol",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "90 cápsulas vegetarianas",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "NAD+ con resveratrol, antioxidante y rejuvenecedor.",
+      "description": "NAD+ Resveratrol de Urbanatt, medicamento homeopático oficinal en cápsulas vegetarianas, con nicotinamida ribósido. Se usa como antioxidante, rejuvenecedor y antiinflamatorio.",
+      "benefits": [
+        "Acción antioxidante",
+        "Rejuvenecedor",
+        "Antiinflamatorio",
+        "Con nicotinamida ribósido (NAD+)"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "nad+",
+        "resveratrol",
+        "antioxidante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "mason-natural-garlic-1000",
+      "title": "Ajo 1000 mg (Garlic)",
+      "brand": "Mason Natural",
+      "category": "suplementos",
+      "presentation": "100 softgels",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Ajo en cápsulas blandas para la circulación y como antibacteriano natural.",
+      "description": "Suplemento dietario de ajo de Mason Natural, 1000 mg por cápsula blanda, orientado a la salud del corazón y la función circulatoria. Se usa también como antibacteriano natural.",
+      "benefits": [
+        "Acompaña la función circulatoria",
+        "Apoya la salud del corazón",
+        "Antibacteriano natural",
+        "1000 mg de ajo"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "ajo",
+        "circulación",
+        "softgels"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "urbanatt-factor",
+      "title": "Factor · Calostro Bovino y Hongos",
+      "brand": "Urbanatt",
+      "category": "suplementos",
+      "presentation": "700 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Alimento en polvo con calostro bovino, shiitake y ganoderma para el sistema inmunológico.",
+      "description": "Factor de Urbanatt es un alimento en polvo a base de harina de arroz, proteína de suero, calostro bovino, hongo shiitake, ganoderma lucidum y amalaki, con premezcla de vitaminas y minerales. Se usa para apoyar el sistema inmunológico. Contiene edulcorantes.",
+      "benefits": [
+        "Apoya el sistema inmunológico",
+        "Con calostro bovino",
+        "Hongos shiitake y ganoderma",
+        "Vitaminas y minerales"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "calostro",
+        "defensas",
+        "polvo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-shampoo-cebolla-biotina-romero",
+      "title": "Shampoo de Cebolla y Biotina con Extracto de Romero",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo para el crecimiento y la fortaleza del cabello.",
+      "description": "Shampoo de Natural Sant con cebolla, biotina y extracto de romero. Ayuda a restaurar el cabello dañado, hidrata y fortalece el cuero cabelludo. Para todo tipo de cabello.",
+      "benefits": [
+        "Ayuda al crecimiento del cabello",
+        "Fortalece el cuero cabelludo",
+        "Restaura el cabello dañado",
+        "Para todo tipo de cabello"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "cebolla",
+        "biotina",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-shampoo-extracto-de-arroz",
+      "title": "Shampoo con Extracto de Arroz",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo con keratina para cabello graso y quebradizo.",
+      "description": "Shampoo de Natural Sant con extracto de arroz y keratina, especial para cabello graso y quebradizo. Limpia el exceso de grasa, humecta, da brillo y fortalece el cuero cabelludo.",
+      "benefits": [
+        "Limpia el cabello graso",
+        "Con keratina",
+        "Aporta brillo",
+        "Fortalece el cuero cabelludo"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "arroz",
+        "cabello graso",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-paracaidas-shampoo-sin-sal",
+      "title": "Paracaídas · Shampoo Sin Sal",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo sin sal para evitar la caída del cabello.",
+      "description": "Shampoo Paracaídas de Natural Sant, coadyuvante ante la caída del cabello. Tiene biotina y arginina, con extractos de ortiga, quina, romero y jengibre, cafeína, vitamina E y pantenol. Sin sal.",
+      "benefits": [
+        "Ayuda a evitar la caída del cabello",
+        "Con biotina y arginina",
+        "Ortiga, quina, romero y jengibre",
+        "Sin sal"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "caída",
+        "biotina",
+        "sin sal"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-caspax-shampoo-anticaspa",
+      "title": "Caspax · Shampoo Anticaspa",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo para combatir la caspa y la caída del cabello.",
+      "description": "Champú Caspax de Natural Sant, coadyuvante anticaspa con caléndula, arginina, romero, biotina y cebolla. Ayuda a combatir la caspa y la caída del cabello.",
+      "benefits": [
+        "Combate la caspa",
+        "Ayuda a reducir la caída",
+        "Con caléndula, romero y cebolla",
+        "Con biotina y arginina"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "caspa",
+        "caída",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-rinse-romero-y-quina",
+      "title": "Tratamiento Rinse Romero & Quina",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento sin enjuague para el crecimiento del cabello seco y maltratado.",
+      "description": "Tratamiento rinse capilar de Natural Sant con extracto de romero y quina, termoalisador y termoprotector. Especial para cabello seco y maltratado; ayuda al crecimiento del cabello. No se enjuaga.",
+      "benefits": [
+        "Ayuda al crecimiento del cabello",
+        "Termoprotector y termoalisador",
+        "Para cabello seco y maltratado",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "romero",
+        "quina",
+        "sin enjuague"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-pulpa-de-coco",
+      "title": "Pulpa de Coco · Tratamiento Termoalisador",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento sin enjuague que protege el cabello del calor de la plancha y el secador.",
+      "description": "Tratamiento termoalisador Pulpa de Coco de Natural Sant. Protege el cabello del calor de la plancha y el secador y le da brillo y firmeza. Se aplica en mínima cantidad y no se enjuaga; también sirve antes del cepillado.",
+      "benefits": [
+        "Protege del calor de plancha y secador",
+        "Aporta brillo y firmeza",
+        "Se puede usar antes del cepillado",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "coco",
+        "termoprotector",
+        "sin enjuague"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-bio-argan",
+      "title": "Bio-Argán · Tratamiento Capilar",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "250 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento termoprotector con argán, biotina y keratina.",
+      "description": "Tratamiento capilar Bio-Argán de Natural Sant, termoalisador y termoprotector, con aceite de argán, biotina, vitamina E, keratina, aloe vera, placenta y colágeno. Protege el cabello del calor de la plancha y el secador. No se enjuaga.",
+      "benefits": [
+        "Protege del calor de plancha y secador",
+        "Aceite de argán y keratina",
+        "Con biotina, colágeno y vitamina E",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "argán",
+        "termoprotector",
+        "sin enjuague"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-rizovital",
+      "title": "Rizovital · Leave-in con Extracto de Linaza",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "250 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Leave-in para definir los rizos y protegerlos del calor.",
+      "description": "Rizovital de Natural Sant es un leave-in con extracto de linaza, especial para cabello rizado. Humecta, fortalece y define los rizos, y ayuda a protegerlos del calor. No se enjuaga.",
+      "benefits": [
+        "Define los rizos",
+        "Humecta y fortalece",
+        "Ayuda a proteger del calor",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "rizos",
+        "linaza",
+        "leave-in"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-lisovital-leave-in",
+      "title": "Lisovital · Leave-in Termoprotector",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "250 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Leave-in con cebolla, romero y biotina que aporta brillo y suavidad.",
+      "description": "Lisovital leave-in de Natural Sant con extracto de cebolla, romero y biotina. Es termoprotector y termoalisador progresivo, y aporta brillo y suavidad al cabello. No se enjuaga.",
+      "benefits": [
+        "Aporta brillo y suavidad",
+        "Termoprotector",
+        "Alisado progresivo",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "lisovital",
+        "leave-in",
+        "termoprotector"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-mascarilla-capilar-hidratante",
+      "title": "Mascarilla Capilar Hidratante",
+      "brand": "Natural Sant",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Mascarilla que hidrata el cabello a profundidad.",
+      "description": "Mascarilla capilar hidratante de Natural Sant con un complejo de 3 péptidos y 11 aminoácidos, extracto de cebolla y de romero, aceite de argán, colágeno, pantenol, vitamina E y biotina. Hidrata el cabello a profundidad y lo restaura desde el primer uso. Para todo tipo de cabello.",
+      "benefits": [
+        "Hidratación profunda",
+        "Restaura desde el primer uso",
+        "Con argán, colágeno y biotina",
+        "Para todo tipo de cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "mascarilla",
+        "hidratación",
+        "argán"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "super-jacky-cebolla-y-ajo",
+      "title": "Cebolla & Ajo · Shampoo y Acondicionador",
+      "brand": "Super Jacky",
+      "category": "capilar",
+      "presentation": "500 ml c/u",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo y acondicionador de cebolla y ajo para el crecimiento y la fortaleza del cabello.",
+      "description": "Línea Cebolla & Ajo de Super Jacky: shampoo y acondicionador de 500 ml cada uno. Fortalecen el cabello y ayudan a controlar la caída. Sin parabenos ni colorantes; el shampoo además es sin sodio.",
+      "benefits": [
+        "Ayuda al crecimiento del cabello",
+        "Fortalece y controla la caída",
+        "Sin parabenos ni colorantes",
+        "Shampoo sin sodio"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "cebolla",
+        "ajo",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "super-jacky-crema-para-peinar-rizos",
+      "title": "Crema para Peinar Rizos Perfectos",
+      "brand": "Super Jacky",
+      "category": "capilar",
+      "presentation": "236 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema para peinar que define los rizos.",
+      "description": "Crema para peinar leave-in Rizos Perfectos de Super Jacky, con pantenol. Define los rizos y los deja hidratados.",
+      "benefits": [
+        "Define los rizos",
+        "Hidrata el cabello",
+        "Con pantenol",
+        "No necesita enjuague"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "rizos",
+        "crema para peinar",
+        "leave-in"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "super-jacky-crema-para-peinar-coco",
+      "title": "Crema para Peinar Coco",
+      "brand": "Super Jacky",
+      "category": "capilar",
+      "presentation": "236 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema para peinar de coco que define rizos y protege del calor.",
+      "description": "Crema para peinar leave-in de coco de Super Jacky, para cabello extra seco. Da hidratación intensa y brillo, ayuda a definir los rizos y a proteger el cabello del calor. Sin sodio ni parabenos.",
+      "benefits": [
+        "Ayuda a definir los rizos",
+        "Protege del calor",
+        "Hidratación intensa y brillo",
+        "Sin sodio ni parabenos"
+      ],
+      "use": "Aplica una mínima cantidad sobre el cabello húmedo o seco, de medios a puntas, y no enjuagues.",
+      "tags": [
+        "coco",
+        "rizos",
+        "leave-in"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "tratamiento-capilar-carbon-activado",
+      "title": "Tratamiento Acondicionador con Carbón Activado",
+      "brand": null,
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento detox que aporta brillo y suavidad al cabello.",
+      "description": "Tratamiento acondicionador capilar con carbón activado, de acción detox: ayuda a eliminar impurezas y aporta brillo y suavidad al cabello. Sin sal, sin parabenos y sin sulfatos.",
+      "benefits": [
+        "Aporta brillo y suavidad",
+        "Acción detox: elimina impurezas",
+        "Sin sal ni parabenos",
+        "Sin sulfatos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "carbón activado",
+        "detox",
+        "tratamiento"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "super-jacky-tratamiento-capilar-coco",
+      "title": "Tratamiento Capilar de Coco",
+      "brand": "Super Jacky",
+      "category": "capilar",
+      "presentation": "200 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento que hidrata, protege y da brillo al cabello.",
+      "description": "Tratamiento capilar de coco de Super Jacky para cabello extra seco. Da hidratación intensa, protege y aporta brillo. Sin sodio ni parabenos.",
+      "benefits": [
+        "Hidratación intensa",
+        "Protege el cabello",
+        "Aporta brillo",
+        "Sin sodio ni parabenos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "coco",
+        "tratamiento",
+        "hidratación"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "super-jacky-tratamiento-capilar-aguacate",
+      "title": "Tratamiento Capilar de Aguacate",
+      "brand": "Super Jacky",
+      "category": "capilar",
+      "presentation": "200 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento hidratante para cabellos maltratados y resecos.",
+      "description": "Tratamiento capilar de Super Jacky con fórmula hidratante y fragancia de aguacate. Hidrata los cabellos maltratados y con resequedad.",
+      "benefits": [
+        "Hidrata el cabello maltratado",
+        "Combate la resequedad",
+        "Fórmula hidratante"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aguacate",
+        "tratamiento",
+        "hidratación"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "bacc-gel-de-aloe-vera",
+      "title": "Gel de Aloe Vera 92 %",
+      "brand": "BACC",
+      "category": "piel",
+      "presentation": "400 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Gel de aloe vera para cuerpo y rostro que hidrata e ilumina.",
+      "description": "Gel de aloe vera de BACC con 92 % de extracto de aloe, para cuerpo y rostro. Hidrata, humecta, ilumina, controla la grasa, refresca y repara la piel, aportándole nutrición.",
+      "benefits": [
+        "Hidrata y nutre la piel",
+        "Ilumina y aclara",
+        "Controla la grasa",
+        "Refresca y repara"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aloe vera",
+        "gel",
+        "hidratante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "nevada-romero-crecepelo",
+      "title": "Romero Crecepelo · Shampoo y Acondicionador",
+      "brand": "Nevada",
+      "category": "capilar",
+      "presentation": "400 ml + 200 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Kit de romero para el crecimiento acelerado del cabello.",
+      "description": "Kit Romero Crecepelo de Nevada con shampoo y acondicionador de extracto de romero. Fortalece la hebra capilar, previene la caída y estimula el crecimiento del cabello.",
+      "benefits": [
+        "Estimula el crecimiento del cabello",
+        "Previene la caída",
+        "Fortalece la hebra capilar",
+        "Shampoo + acondicionador"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "romero",
+        "crecimiento",
+        "kit"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "lehit-keracrece-10-locion-capilar",
+      "title": "Keracrece 10 · Loción Capilar",
+      "brand": "Lehit",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Loción capilar con vitamina C y provitamina A para cabello maltratado.",
+      "description": "Loción capilar Keracrece 10 de Lehit, con vitamina C, provitamina A e ingredientes naturales. Para cabello maltratado; hidrata y da suavidad.",
+      "benefits": [
+        "Para cabello maltratado",
+        "Con vitamina C y provitamina A",
+        "Hidrata y da suavidad"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "loción capilar",
+        "vitamina c",
+        "lehit"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "lehit-tratamiento-queratina-germen-de-trigo",
+      "title": "Tratamiento Acondicionador con Queratina y Germen de Trigo",
+      "brand": "Lehit",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento con queratina que hidrata y da suavidad.",
+      "description": "Tratamiento acondicionador capilar de Lehit con queratina, germen de trigo y provitamina B5. Ayuda a humectar, cuida las puntas y da suavidad. Sin sal, sin parabenos y sin sulfatos.",
+      "benefits": [
+        "Hidrata y da suavidad",
+        "Cuida las puntas",
+        "Con queratina y provitamina B5",
+        "Sin sal, parabenos ni sulfatos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "queratina",
+        "tratamiento",
+        "lehit"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "difeel-aceite-romero-y-menta",
+      "title": "Aceite Capilar Romero y Menta con Biotina",
+      "brand": "Difeel",
+      "category": "capilar",
+      "presentation": "75 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite capilar que ayuda al crecimiento con nutrición y fortaleza.",
+      "description": "Aceite capilar premium Difeel de romero y menta con biotina. Repara el cabello seco y dañado, ayuda a aumentar su crecimiento y fuerza, y revitaliza el cuero cabelludo. Hecho en EE. UU.",
+      "benefits": [
+        "Ayuda al crecimiento del cabello",
+        "Nutre y fortalece",
+        "Revitaliza el cuero cabelludo",
+        "Con biotina"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "romero",
+        "aceite capilar",
+        "biotina"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "herbacol-tratamiento-repolarizador",
+      "title": "Tratamiento Repolarizador con Células Madre Vegetales",
+      "brand": "Herbacol",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento para reconstruir el cabello maltratado por procesos químicos.",
+      "description": "Tratamiento repolarizador de Herbacol con células madre vegetales. Ayuda a reconstruir los cabellos maltratados por procesos químicos; hidrata, humecta y sella las puntas.",
+      "benefits": [
+        "Reconstruye el cabello tratado químicamente",
+        "Hidrata y humecta",
+        "Sella las puntas",
+        "Con células madre vegetales"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "repolarizador",
+        "tratamiento",
+        "puntas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "difeel-aceite-argan-hidratante",
+      "title": "Aceite para Cabello de Argán · Hidratante",
+      "brand": "Difeel",
+      "category": "capilar",
+      "presentation": "75 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite hidratante para cabello reseco y sin vida.",
+      "description": "Aceite para cabello de argán de Difeel. Hidrata el cabello reseco y sin vida, ayuda a prevenir roturas y aporta brillo. Para todo tipo de cabello y textura. Hecho en EE. UU.",
+      "benefits": [
+        "Hidrata el cabello reseco",
+        "Ayuda a prevenir roturas",
+        "Aporta brillo",
+        "Para todo tipo de cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "argán",
+        "aceite capilar",
+        "hidratante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "lehit-tratamiento-celulas-madre-argan",
+      "title": "Tratamiento Premium con Células Madre de Argán",
+      "brand": "Lehit",
+      "category": "capilar",
+      "presentation": "90 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tratamiento que recupera e hidrata el cabello maltratado.",
+      "description": "Tratamiento capilar premium de Lehit con células madre de argán, para reparación y sedosidad. Ayuda a recuperar e hidratar el cabello maltratado. Sin sal, sin parabenos y sin sulfatos.",
+      "benefits": [
+        "Recupera el cabello maltratado",
+        "Hidrata y da sedosidad",
+        "Con células madre de argán",
+        "Sin sal, parabenos ni sulfatos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "argán",
+        "tratamiento",
+        "lehit"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "difeel-aceite-jojoba",
+      "title": "Aceite Capilar de Jojoba",
+      "brand": "Difeel",
+      "category": "capilar",
+      "presentation": "75 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite que nutre, equilibra y protege el cabello sin dejarlo grasoso.",
+      "description": "Aceite capilar premium de jojoba de Difeel. Nutre, equilibra y protege el cabello sin dejar sensación grasosa, y ayuda a que el cabello fino se vea con más cuerpo, sedoso y manejable. Hecho en EE. UU.",
+      "benefits": [
+        "Nutre y protege el cabello",
+        "Sin sensación grasosa",
+        "Da cuerpo al cabello fino",
+        "Más sedoso y manejable"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "jojoba",
+        "aceite capilar",
+        "difeel"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "arrurru-shampoo-manzanilla",
+      "title": "Shampoo de Manzanilla para Niños",
+      "brand": "Arrurrú Naturals",
+      "category": "capilar",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo infantil de manzanilla que aporta brillo y suavidad.",
+      "description": "Shampoo Arrurrú Naturals de manzanilla y aloe vera para cabello claro, pensado para los más pequeños de la casa. No irrita los ojos y es hipoalergénico. Aporta brillo y suavidad.",
+      "benefits": [
+        "Aporta brillo y suavidad",
+        "No irrita los ojos",
+        "Hipoalergénico",
+        "Manzanilla y aloe vera"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "niños",
+        "manzanilla",
+        "shampoo"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "majendy-tinte-permanente",
+      "title": "Tinte Permanente en Crema",
+      "brand": "Majendy",
+      "category": "capilar",
+      "presentation": "60 g · tonos 7-0 Rubio Medio y 3-0 Castaño Oscuro",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tinte sin amoniaco con romero, argán y aloe vera.",
+      "description": "Tinte permanente en crema de Majendy, fórmula italiana de calidad profesional, con extractos de romero, aceite de argán y aloe vera. Libre de amoniaco y con 100 % de cubrimiento en cabello blanco. Tiñe el cabello sin maltratarlo. Tonos disponibles: 7-0 Rubio Medio y 3-0 Castaño Oscuro; pregunta por otros tonos.",
+      "benefits": [
+        "Libre de amoniaco",
+        "100 % de cubrimiento de canas",
+        "Con romero, argán y aloe vera",
+        "Tiñe sin maltratar el cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "tinte",
+        "sin amoniaco",
+        "canas"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "sonia-vega-shampoo-argan-celulas-madre",
+      "title": "Shampoo con Aceite de Argán y Células Madre",
+      "brand": "Sonia Vega",
+      "category": "capilar",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Shampoo que nutre desde la limpieza del cuero cabelludo.",
+      "description": "Shampoo Sonia Vega con aceite de argán y células madre. Aporta nutrición desde la limpieza del cuero cabelludo y ayuda a restaurar las fibras del cabello.",
+      "benefits": [
+        "Nutre desde la limpieza",
+        "Ayuda a restaurar las fibras",
+        "Con aceite de argán y células madre"
+      ],
+      "use": "Aplica sobre el cabello mojado, masajea el cuero cabelludo y enjuaga con abundante agua.",
+      "tags": [
+        "argán",
+        "shampoo",
+        "células madre"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "majendy-henna-hindu",
+      "title": "Henna Hindú",
+      "brand": "Majendy",
+      "category": "capilar",
+      "presentation": "80 g · Negro Natural, Café Castaño Oscuro, Rubio Claro Cenizo, Chocolate",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Henna que cubre las canas de manera natural.",
+      "description": "Henna hindú de Majendy de textura microfina, para una aplicación suave y sin grumos. Cubre el 100 % de las canas de manera natural, no necesita oxigenta y no contiene plomo, metales pesados ni amoniaco. Tonos: Negro Natural, Café Castaño Oscuro, Rubio Claro Cenizo y Chocolate.",
+      "benefits": [
+        "Cubre el 100 % de las canas",
+        "Sin plomo, metales pesados ni amoniaco",
+        "No necesita oxigenta",
+        "Cuatro tonos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "henna",
+        "canas",
+        "sin amoniaco"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "cannabes-aceite-de-cannabis",
+      "title": "Aceite de Cannabis en Spray",
+      "brand": "Cannabes",
+      "category": "tradicional",
+      "presentation": "Manzanilla y naranja · Eucalipto y menta",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de cannabis tópico para dolores crónicos y relajación.",
+      "description": "Aceite de cannabis de Cannabes en spray, para uso externo, en dos versiones: con manzanilla y naranja, y con eucalipto y menta. Se usa para ayudar a aliviar dolores crónicos y acompañar momentos de ansiedad.",
+      "benefits": [
+        "Ayuda a aliviar dolores crónicos",
+        "Acompaña momentos de ansiedad",
+        "Uso externo en spray",
+        "Dos aromas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "cannabis",
+        "dolor",
+        "spray"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-aceite-de-cafe",
+      "title": "Aceite de Café con Vitamina E y Aceite de Oliva",
+      "brand": "Natural Sant",
+      "category": "piel",
+      "presentation": "250 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite corporal de café que hidrata y reafirma la piel.",
+      "description": "Aceite de café de Natural Sant con vitamina E y aceite de oliva, especial para masajes corporales. Hidrata, reafirma y suaviza la piel, y ayuda a prevenir su envejecimiento prematuro.",
+      "benefits": [
+        "Hidrata y reafirma la piel",
+        "Ayuda contra el envejecimiento prematuro",
+        "Ideal para masajes",
+        "Con vitamina E y aceite de oliva"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "café",
+        "aceite corporal",
+        "reafirmante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-aceite-de-rosa-mosqueta",
+      "title": "Aceite de Rosa Mosqueta con Vitamina E y Aceite de Oliva",
+      "brand": "Natural Sant",
+      "category": "piel",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de rosa mosqueta para manchas, cicatrices y marcas de acné.",
+      "description": "Aceite de rosa mosqueta de Natural Sant con vitamina E y aceite de oliva, para masajes corporales. Ayuda a despigmentar manchas, regenerar cicatrices y marcas de acné, y humecta y suaviza la piel.",
+      "benefits": [
+        "Ayuda a despigmentar manchas",
+        "Regenera cicatrices y marcas de acné",
+        "Humecta y suaviza",
+        "Con vitamina E y aceite de oliva"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "rosa mosqueta",
+        "manchas",
+        "aceite corporal"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "funat-herbal-oil-reafirmante",
+      "title": "Herbal Oil Reafirmante",
+      "brand": "Funat",
+      "category": "aromaterapia",
+      "presentation": "220 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite herbal para el cuidado del cabello y masajes corporales.",
+      "description": "Herbal Oil reafirmante de Funat con centella asiática, que mejora la elasticidad de la piel; naranja, reafirmante natural; y caléndula, reparadora. Se usa en masajes corporales y para el cuidado del cabello. Libre de parabenos.",
+      "benefits": [
+        "Ideal para masajes corporales",
+        "Cuidado del cabello",
+        "Mejora la elasticidad de la piel",
+        "Libre de parabenos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aceite herbal",
+        "masajes",
+        "reafirmante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "aguacate-hass-aceite-extra-virgen",
+      "title": "Aceite de Aguacate Extra Virgen",
+      "brand": null,
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite artesanal de aguacate Hass para la piel y la salud cardiovascular.",
+      "description": "Aceite de aguacate Hass extra virgen, fabricado artesanalmente y 100 % natural. Hidrata la piel y el cabello, es aliado de la piel de manos y pies, y se usa para acompañar la salud cardiovascular.",
+      "benefits": [
+        "Hidrata la piel y el cabello",
+        "Acompaña la salud cardiovascular",
+        "Extra virgen y artesanal",
+        "100 % natural"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "aguacate",
+        "aceite",
+        "extra virgen"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "prodcoco-aceite-de-coco-virgen",
+      "title": "Aceite de Coco Virgen Prensado en Frío",
+      "brand": "Prodcoco",
+      "category": "aromaterapia",
+      "presentation": "265 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de coco de San Andrés: hidratante corporal, capilar y energético.",
+      "description": "Aceite de coco virgen de Prodcoco, de San Andrés, prensado en frío y microfiltrado. Se usa como hidratante corporal y capilar y como suplemento energético en la alimentación.",
+      "benefits": [
+        "Hidratante corporal",
+        "Hidratante capilar",
+        "Suplemento energético",
+        "Virgen, prensado en frío"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "coco",
+        "aceite",
+        "san andrés"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "aceite-de-mano-de-res",
+      "title": "Aceite de Mano de Res con Vitaminas A y E",
+      "brand": "Clynx",
+      "category": "aromaterapia",
+      "presentation": "240 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite para la reparación capilar y la prevención de estrías.",
+      "description": "Aceite de mano de res enriquecido con vitaminas A y E, elaborado por Laboratorio Fito Medic's. Se usa para la reparación capilar y para ayudar a prevenir estrías y flacidez.",
+      "benefits": [
+        "Reparación capilar",
+        "Ayuda a prevenir estrías",
+        "Ayuda contra la flacidez",
+        "Con vitaminas A y E"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "mano de res",
+        "estrías",
+        "cabello"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "adriangel-aceite-macadamia",
+      "title": "Aceite de Macadamia",
+      "brand": "Adriangel",
+      "category": "aromaterapia",
+      "presentation": "120 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de macadamia hidratante, antioxidante y antifrizz.",
+      "description": "Aceite con fragancia de macadamia de Adriangel. Da hidratación profunda, es antioxidante y antiedad, y en el cabello repara, reconstruye y ayuda a controlar el frizz.",
+      "benefits": [
+        "Hidratación profunda",
+        "Antioxidante y antiedad",
+        "Repara y reconstruye el cabello",
+        "Ayuda con el frizz"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "macadamia",
+        "aceite",
+        "frizz"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "avon-care-milk-locion-corporal",
+      "title": "Avon Care Milk · Loción Corporal con Vitamina E",
+      "brand": "Avon Care",
+      "category": "piel",
+      "presentation": "1 L",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Loción corporal que hidrata cuerpo y manos con un delicioso aroma.",
+      "description": "Loción hidratante para el cuerpo Avon Care Milk con vitamina E, en presentación de 1 litro. Hidrata cuerpo y manos y deja un delicioso aroma. Disponible en dos diseños.",
+      "benefits": [
+        "Hidrata cuerpo y manos",
+        "Con vitamina E",
+        "Deja un delicioso aroma",
+        "Presentación de 1 litro"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "loción",
+        "hidratante",
+        "avon"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "capibell-crema-manos-cuerpo-avena",
+      "title": "Crema para Manos y Cuerpo con Avena",
+      "brand": "Capibell",
+      "category": "piel",
+      "presentation": "1000 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema de avena con vitamina E que humecta manos y cuerpo.",
+      "description": "Crema para manos y cuerpo de Capibell con avena, vitamina E y silicona, con ingredientes de origen natural. Da hidratación extrema y protege todo tipo de piel.",
+      "benefits": [
+        "Humecta manos y cuerpo",
+        "Hidratación extrema",
+        "Con avena y vitamina E",
+        "Para todo tipo de piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "avena",
+        "crema corporal",
+        "hidratante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "st-ives-locion-colageno-elastina",
+      "title": "Loción Corporal Colágeno y Elastina",
+      "brand": "St. Ives",
+      "category": "piel",
+      "presentation": "600 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Loción renovadora que hidrata la piel y aporta elasticidad.",
+      "description": "Loción corporal renovadora St. Ives de colágeno y elastina, con humectantes 100 % de origen natural e hidratación por 24 horas. Hidrata la piel y le aporta elasticidad.",
+      "benefits": [
+        "Hidrata la piel por 24 horas",
+        "Aporta elasticidad",
+        "Colágeno y elastina",
+        "Humectantes de origen natural"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "colágeno",
+        "loción",
+        "elasticidad"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "xtracare-crema-corporal",
+      "title": "XtraCare · Crema Corporal Ultra Rica",
+      "brand": "XtraCare",
+      "category": "piel",
+      "presentation": "198 g · Vainilla y azúcar, Lavanda y manzanilla",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema corporal que humecta la piel y deja un delicioso aroma.",
+      "description": "Crema corporal ultra rica XtraCare Signature, que hidrata y suaviza la piel y deja un delicioso aroma. Aromas: vainilla y azúcar, y lavanda y manzanilla.",
+      "benefits": [
+        "Humecta la piel",
+        "Suaviza",
+        "Deja un delicioso aroma",
+        "Dos aromas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "crema corporal",
+        "aroma",
+        "hidratante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "oriflame-milk-and-honey-gold-manos",
+      "title": "Milk & Honey Gold · Exfoliante y Crema de Manos",
+      "brand": "Oriflame",
+      "category": "piel",
+      "presentation": "75 ml c/u",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Exfoliante y crema de manos de leche y miel que nutren y suavizan.",
+      "description": "Línea Milk & Honey Gold de Oriflame con extractos de origen orgánico: exfoliante suavizante y crema humectante de manos, de 75 ml cada uno. Hidratan, nutren y suavizan intensamente la piel de las manos y el cuerpo.",
+      "benefits": [
+        "Hidrata y nutre la piel",
+        "Suaviza intensamente",
+        "Exfoliante y crema",
+        "Leche y miel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "manos",
+        "miel",
+        "exfoliante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "bioaqua-contorno-de-ojos-rosa",
+      "title": "Contorno de Ojos de Rosa",
+      "brand": "Bioaqua",
+      "category": "piel",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Cuidado para la delicada piel que rodea los ojos.",
+      "description": "Producto Bioaqua para el contorno de ojos, con extracto de rosa y ácido hialurónico. Hidrata y revitaliza el aspecto de la delicada piel que rodea los ojos, es antioxidante y ayuda a disimular líneas finas.",
+      "benefits": [
+        "Hidrata el contorno de ojos",
+        "Revitaliza la mirada",
+        "Antioxidante",
+        "Ayuda a disimular líneas finas"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "contorno de ojos",
+        "rosa",
+        "ácido hialurónico"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "millenium-locion-facial-calendula",
+      "title": "Loción Facial de Caléndula",
+      "brand": "Millenium Natural Systems",
+      "category": "piel",
+      "presentation": "50 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Loción facial de caléndula que repara, suaviza e hidrata.",
+      "description": "Loción facial de caléndula de Millenium Natural Systems. Repara, suaviza, hidrata y da equilibrio a la piel.",
+      "benefits": [
+        "Repara la piel",
+        "Suaviza e hidrata",
+        "Da equilibrio a la piel",
+        "Con caléndula"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "caléndula",
+        "loción facial",
+        "hidratante"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "natural-sant-agua-facial-arroz",
+      "title": "Agua Facial con Extracto de Arroz",
+      "brand": "Natural Sant",
+      "category": "piel",
+      "presentation": "500 ml",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Tónico natural que suaviza, ilumina y calma la piel.",
+      "description": "Agua facial de Natural Sant con extracto de arroz, pantenol, aloe vera y miel, para el cuidado natural de la piel grasa. Tónico que nutre, refresca, suaviza e ilumina, y ayuda a calmar irritaciones o enrojecimientos.",
+      "benefits": [
+        "Suaviza e ilumina",
+        "Ayuda a calmar irritaciones",
+        "Refresca la piel grasa",
+        "Con aloe vera y miel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "tónico",
+        "arroz",
+        "piel grasa"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "venat-crema-para-piernas",
+      "title": "Venat · Crema para Piernas",
+      "brand": "Venat",
+      "category": "piel",
+      "presentation": "80 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema que alivia piernas cansadas y mejora la circulación.",
+      "description": "Crema para piernas Venat con castaño de Indias, hamamelis, guaba y caléndula, con extractos 100 % naturales. Revitaliza y tonifica: alivia las piernas cansadas, mejora la circulación y reduce la hinchazón.",
+      "benefits": [
+        "Alivia piernas cansadas",
+        "Mejora la circulación",
+        "Reduce la hinchazón",
+        "Castaño de Indias y hamamelis"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "piernas",
+        "circulación",
+        "castaño de indias"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "labfarve-crema-calendula-bebe",
+      "title": "Crema de Caléndula con Óxido de Zinc",
+      "brand": "Labfarve",
+      "category": "piel",
+      "presentation": "120 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Crema de caléndula cicatrizante, protectora y calmante.",
+      "description": "Crema de caléndula de Labfarve con 20 % de óxido de zinc y vitamina E, protectora, emoliente y acondicionadora, apta para bebé. Es cicatrizante, regeneradora, antiinflamatoria, hidratante y calmante. Sin parabenos.",
+      "benefits": [
+        "Cicatrizante y regeneradora",
+        "Antiinflamatoria y calmante",
+        "Hidratante y protectora",
+        "Apta para bebé, sin parabenos"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "caléndula",
+        "óxido de zinc",
+        "bebé"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "labfarve-calendula-60-g",
+      "title": "Caléndula Antiinflamatorio Cicatrizante",
+      "brand": "Labfarve",
+      "category": "piel",
+      "presentation": "60 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Caléndula que ayuda a cicatrizar y alivia la piel.",
+      "description": "Caléndula de Labfarve con extractos vegetales, antiinflamatoria y cicatrizante. Ayuda a cicatrizar y aporta un alivio hidratante a la piel.",
+      "benefits": [
+        "Ayuda a cicatrizar",
+        "Antiinflamatoria",
+        "Alivio hidratante"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "caléndula",
+        "cicatrizante",
+        "labfarve"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "nevada-exfoliante-facial-albaricoque",
+      "title": "Exfoliante Facial de Albaricoque",
+      "brand": "Nevada",
+      "category": "piel",
+      "presentation": "10 oz",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Exfoliante facial que elimina células muertas y desobstruye los poros.",
+      "description": "Exfoliante facial de albaricoque (apricot scrub) de Nevada Natural Products, con acción humectante. Elimina células muertas y desobstruye los poros.",
+      "benefits": [
+        "Elimina células muertas",
+        "Desobstruye los poros",
+        "Humecta la piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "exfoliante",
+        "albaricoque",
+        "poros"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "solfer-jabones-naturales",
+      "title": "Jabones Naturales Solfer · Avena y Miel, Ruda",
+      "brand": "Solfer",
+      "category": "jabones",
+      "presentation": "120 g",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Jabones naturales de avena y miel, y de ruda.",
+      "description": "Jabones naturales Aroma Solfer de 120 g con ingredientes naturales. El de avena y miel limpia la piel a profundidad y la renueva de manera suave, sin dañarla ni resecarla. El de ruda ayuda a remover células muertas e impurezas y a limpiar los poros.",
+      "benefits": [
+        "Avena y miel: limpieza suave y profunda",
+        "Ruda: remueve células muertas e impurezas",
+        "Ayudan a limpiar los poros",
+        "No resecan la piel"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "jabón",
+        "avena",
+        "ruda"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "lizz-jabon-terapeutico",
+      "title": "Jabón Terapéutico",
+      "brand": "Lizz",
+      "category": "jabones",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Jabón que combate el acné y da luminosidad a la piel.",
+      "description": "Jabón terapéutico Lizz. Elimina células muertas e impurezas, ayuda a controlar y combatir el acné, mejora la textura de la piel y le da luminosidad.",
+      "benefits": [
+        "Ayuda a combatir el acné",
+        "Elimina células muertas e impurezas",
+        "Mejora la textura de la piel",
+        "Aporta luminosidad"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "jabón",
+        "acné",
+        "terapéutico"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "aceite-de-mani",
+      "title": "Aceite de Maní",
+      "brand": null,
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de maní para cocina y para hidratar piel y cabello.",
+      "description": "Aceite de maní para cocina y frituras, aderezos y para dar sabor. También hidrata la piel y el cabello, combatiendo la resequedad.",
+      "benefits": [
+        "Para cocina, frituras y aderezos",
+        "Hidrata la piel",
+        "Combate la resequedad del cabello"
+      ],
+      "use": "Sigue la indicación del empaque del fabricante. Si tienes dudas, pregúntanos y te orientamos.",
+      "tags": [
+        "maní",
+        "aceite",
+        "cocina"
+      ],
+      "featured": false
+    },
+    {
+      "handle": "dulces-raices-aceite-de-linaza",
+      "title": "Aceite de Linaza",
+      "brand": "Dulces Raíces",
+      "category": "aromaterapia",
+      "presentation": "Consultar presentación",
+      "price": null,
+      "currency": "COP",
+      "shortDescription": "Aceite de linaza de nuestra línea propia para el colesterol y la digestión.",
+      "description": "Aceite de linaza natural de nuestra línea Dulces Raíces. Se usa para ayudar a reducir el colesterol y la presión arterial y funciona como laxante suave. En uso externo nutre la piel seca y aporta brillo al cabello.",
+      "benefits": [
+        "Ayuda a reducir el colesterol",
+        "Acompaña el control de la presión arterial",
+        "Laxante suave",
+        "Nutre la piel y da brillo al cabello"
+      ],
+      "use": "Usa según las indicaciones del producto. Consulta a tu médico si estás en embarazo, lactancia o tomando medicamentos.",
+      "tags": [
+        "linaza",
+        "colesterol",
+        "línea propia"
       ],
       "featured": false
     }
